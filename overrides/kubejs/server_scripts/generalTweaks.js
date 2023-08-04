@@ -85,5 +85,7 @@ ServerEvents.recipes(event => {
       ]
     })
 
+    event.recipes.createFilling('buzzier_bees:honey_bread', ['minecraft:bread', Fluid.of('create:honey', 250)])
+
 })
 
