@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "structures"
+	group: ""
+	id: "2D9961BFA7E33241"
+	order_index: 4
+	quest_links: [{
+		id: "2EED23E4D4CF7DA7"
+		linked_quest: "41A56ED3D7D49E9B"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["41A56ED3D7D49E9B"]
+			icon: "minecraft:rose_bush"
+			id: "7993C5D7F6346EB5"
+			invisible: true
+			subtitle: " one of the seven great dungeons, towers above the land. Legend tells of something special at the top."
+			title: "The Thornborn Towers"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["41A56ED3D7D49E9B"]
+			id: "08353FDF6C81825D"
+			rewards: [{
+				id: "4B1F7D44F883885A"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "The Desert Temple is a complex and intimidating location. Do you have the courage to uncover the secrets of the pharaohs?"
+			tasks: [{
+				icon: "minecraft:chiseled_sandstone"
+				id: "2D7392703449C9FC"
+				structure: "betterdeserttemples:desert_temple"
+				type: "structure"
+			}]
+			title: "The Desert Temple"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08353FDF6C81825D"]
+			id: "7495692B344968F7"
+			rewards: [{
+				id: "4D72FEF5E5EC595B"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			subtitle: "It appears they may have discovered the secret of immortality, at least until your arrival."
+			tasks: [{
+				advancement: "betterdeserttemples:temple_clear"
+				criterion: ""
+				id: "12E3800E6EEA88BA"
+				type: "advancement"
+			}]
+			title: "Immortal."
+			x: 1.0d
+			y: -4.0d
+		}
+	]
+	title: "Structures"
+}

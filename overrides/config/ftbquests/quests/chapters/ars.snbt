@@ -1,0 +1,1841 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "ars"
+	group: "538B76C83C2DCCF4"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1b
+		id: "riftrealmscore:ars_nouveau_dimension"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "373B82B2F95F33BB"
+	order_index: 1
+	quest_links: [
+		{
+			id: "7A0E8AF5B6B91782"
+			linked_quest: "34C9CF9AAC467604"
+			x: -8.5d
+			y: -21.5d
+		}
+		{
+			id: "6A1C055353B96491"
+			linked_quest: "0F89A6C617E41345"
+			x: -6.5d
+			y: -21.5d
+		}
+		{
+			id: "21BAD42E59E6AB98"
+			linked_quest: "5F03712A09039C39"
+			x: 6.5d
+			y: -21.5d
+		}
+		{
+			id: "0BF69B022EE010ED"
+			linked_quest: "49A76323E5819FD4"
+			x: 8.5d
+			y: -21.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"79B5BEC1A0C3626B"
+				"5618A35C5B6260D6"
+			]
+			hide_dependency_lines: true
+			id: "547CD8D75E75DDAE"
+			tasks: [{
+				id: "7DE9C3CB4B22810D"
+				item: "ars_nouveau:blue_archwood_log"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"79B5BEC1A0C3626B"
+				"5618A35C5B6260D6"
+			]
+			description: ["{image:#FFFFFF width:100 height:100 align:1}"]
+			hide_dependency_lines: true
+			id: "54E404740533D1D5"
+			tasks: [{
+				id: "3DE970973B2C8A88"
+				item: "ars_nouveau:purple_archwood_log"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"79B5BEC1A0C3626B"
+				"5618A35C5B6260D6"
+			]
+			hide_dependency_lines: true
+			id: "3BA9D39EA622B613"
+			tasks: [{
+				id: "1B8D5C006885BBBC"
+				item: "ars_nouveau:green_archwood_log"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"79B5BEC1A0C3626B"
+				"5618A35C5B6260D6"
+			]
+			hide_dependency_lines: true
+			id: "64AE4DD1B29CC6E4"
+			tasks: [{
+				id: "3FC84FD94F9E674E"
+				item: "ars_nouveau:red_archwood_log"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64AE4DD1B29CC6E4"]
+			id: "2E3594D229BEB3E4"
+			tasks: [{
+				id: "24902CABAAB4B9B2"
+				item: "ars_nouveau:red_archwood_wood"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0789FFFD36A9DBE4"
+				"15B8DB8FCDFEAA66"
+				"226AB3F9C04A2B7B"
+				"2E3594D229BEB3E4"
+				"79B5BEC1A0C3626B"
+				"5618A35C5B6260D6"
+			]
+			id: "16EEAA1CB031328B"
+			size: 1.5d
+			subtitle: "Every element of the sacred True Wood discovered throughout the realm blends together to create a singular and captivating fusion."
+			tasks: [{
+				count: 11L
+				id: "7FF68FABF12428E1"
+				item: "riftrealmscore:true_archwood"
+				type: "item"
+			}]
+			title: "Convergence"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BA9D39EA622B613"]
+			id: "15B8DB8FCDFEAA66"
+			tasks: [{
+				id: "32AAC3D94E3B8339"
+				item: "ars_nouveau:green_archwood_wood"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["547CD8D75E75DDAE"]
+			id: "0789FFFD36A9DBE4"
+			tasks: [{
+				id: "11B765ECD054333D"
+				item: "ars_nouveau:blue_archwood_wood"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54E404740533D1D5"]
+			id: "226AB3F9C04A2B7B"
+			tasks: [{
+				id: "5945143BDA026FB7"
+				item: "ars_nouveau:purple_archwood_wood"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26B86DB2FD552401"]
+			description: ["not finished, be warned"]
+			icon: "kubejs:ars_portal_icon"
+			id: "1E192E15B2D33AE8"
+			size: 1.5d
+			subtitle: "Welcome to Ars Nouveau , a mod full of mysteries, magic, and intrigue. Take the notebook; it will serve you well."
+			tasks: [{
+				dimension: "riftrealmscore:ars_nouveau_dimension"
+				icon: "kubejs:ars_portal_icon"
+				id: "028B0DEF966BDD1E"
+				title: "Enter the Mysterious Portal"
+				type: "dimension"
+			}]
+			title: "The Realm of Arcana"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["16EEAA1CB031328B"]
+			id: "26B86DB2FD552401"
+			subtitle: "If you are stuck figuring out how to make the portal, use Create's Ponder feature on either the &dArchwood Key&r or &dTrue Archwood&r by holding &nw&r when hovering over the item."
+			tasks: [{
+				id: "29C1D941FA47F70A"
+				item: {
+					Count: 1b
+					id: "riftrealmscore:ars_nouveau_dimension"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1E192E15B2D33AE8"]
+			id: "4CB1D163E9089CBE"
+			subtitle: "Find the Research Tower"
+			tasks: [
+				{
+					id: "161CB6D711F5FD12"
+					structure: "minecraft:mineshaft"
+					type: "structure"
+				}
+				{
+					id: "5DF557B215F8D89C"
+					title: "not done yet"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4CB1D163E9089CBE"]
+			id: "155DF0FFF0C76FAE"
+			size: 2.0d
+			subtitle: "A labor of times past."
+			tasks: [{
+				id: "55024A28766DD456"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["155DF0FFF0C76FAE"]
+			id: "6D59ABC9F9DEAE0C"
+			size: 2.0d
+			tasks: [{
+				id: "3827ECAEA156615E"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6D59ABC9F9DEAE0C"]
+			id: "003AC56C4758A7D8"
+			tasks: [{
+				id: "7EAE51BDF339CE4B"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["003AC56C4758A7D8"]
+			id: "1681E9198CA91C13"
+			subtitle: "The Ritual Brazier is used for performing rituals. It can also be used as decoration by casting a Light spell on it. The color of the brazier corresponds with the color of the spell. Applying a redstone signal will disable a running ritual."
+			tasks: [{
+				id: "68C132A034CCA8A2"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["1681E9198CA91C13"]
+			id: "3AC95B8B1AC5F68A"
+			tasks: [{
+				id: "6AF0E9FA66CC00A5"
+				item: "ars_nouveau:ritual_awakening"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3AC95B8B1AC5F68A"]
+			description: ["Once a home has been set for the Golem, it will begin to convert Amethyst Blocks into Budding Amethyst, harvest Amethyst Clusters, speed up Budding Amethyst growth, and pick up and store Amethyst Shards."]
+			id: "2936759CABD5FBC3"
+			subtitle: "Amethyst Golems are guardians of Amethyst. Perform the Ritual of Awakening near Budding Amethyst to obtain the Amethyst Golem Charm and summon your own Golem."
+			tasks: [{
+				id: "5E2BA0AD105F7467"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"155DF0FFF0C76FAE"
+				"2936759CABD5FBC3"
+			]
+			dependency_requirement: "one_completed"
+			id: "7B87E63C2BF6B06C"
+			tasks: [{
+				id: "6693F0090C865324"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3AC95B8B1AC5F68A"]
+			id: "7459CD53F19E4F1C"
+			subtitle: "The Bookwyrm Charm is used to increase the number of accessible inventories on a Storage Lectern. Bookwyrms can be dyed using white, black, blue, green, red, or purple dye."
+			tasks: [{
+				id: "20823D73A1A38417"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7459CD53F19E4F1C"]
+			description: ["The Storage Lectern is used to view, manage, and craft from multiple connected inventories. The number of inventories that may be connected is determined by the number of Bookwyrms bound to the lectern. Inventories can be connected 30 blocks away. Items can be automatically inserted into the lectern by placing them into an unbound inventory that is adjacent to the lectern."]
+			id: "48675E0133FA6A09"
+			tasks: [{
+				id: "2E0ABBB1B6A1A07A"
+				item: "ars_nouveau:storage_lectern"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"245DCC9C6ADC550F"
+				"0686D0B4DDACAB3A"
+				"4806B40D311357BE"
+				"6B9EFFF4519FDD42"
+				"6444EF99FF7A3852"
+			]
+			dependency_requirement: "one_completed"
+			id: "2F8E6FEF5524740C"
+			tasks: [{
+				id: "34FA99D5A9B53F36"
+				item: "ars_nouveau:conjuration_essence"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -29.5d
+		}
+		{
+			dependencies: [
+				"49A76323E5819FD4"
+				"573EB426D43E89A4"
+				"036201E069EFB683"
+				"3245F0CE0582E6F6"
+				"6444EF99FF7A3852"
+			]
+			dependency_requirement: "one_completed"
+			id: "12C55CB25BB821D8"
+			tasks: [{
+				id: "5BC24FA64DBBCBE8"
+				item: "ars_nouveau:air_essence"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -23.5d
+		}
+		{
+			dependencies: [
+				"71B4521557812AB3"
+				"3B99EC648FD17EDF"
+				"0686D0B4DDACAB3A"
+				"5287B47CE9FC271E"
+				"58C348B594F3AB7F"
+				"6444EF99FF7A3852"
+			]
+			dependency_requirement: "one_completed"
+			id: "38873319E55A53E7"
+			tasks: [{
+				id: "25C468DC0337BD3D"
+				item: "ars_nouveau:manipulation_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -33.5d
+		}
+		{
+			dependencies: [
+				"6444EF99FF7A3852"
+				"470BAA99FD360FBD"
+				"1C59F7DA5212802C"
+				"0F89A6C617E41345"
+				"7ED742B953DA9C6B"
+			]
+			dependency_requirement: "one_completed"
+			id: "3C0DE2EEAE755020"
+			tasks: [{
+				id: "196B38AA7E2848B2"
+				item: "ars_nouveau:fire_essence"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -23.5d
+		}
+		{
+			dependencies: [
+				"6444EF99FF7A3852"
+				"34C9CF9AAC467604"
+				"6CACC5DE821CEBC9"
+				"681AC59D1B79D954"
+				"4E83F83D4174C5F7"
+			]
+			dependency_requirement: "one_completed"
+			id: "683055A3A8D38E92"
+			tasks: [{
+				id: "7B961EC9B2FEFFE6"
+				item: "ars_nouveau:earth_essence"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -23.5d
+		}
+		{
+			dependencies: [
+				"30C6BA5B8A1D7943"
+				"3B99EC648FD17EDF"
+				"606FF8E72E186BE8"
+				"27C363A906E77656"
+				"6444EF99FF7A3852"
+			]
+			dependency_requirement: "one_completed"
+			hide: true
+			id: "0EF6097D09586ECE"
+			tasks: [{
+				id: "5DF77159CD6A0CE1"
+				item: "ars_nouveau:abjuration_essence"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -29.5d
+		}
+		{
+			dependencies: [
+				"6444EF99FF7A3852"
+				"15B3544431109B56"
+				"15394B944348F907"
+				"5F03712A09039C39"
+				"5B6B227BA605E513"
+			]
+			dependency_requirement: "one_completed"
+			id: "25D8577CAF73EE5F"
+			tasks: [{
+				id: "5912620799ED8AFD"
+				item: "ars_nouveau:water_essence"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -23.5d
+		}
+		{
+			dependencies: [
+				"6426FF429C3C8D69"
+				"6DAB2C6565AA840C"
+			]
+			id: "6444EF99FF7A3852"
+			size: 2.0d
+			tasks: [{
+				id: "235AA4EFB65574D3"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["003AC56C4758A7D8"]
+			id: "6426FF429C3C8D69"
+			tasks: [{
+				id: "46E7CBA79A406859"
+				item: "ars_nouveau:arcane_core"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "4E83F83D4174C5F7"
+			tasks: [{
+				id: "629B2156289BB14C"
+				item: "ars_nouveau:mendosteen_pod"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "681AC59D1B79D954"
+			tasks: [{
+				id: "29107A33EC51CF48"
+				item: "minecraft:moss_block"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "6CACC5DE821CEBC9"
+			tasks: [{
+				id: "24446D578ED034E7"
+				item: "minecraft:mud"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "470BAA99FD360FBD"
+			tasks: [{
+				id: "12CA2936036D7EDF"
+				item: "ars_nouveau:bombegranate_pod"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "1C59F7DA5212802C"
+			tasks: [{
+				id: "49C6FC581CA373D0"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "7ED742B953DA9C6B"
+			tasks: [{
+				id: "30DEDE9BB23F9AF5"
+				item: "alexsmobs:lava_bottle"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "15394B944348F907"
+			tasks: [{
+				id: "70DD48304262D1F9"
+				item: "minecraft:snowball"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "5B6B227BA605E513"
+			tasks: [{
+				id: "4190485890B87B02"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:water"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			hide_details_until_startable: false
+			id: "15B3544431109B56"
+			tasks: [{
+				id: "56267E2D720162C0"
+				item: "ars_nouveau:frostaya_pod"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "573EB426D43E89A4"
+			tasks: [{
+				id: "46C72F3F5EEF01EA"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "3245F0CE0582E6F6"
+			tasks: [{
+				id: "233E79EF40B7A8B7"
+				item: "quark:bottled_cloud"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "036201E069EFB683"
+			subtitle: "Made from a sage bundle dried on a drying rack."
+			tasks: [{
+				id: "7A6607C4C23AC0E5"
+				item: {
+					Count: 1b
+					id: "hexerei:dried_sage_bundle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["036201E069EFB683"]
+			id: "72A340EB9FBF40A1"
+			subtitle: "A dry sage bundle can be burnt on here to prevent mobs from spawning within a radius. You can click on it afterward to configure the smoke."
+			tasks: [{
+				id: "3B9B58E0B01C6086"
+				item: "hexerei:sage_burning_plate"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "0686D0B4DDACAB3A"
+			tasks: [{
+				id: "345141DB624E4066"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -31.0d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "3B99EC648FD17EDF"
+			tasks: [{
+				id: "07C524B81B8778ED"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "5287B47CE9FC271E"
+			tasks: [{
+				id: "24ADC46423FF763A"
+				item: "hexerei:wax_blend"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "71B4521557812AB3"
+			tasks: [{
+				id: "4D8E955B426AA7C9"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -31.5d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "58C348B594F3AB7F"
+			tasks: [{
+				id: "2FD0DA2F1ECC800E"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -31.5d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "245DCC9C6ADC550F"
+			subtitle: "Made in the light of the full moon, be sure to stock up while you can."
+			tasks: [{
+				id: "6B035A0E39EB5244"
+				item: "hexerei:moon_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -27.0d
+		}
+		{
+			dependencies: [
+				"245DCC9C6ADC550F"
+				"0D3E99EFC5811A1F"
+			]
+			id: "6B9EFFF4519FDD42"
+			subtitle: "A metal that flows like moonlight."
+			tasks: [{
+				id: "203EE003D3C51225"
+				item: "hexerei:quicksilver_bottle"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "4806B40D311357BE"
+			subtitle: "New and Improved! Crafted With WHOLE FAT MILK"
+			tasks: [{
+				id: "7201B57F4DBF613A"
+				item: "hexerei:selenite_shard"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "606FF8E72E186BE8"
+			tasks: [{
+				id: "1F09ED409B593E23"
+				item: "ars_nouveau:bastion_pod"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "30C6BA5B8A1D7943"
+			tasks: [{
+				id: "1B6C0B284F0292BC"
+				item: "ars_nouveau:source_berry"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -27.0d
+		}
+		{
+			dependencies: ["0D3E99EFC5811A1F"]
+			id: "27C363A906E77656"
+			tasks: [{
+				id: "1179983D1C565A84"
+				item: "hexerei:milk_bottle"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["591D2582DA753955"]
+			id: "420C4630AA297F2D"
+			subtitle: "Starbuncles can pick up nearby items and move items between inventories. They will also harvest fully grown Source Berry bushes around them. You can bind a Starbuncle to place items into a chest using the Dominion Wand."
+			tasks: [{
+				id: "2CA3C3CB07FFDD32"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["619E865FE66EB9E5"]
+			description: ["Whirlisprigs are nature sprites found in forested areas. When summoned, they produce natural materials like wood, crops, seeds, and flowers. To summon a Whirlisprig, use a Whirlisprig charm on any flower. They require source nearby to operate and will only generate items if there is a chest placed next to the flower. Their production rates are determined by their happiness, which is influenced by the number and diversity of natural materials in their home."]
+			id: "2C35F39670623598"
+			tasks: [{
+				id: "4D1AEFEE78A10B09"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["07173D167A0D31E9"]
+			description: [" Remember, you can dye your Wixie Red, White, Black, Blue, or Green."]
+			id: "36182F5B0BC37EE0"
+			subtitle: "Wixies can craft items based on the inventories nearby. They can also craft potions using nearby Potion Jars and items. A redstone signal on the cauldron will stop crafting."
+			tasks: [{
+				id: "58EFB4987E4C8E11"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["36400D2AC59E7F5B"]
+			hide: false
+			id: "26AAF51672FD50AC"
+			subtitle: " Drygmys produce items from nearby entities without harming them. Their efficiency is dependent on their happiness, which can be increased for each entity nearby. They also contribute to the progress of a henge, which generates items and experience gems when it reaches maximum progress."
+			tasks: [{
+				id: "62BB13F5929B88B4"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1E192E15B2D33AE8"]
+			id: "591D2582DA753955"
+			subtitle: "Starbuncles are elusive creatures that are attracted to gold. Approach them with a gold nugget, and they will leave behind Starbuncle Shards. Use these shards to summon your own Starbuncle."
+			tasks: [{
+				id: "7C19F3B01D4260CD"
+				item: "ars_nouveau:starbuncle_shards"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1E192E15B2D33AE8"]
+			id: "619E865FE66EB9E5"
+			subtitle: "Look for small green creatures around your world called a Whirlsprig. Grow something in their presence to make the bestow upon you, a powerful shard."
+			tasks: [{
+				id: "7263FB0F4BE249AD"
+				item: "ars_nouveau:whirlisprig_shards"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1E192E15B2D33AE8"]
+			id: "07173D167A0D31E9"
+			subtitle: "Wixies are magical creatures that can craft items for you. To gain their favor, cast Dispel on a Witch when it's weakened. This will grant you a Wixie Shard. Use this shard on a Cauldron to summon your own Wixie."
+			tasks: [{
+				id: "134CEAE67FA144B4"
+				item: "ars_nouveau:wixie_shards"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1E192E15B2D33AE8"]
+			id: "36400D2AC59E7F5B"
+			subtitle: " Drygmys are gentle creatures that tend to animals and monsters alike. Befriend a wild Drygmy by throwing a Wilden Horn near it. This will grant you a Drygmy Shard. Use this shard on a block of Mossy Cobblestone to summon your own Drygmy."
+			tasks: [{
+				id: "79A1770E40746FCE"
+				item: "ars_nouveau:drygmy_shard"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2E36D70770C17C14"]
+			id: "681B268EE797EE21"
+			tasks: [{
+				id: "5C11AE6E624B806B"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["6ECC8258FFDC6C5F"]
+			hide: false
+			id: "2E36D70770C17C14"
+			tasks: [{
+				id: "2501FDDAA3F7DA78"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["17F15A680F960C8D"]
+			id: "6ECC8258FFDC6C5F"
+			subtitle: "The Chimera is a worthy fight for a caster with Tier 2 spells and equipment. The Chimera resists cold damage, and a variety of spells including buffs, dispel, and mobility are suggested."
+			tasks: [{
+				id: "5AB8317014355C43"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["58906FDCDA01C5C9"]
+			id: "17F15A680F960C8D"
+			tasks: [{
+				id: "38DE5672547D677A"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["155DF0FFF0C76FAE"]
+			id: "1C3F0C31FD7FB169"
+			subtitle: "Your first spellbook."
+			tasks: [{
+				id: "44C70BBE490F806E"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1C3F0C31FD7FB169"]
+			id: "58906FDCDA01C5C9"
+			subtitle: "The Scribe's Table is used to craft new glyphs and inscribe spells onto Spell Parchment or Enchanters Items. Each glyph requires a set of items and experience points to unlock. The table can also pull items from nearby inventories."
+			tasks: [{
+				id: "2553AF77099BAF3C"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["420C4630AA297F2D"]
+			description: ["You can use a gold block in their sight to speed them up."]
+			id: "2785B85EB7A10042"
+			subtitle: "You ever wanted to make things spin?"
+			tasks: [{
+				id: "6D60326428DE788F"
+				item: "ars_creo:starbuncle_wheel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["420C4630AA297F2D"]
+			id: "578256F57AE91BDC"
+			subtitle: "Want to delete items?"
+			tasks: [{
+				id: "1C5247562D577CBE"
+				item: "starbunclemania:star_bin"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["420C4630AA297F2D"]
+			id: "05040C372C6DA5A0"
+			subtitle: "Want to move gases?"
+			tasks: [{
+				id: "1419BE4874C85C5D"
+				item: "starbunclemania:star_balloon"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["420C4630AA297F2D"]
+			id: "014A50574010DDFA"
+			subtitle: "Want to move fluids?"
+			tasks: [{
+				id: "7373F93AEA4363A2"
+				item: "starbunclemania:star_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["420C4630AA297F2D"]
+			id: "3591551FB9459D23"
+			subtitle: "Will ignore items on the ground."
+			tasks: [{
+				id: "28AF7FD0BBBB76DB"
+				item: "ars_nouveau:starbuncle_shades"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["420C4630AA297F2D"]
+			id: "0AD1EBDA6704918F"
+			subtitle: "Want to move power?"
+			tasks: [{
+				id: "05FCC901E84B47D2"
+				item: "starbunclemania:star_battery"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["36182F5B0BC37EE0"]
+			id: "34C75DF513F01DD9"
+			tasks: [{
+				id: "1B90FD7606D71966"
+				item: "ars_nouveau:potion_jar"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["36182F5B0BC37EE0"]
+			id: "5B4D998A5A7AE8F6"
+			subtitle: "The Potion Diffuser is used to apply a potion effect to nearby entities. It consumes a potion every 10 minutes and applies its effect every few seconds. It requires a Potion Jar to operate."
+			tasks: [{
+				id: "49AB0C46485B1FEB"
+				item: "ars_nouveau:potion_diffuser"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["34C75DF513F01DD9"]
+			id: "449304D582862B6F"
+			subtitle: "The Potion Melder is used to combine the effects of two potions into one. It requires two input Potion Jars and one output Potion Jar. The Potion Melder requires source per mix."
+			tasks: [{
+				id: "652342159EF00758"
+				item: "ars_nouveau:potion_melder"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["014A50574010DDFA"]
+			id: "6325C3DD86C3471D"
+			tasks: [{
+				id: "5316B28FB0257EB9"
+				item: "starbunclemania:source_condenser"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6325C3DD86C3471D"]
+			id: "47C6CA734DAEB66F"
+			tasks: [{
+				id: "3E161EB1067A8896"
+				item: "starbunclemania:fluid_sourcelink"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["36182F5B0BC37EE0"]
+			id: "511A70FAA723752E"
+			subtitle: "The Potion Flask is a reusable item that can store up to 8 charges of a potion. It can be filled by using the flask on a Potion Jar or by crafting it with another potion. The flask can be emptied by using it on a Potion Jar while sneaking. There are also enchanted versions of the flask that can extend the time of effects or increase their power."
+			tasks: [{
+				id: "63BBB2F19DBCA8CC"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:potion_flask"
+					tag: {
+						Damage: 8
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["449304D582862B6F"]
+			id: "52B38138B08E792B"
+			subtitle: "To start brewing this, add Speed II, then Regeneration 130, and finally Strength II."
+			tasks: [{
+				id: "47A42E7F9A7C81BD"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						CustomPotionEffects: [
+							{
+								Ambient: 0b
+								Amplifier: 0b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 1800
+								Id: 10
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:regeneration"
+							}
+							{
+								Ambient: 0b
+								Amplifier: 1b
+								CurativeItems: [{
+									Count: 1b
+									id: "minecraft:milk_bucket"
+								}]
+								Duration: 1800
+								Id: 5
+								ShowIcon: 1b
+								ShowParticles: 1b
+								"forge:id": "minecraft:strength"
+							}
+						]
+						Potion: "minecraft:strong_swiftness"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6444EF99FF7A3852"]
+			hide_dependent_lines: true
+			id: "0D3E99EFC5811A1F"
+			tasks: [{
+				id: "3B1D6EA604BF72F6"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:dominion_wand"
+					tag: {
+						an_dominion_wand: {
+							entityID: -1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["58906FDCDA01C5C9"]
+			id: "11CAA36C8EFAEA01"
+			tasks: [{
+				id: "5DC69F8BEF6E186A"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["11CAA36C8EFAEA01"]
+			description: [""]
+			id: "5FDE7E0BC5BDD102"
+			subtitle: "The Spell Turret casts spells when given a redstone signal, functioning like a dispenser. It accepts spells that use Touch and Projectile and draws source from nearby Source Jars. It can also use Item Pickup and Place Block if an inventory is placed adjacent to it."
+			tasks: [{
+				id: "7B7187EDA37D1897"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5FDE7E0BC5BDD102"]
+			id: "6E341EB63D17BC7F"
+			tasks: [{
+				id: "0205B13E47DAD053"
+				item: "ars_nouveau:spell_turret"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["5FDE7E0BC5BDD102"]
+			id: "0160A42ED71081C1"
+			tasks: [{
+				id: "153CDF4DD26F958B"
+				item: "ars_nouveau:rotating_spell_turret"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5FDE7E0BC5BDD102"]
+			id: "764A6330CE1F125B"
+			tasks: [{
+				id: "113F598AB309066F"
+				item: "ars_nouveau:timer_spell_turret"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["420C4630AA297F2D"]
+			id: "260A2823CB25C43C"
+			subtitle: "Want to move potions?"
+			tasks: [{
+				id: "04E9BABB0C120CA1"
+				item: "ars_nouveau:wixie_hat"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["34C75DF513F01DD9"]
+			id: "5B04C76A64B9013A"
+			subtitle: "The Alchemical Sourcelink generates source by consuming potions from adjacent potion jars. The amount of source varies per potion and is dependent on the complexity of the potion. Bonus source is given for the length and level of the potion with multipliers for each effect a potion contains."
+			tasks: [{
+				id: "16260D8C578B4D22"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["003AC56C4758A7D8"]
+			dependency_requirement: "all_started"
+			id: "6DAB2C6565AA840C"
+			subtitle: "The Agronomic Sourcelink generates source from nearby crop and tree growth. Bonus mana is generated for magical plants such as Mageblooms, Source Berry Bushes, and Archwood Saplings. Note: Bonemealing crops will not grant Source."
+			tasks: [{
+				id: "5AC12D1E737E0765"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["26AAF51672FD50AC"]
+			id: "2D21017298EC53F6"
+			subtitle: "The Vitalic Sourcelink generates a moderate amount of source from nearby mob death and animal breeding. Additionally, the Vitalic Sourcelink will generate passive mana from nearby baby animals and will accelerate their growth."
+			tasks: [{
+				id: "6289CBDA2EC7B4BA"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["683055A3A8D38E92"]
+			description: ["The Mycelial Sourcelink generates a moderate amount of source from nearby food, generating more for more nourishing food. Source Berry food is worth far more than other mundane foods. Additionally, the Mycelial Sourcelink will convert Grass or Dirt in the 3x3 below it into Mycelium and will grow mushrooms around it given that the space is empty."]
+			id: "58DA35F150E9F551"
+			tasks: [{
+				id: "0DF0B59709CE212A"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["6DAB2C6565AA840C"]
+			id: "5ED1E65E8B612A68"
+			subtitle: "Source Jars store source gathered from nearby Sourcelinks. Source is used in glyphs and rituals by powering devices like the Imbuement Chamber and Enchanting Apparatus. Source may be moved using a bucket, or the jar can be picked up and moved. To use Source in a jar, simply place the jar near your desired device. Source Jars will provide a signal to Redstone Comparators based on their fill level."
+			tasks: [{
+				id: "7E9DDD2F11ADCD50"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["3C0DE2EEAE755020"]
+			description: ["The Volcanic Sourcelink generates Source by consuming burnable items. Archwood logs will generate bonus mana, with Blazing Archwood generating the most. As the Volcanic Sourcelink produces Source, it also produces heat, used for spawning Lava Lilies and converting stone into lava. The Volcanic Sourcelink automatically outputs to nearby jars, starting with the one closest to it."]
+			id: "52E41A1C0C43E462"
+			tasks: [{
+				id: "04CF4154D09DA5E1"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["38873319E55A53E7"]
+			id: "5E2E7C449A5A949F"
+			subtitle: "Magebloom is a magical plant used in crafting magical robes. It provides Magebloom Fiber, which is essential for crafting the different types of magical armor."
+			tasks: [
+				{
+					id: "0E66B17EAFC92EA7"
+					item: "ars_nouveau:magebloom"
+					type: "item"
+				}
+				{
+					id: "7746476A45F544B0"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["5E2E7C449A5A949F"]
+			id: "1C14C3DDE19B3232"
+			tasks: [{
+				id: "3CFACA82C73AAF52"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -34.0d
+		}
+		{
+			dependencies: [
+				"7DF47783719F3EED"
+				"35696AE6777C8EDC"
+			]
+			id: "20C1D002D799D0A7"
+			subtitle: "The Battlemage's Armor provides the most defense but has weaker slots for Threads. It's crafted using Magebloom Fiber and diamond armor pieces."
+			tasks: [
+				{
+					id: "0271C8E12CA8D709"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FFCA2B3BBE9288E"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F970150D5E311F5"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0992741041CAB0B1"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:archmage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -31.0d
+		}
+		{
+			dependencies: [
+				"2BC1A2A9642D3073"
+				"35696AE6777C8EDC"
+			]
+			id: "7DF47783719F3EED"
+			subtitle: "The Arcanist's Armor offers a balance between defense and Thread Slots. It's crafted using Magebloom Fiber and iron armor pieces."
+			tasks: [
+				{
+					id: "7EED65CA628ED1DD"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DA93AF7E9F13617"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B56221C57E47B3F"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "356E23AE257CAFD8"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:apprentice_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arcanist's Armor"
+			x: -4.0d
+			y: -32.0d
+		}
+		{
+			dependencies: [
+				"1C14C3DDE19B3232"
+				"35696AE6777C8EDC"
+			]
+			id: "2BC1A2A9642D3073"
+			subtitle: "The Sorcerer's Armor provides the least amount of defense but offers the most powerful slots for Threads. It's crafted using Magebloom Fiber and golden armor pieces."
+			tasks: [
+				{
+					id: "75E3646741F28DE4"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A786A941D06286A"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36A34324012C3341"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "056D8CE82F0395D1"
+					item: {
+						Count: 1b
+						id: "ars_nouveau:novice_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sorcerer's Armor"
+			x: -3.0d
+			y: -33.0d
+		}
+		{
+			dependencies: ["1C14C3DDE19B3232"]
+			id: "35696AE6777C8EDC"
+			subtitle: "Magical armor can be upgraded with Threads for additional effects. Armor tiers can be increased using the Enchanting Apparatus and upgrade recipes. Each tier increases mana regen and the number and size of armor slots."
+			tasks: [{
+				id: "381D0E057C6778EB"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			title: "Armor Upgrading"
+			x: -4.5d
+			y: -34.0d
+		}
+		{
+			dependencies: ["1681E9198CA91C13"]
+			id: "182D94C3FACAEAC3"
+			subtitle: "To summon familiars, obtain a Bound Script of the entity you wish to befriend by performing the Ritual of Binding. Once you have a Bound Script, use it to learn the familiar. Familiars can be summoned from your Spellbook crafting menu."
+			tasks: [{
+				id: "077B41DB13AD8022"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
+			title: "Summoning Familiars"
+			x: -2.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2F8E6FEF5524740C"]
+			id: "54BEAB6855AC4B45"
+			subtitle: "The Scryer's Oculus, Scroll, and Crystal are interconnected tools used for remote viewing. The Oculus allows you to access Scry Crystals remotely by placing Scryer's Scrolls on nearby pedestals. Scrolls store the location of a Scry Crystal, created by using a Blank Parchment on a Scry Crystal. The Scry Crystal itself can be viewed as if you were standing there, and its view can be bound to a Scroll for remote access via the Oculus."
+			tasks: [
+				{
+					id: "3520D80C8A385F08"
+					item: "ars_nouveau:scryers_oculus"
+					type: "item"
+				}
+				{
+					id: "0C3872301CA85610"
+					item: "ars_nouveau:scryers_crystal"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -31.0d
+		}
+		{
+			dependencies: ["54BEAB6855AC4B45"]
+			id: "32B1F9E494CEF5BA"
+			tasks: [{
+				id: "776EF00B53A94DD8"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -30.0d
+		}
+		{
+			dependencies: ["12C55CB25BB821D8"]
+			id: "3E099E172E22FC12"
+			subtitle: "This belt allows the user to levitate a moderate distance above the ground. It's useful for climbing mountains and reduces a small amount of fall damage while worn."
+			tasks: [{
+				id: "7E9BE2D02FB3A99A"
+				item: "ars_nouveau:belt_of_levitation"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -24.5d
+		}
+		{
+			dependencies: ["0EF6097D09586ECE"]
+			id: "17EB6672FC4361E9"
+			subtitle: "This amulet increases your mana pool by a significant amount. It's crafted using the Enchanting Apparatus with specific pedestal items and a Dull Trinket as the reagent."
+			tasks: [{
+				id: "6C0CBF4FB21CBF08"
+				item: "ars_nouveau:amulet_of_mana_boost"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["0EF6097D09586ECE"]
+			id: "66B3BA867E26D57E"
+			subtitle: "This amulet enhances your mana regeneration moderately. Like the Mana Boost Amulet, it's also crafted using the Enchanting Apparatus."
+			tasks: [{
+				id: "2BEE1E6586120860"
+				item: "ars_nouveau:amulet_of_mana_regen"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["11CAA36C8EFAEA01"]
+			id: "47130D5265585A81"
+			subtitle: "The Annotated Codex allows players to share their knowledge of glyphs with others. Recording glyphs requires EXP, which is consumed upon use. Other players can use the book to learn the glyphs, consuming the codex in the process."
+			tasks: [{
+				id: "42A144ABD9EBEB6E"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:annotated_codex"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["2F8E6FEF5524740C"]
+			id: "5ACFBE2BD17543B0"
+			subtitle: "This belt occasionally grants a random positive potion effect for a short duration. The effects can vary in strength."
+			tasks: [{
+				id: "0C1CD71047849671"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -27.0d
+		}
+		{
+			dependencies: ["1E192E15B2D33AE8"]
+			id: "09CB65068507EE8A"
+			subtitle: "The Dowsing Rod provides a short duration of Scrying for Budding Amethyst and Magic Find, causing magical creatures to glow within 75 blocks of you. It has a limited number of uses."
+			tasks: [{
+				id: "180C3D46D0D0D8E6"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:dowsing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3C0DE2EEAE755020"]
+			id: "40BD5AC9EDF9B58E"
+			subtitle: "A jar that emits a bright light when opened. It's a portable light source that can be turned on and off by sneaking and using the jar. Handy for those dark caves and nighttime explorations."
+			tasks: [{
+				id: "3457CBA19C207372"
+				item: "ars_nouveau:jar_of_light"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["0EF6097D09586ECE"]
+			id: "352DED8EB812DAB7"
+			subtitle: "A magical mirror that reflects spells back at the caster. It's a handy tool for those unexpected magical duels. Just remember, it only works when held in your off-hand."
+			tasks: [{
+				id: "3B9AD03EAED1926F"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_mirror"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["0EF6097D09586ECE"]
+			id: "468BACC88E7DE859"
+			subtitle: "A shield that not only protects you from physical attacks but also magical ones. It can reflect spells back at the caster, making it a valuable asset in any magical confrontation."
+			tasks: [{
+				id: "5296789E8D444403"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["2F8E6FEF5524740C"]
+			id: "571BC61345CA297A"
+			subtitle: "A unique device that allows you to launch any potion flask. It's a great way to apply effects to a group of entities from a distance. Just load, aim, and fire!"
+			tasks: [{
+				id: "61E45DBE3E8B9901"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:splash_flask_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -28.0d
+		}
+		{
+			dependencies: [
+				"683055A3A8D38E92"
+				"38873319E55A53E7"
+				"3C0DE2EEAE755020"
+				"12C55CB25BB821D8"
+				"25D8577CAF73EE5F"
+				"2F8E6FEF5524740C"
+				"0EF6097D09586ECE"
+			]
+			hide_dependency_lines: true
+			id: "13513ADF3D2096B0"
+			tasks: [{
+				id: "54AA5747A65A9945"
+				item: "kubejs:arcane_powder"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -39.5d
+		}
+		{
+			dependencies: ["1C3F0C31FD7FB169"]
+			id: "6A63688A83CDEE0E"
+			subtitle: "This ring provides a modest reduction in mana cost for spells. It's a useful accessory for spellcasters who are just starting to manage their mana usage."
+			tasks: [{
+				id: "511A43275A3F8206"
+				item: "ars_nouveau:ring_of_lesser_discount"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["13513ADF3D2096B0"]
+			id: "5BCB088B6B28722E"
+			subtitle: "This ring offers a substantial reduction in mana cost for spells. It's an essential tool for experienced spellcasters who frequently use high-cost spells and need to conserve their mana."
+			tasks: [{
+				id: "56C62009D581E28B"
+				item: "ars_nouveau:ring_of_greater_discount"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -38.5d
+		}
+		{
+			dependencies: ["38873319E55A53E7"]
+			id: "32C16B518DC28F55"
+			subtitle: "A magical chalk that can be used to place permanent Runes on the ground. These Runes will cast spells on entities that walk over them. They recharge themselves from nearby source jars."
+			tasks: [{
+				id: "24D0C1FF247FFE1C"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:runic_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -36.0d
+		}
+		{
+			dependencies: ["13513ADF3D2096B0"]
+			id: "497D422C07AE0D2E"
+			subtitle: "A special focus that enhances your summons. It grants them additional duration, strength, speed, and even deals damage to enemies that kill them. It also allows spells that target you to cast a copy of the spell on your nearby summons."
+			tasks: [{
+				id: "152D5E4ABF226738"
+				item: "ars_nouveau:summon_focus"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -38.5d
+		}
+		{
+			dependencies: ["13513ADF3D2096B0"]
+			id: "5DAB319C3063C338"
+			subtitle: "A focus that modifies effects that move, create, or modify blocks. It increases the damage dealt by moving blocks and allows spells that target or create blocks to duplicate the rest of the spell."
+			tasks: [{
+				id: "03801378A9BFD8F6"
+				item: "ars_nouveau:shapers_focus"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -39.5d
+		}
+		{
+			dependencies: ["3C0DE2EEAE755020"]
+			id: "0D7EB1DE97FC0C21"
+			subtitle: "A jar that destroys items on pickup and grants a small amount of mana in return. It can be turned on and off by sneaking and using the jar. It must be in your hotbar to function."
+			tasks: [{
+				id: "7A0025F741431CB9"
+				item: "ars_nouveau:void_jar"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["2F8E6FEF5524740C"]
+			id: "34238CABD57AECBA"
+			subtitle: "A wand that can hold a single spell. It starts with Projectile -> Accelerate and must be inscribed with a spell that does not have another method. This allows you to cast spells beyond the 10 spell cap"
+			tasks: [{
+				id: "383B7FAA52ADB876"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -29.0d
+		}
+		{
+			dependencies: ["79B5BEC1A0C3626B"]
+			icon: "ars_nouveau:source_gem_block"
+			id: "5618A35C5B6260D6"
+			subtitle: "An entrance to Ars Nouveau."
+			tasks: [{
+				id: "4661EB95BFC560A1"
+				title: "Welcome Ars Nouveau"
+				type: "checkmark"
+			}]
+			title: "Ars Nouveau"
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	title: "Ars Nouveau"
+}

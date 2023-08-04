@@ -1,0 +1,1679 @@
+{
+	icon: "minecraft:chest"
+	id: "07FBA393781B01A4"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "quark:crate" }
+		{ item: "minecraft:enchanting_table" }
+		{ item: "minecraft:sculk_shrieker" }
+		{ item: "minecraft:sculk_catalyst" }
+		{ item: "minecraft:bamboo" }
+		{ item: "minecraft:small_dripleaf" }
+		{ item: "minecraft:big_dripleaf" }
+		{ item: "minecraft:chorus_flower" }
+		{ item: "minecraft:wither_rose" }
+		{ item: "minecraft:sea_pickle" }
+		{ item: "minecraft:anvil" }
+		{ item: "minecraft:ender_chest" }
+		{ item: "minecraft:wither_skeleton_skull" }
+		{ item: "minecraft:orange_shulker_box" }
+		{ item: "minecraft:white_shulker_box" }
+		{ item: "minecraft:shulker_box" }
+		{ item: "minecraft:spore_blossom" }
+		{ item: "minecraft:flowering_azalea" }
+		{ item: "minecraft:azalea" }
+		{ count: 2, item: "abundant_atmosphere:screaming_deepslate_pot" }
+		{ item: "galosphere_delight:golden_lichen_crate" }
+		{ item: "minecraft:end_crystal" }
+		{ item: "minecraft:smithing_table" }
+		{ item: "minecraft:lodestone" }
+		{ item: "minecraft:respawn_anchor" }
+		{ item: "minecraft:bell" }
+		{ item: "galosphere_delight:lichen_crate" }
+		{ item: "minecraft:amethyst_cluster" }
+		{ item: "abundant_atmosphere:tower_trinket" }
+		{ item: "abundant_atmosphere:centerpiece_trinket" }
+		{ item: "abundant_atmosphere:brazier" }
+		{ item: "abundant_atmosphere:mud_lantern" }
+		{ item: "craftingstation:crafting_station" }
+		{ item: "supplementaries:candle_holder_green" }
+		{ item: "supplementaries:bamboo_spikes" }
+		{ item: "supplementaries:pulley_block" }
+		{ item: "supplementaries:regions_unexplored/hanging_sign_sculkwood" }
+		{ item: "supplementaries:ecologics/sign_post_flowering_azalea" }
+		{ item: "supplementaries:quark/sign_post_ancient" }
+		{ item: "supplementaries:regions_unexplored/hanging_sign_blackwood" }
+		{ item: "supplementaries:statue" }
+		{ item: "supplementaries:hourglass" }
+		{ item: "supplementaries:flag_blue" }
+		{ item: "supplementaries:present_brown" }
+		{ item: "supplementaries:pedestal" }
+		{ item: "supplementaries:planter" }
+		{ item: "supplementaries:safe" }
+		{ count: 8, item: "supplementaries:blackboard" }
+		{ item: "supplementaries:sack" }
+		{ item: "supplementaries:globe" }
+		{ item: "quark:golden_apple_crate" }
+		{ item: "quark:gunpowder_sack" }
+		{ item: "quark:nether_wart_sack" }
+		{ item: "quark:golden_carrot_crate" }
+		{ item: "quark:glass_item_frame" }
+		{ item: "quark:feeding_trough" }
+		{ item: "supplementaries:relayer" }
+		{ count: 12, item: "supplementaries:cog_block" }
+		{ item: "quark:redstone_randomizer" }
+		{ item: "quark:chute" }
+		{ item: "quark:ender_watcher" }
+		{ item: "spelunkery:carved_nephrite" }
+		{ item: "spelunkery:compression_blast_miner" }
+		{ item: "minecraft:sculk_sensor" }
+		{ item: "minecraft:lightning_rod" }
+		{ item: "supplementaries:crank" }
+		{ item: "supplementaries:crystal_display" }
+		{ item: "supplementaries:clock_block" }
+		{ item: "supplementaries:bellows" }
+		{ item: "supplementaries:lock_block" }
+		{ item: "supplementaries:redstone_illuminator" }
+		{ item: "supplementaries:turn_table" }
+		{ item: "supplementaries:speaker_block" }
+		{ item: "supplementaries:spring_launcher" }
+		{ item: "supplementaries:wind_vane" }
+		{ item: "supplementaries:faucet" }
+		{ item: "upgrade_aquatic:nautilus_bucket" }
+		{ item: "minecraft:tadpole_bucket" }
+		{ item: "minecraft:axolotl_bucket" }
+		{ item: "upgrade_aquatic:glow_squid_bucket" }
+		{ item: "upgrade_aquatic:squid_bucket" }
+		{ item: "minecraft:pufferfish_bucket" }
+		{ item: "minecraft:powder_snow_bucket" }
+		{ item: "minecraft:turtle_egg" }
+		{ item: "minecraft:conduit" }
+		{ item: "minecraft:music_disc_mellohi" }
+		{ item: "minecraft:music_disc_mall" }
+		{ item: "minecraft:music_disc_far" }
+		{ item: "minecraft:music_disc_chirp" }
+		{ item: "minecraft:music_disc_blocks" }
+		{ item: "minecraft:music_disc_cat" }
+		{ item: "minecraft:music_disc_13" }
+		{ item: "minecraft:shulker_shell" }
+		{ item: "upgrade_aquatic:lionfish_bucket" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:dream_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:yearn_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:call_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:admire_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:feel_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:seek_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:sing_goat_horn"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:goat_horn"
+				tag: {
+					instrument: "minecraft:ponder_goat_horn"
+				}
+			}
+		}
+		{ item: "buzzier_bees:honeycomb_banner_pattern" }
+		{ item: "minecraft:piglin_banner_pattern" }
+		{ item: "minecraft:globe_banner_pattern" }
+		{ item: "minecraft:mojang_banner_pattern" }
+		{ item: "minecraft:skull_banner_pattern" }
+		{ item: "minecraft:creeper_banner_pattern" }
+		{ item: "minecraft:heart_of_the_sea" }
+		{ item: "minecraft:nautilus_shell" }
+		{ item: "minecraft:flower_banner_pattern" }
+		{ item: "upgrade_aquatic:pike_bucket" }
+		{ item: "upgrade_aquatic:perch_bucket" }
+		{ item: "buzzier_bees:bee_bottle" }
+		{ item: "buzzier_bees:endermite_bottle" }
+		{ item: "buzzier_bees:silverfish_bottle" }
+		{ item: "measurements:tape_measure" }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 14
+					}
+				}
+				id: "solapplepie:golden_lunchbox"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 5
+					}
+				}
+				id: "solapplepie:lunchbag"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 9
+					}
+				}
+				id: "solapplepie:lunchbox"
+			}
+		}
+		{ item: "quark:slime_in_a_bucket" }
+		{ item: "quark:music_disc_endermosh" }
+		{ item: "immersive_weathering:enchanted_golden_moss_clump" }
+		{ count: 8, item: "galosphere_delight:glow_ink_pasta" }
+		{ count: 8, item: "galosphere_delight:shroom_platter" }
+		{ count: 8, item: "buzzier_bees:glazed_porkchop" }
+		{ item: "galosphere_delight:spectral_soda" }
+		{ item: "galosphere_delight:lumiere_shimmer_drink" }
+		{ item: "galosphere_delight:allurite_shimmer_drink" }
+		{ item: "minecraft:cake" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "spelunkery:mineomite" }
+		{
+			item: {
+				Count: 1b
+				id: "spelunkery:nephrite_charm"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "immersive_weathering:flower_crown"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:name_tag" }
+		{ item: "minecraft:spyglass" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:clock"
+				tag: {
+					"quark:clock_calculated": 1b
+				}
+			}
+		}
+		{ item: "minecraft:bundle" }
+		{ item: "minecraft:recovery_compass" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:compass"
+				tag: {
+					"quark:compass_calculated": 1b
+					"quark:compass_in_nether": 0b
+				}
+			}
+		}
+		{ item: "spelunkery:red_glowstick" }
+		{ item: "spelunkery:glowstick" }
+		{ item: "spelunkery:echo_fork" }
+		{
+			item: {
+				Count: 1b
+				id: "spelunkery:portal_fluid_bottle"
+				tag: {
+					bool: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spelunkery:item_magnet"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spelunkery:magnetic_compass"
+				tag: {
+					ex: -22002
+					zed: 27520
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spelunkery:depth_gauge"
+				tag: {
+					depth: 93
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spelunkery:obsidian_hammer_and_chisel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spelunkery:flint_hammer_and_chisel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "quark:pathfinders_quill"
+				tag: {
+					targetBiome: "minecraft:mushroom_fields"
+					targetBiomeColor: 5063283
+					targetBiomeUnderground: 0b
+				}
+			}
+		}
+		{ item: "quark:bottled_cloud" }
+		{
+			item: {
+				Count: 1b
+				id: "quark:forgotten_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "quark:echorang"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "quark:flamerang"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "quark:pickarang"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "quark:seed_pouch"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "quark:trowel" }
+		{ item: "quark:abacus" }
+		{
+			item: {
+				Count: 1b
+				id: "quark:seed_pouch"
+				tag: {
+					Damage: 1
+					itemCount: 640
+					storedItem: {
+						Count: 1b
+						id: "minecraft:wheat_seeds"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "quark:seed_pouch"
+				tag: {
+					Damage: 1
+					itemCount: 640
+					storedItem: {
+						Count: 1b
+						id: "minecraft:kelp"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "quark:seed_pouch"
+				tag: {
+					Damage: 1
+					itemCount: 640
+					storedItem: {
+						Count: 1b
+						id: "minecraft:sugar_cane"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						SelectedSlot: 0
+						Size: 6
+					}
+				}
+				id: "supplementaries:quiver"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "supplementaries:wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "supplementaries:key" }
+		{
+			item: {
+				Count: 1b
+				id: "supplementaries:flute"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "supplementaries:slingshot"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "supplementaries:bubble_blower"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "supplementaries:bomb_spiky" }
+		{ item: "supplementaries:bomb_blue" }
+		{ item: "supplementaries:bomb" }
+		{
+			item: {
+				Count: 1b
+				id: "immersive_weathering:ice_sickle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "galosphere_delight:silver_kitchen_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "habitat:kabloom_fruit" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:turtle_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "supplementaries:bamboo_spikes_tipped"
+				tag: {
+					Damage: 0
+					Potion: "unusualend:levitation"
+				}
+			}
+		}
+		{ item: "minecraft:dragon_breath" }
+		{ item: "minecraft:brewing_stand" }
+		{ item: "buzzier_bees:four_leaf_clover" }
+		{ item: "ae2:meteorite_compass" }
+		{
+			item: {
+				Count: 1b
+				id: "ae2:portable_item_cell_1k"
+				tag: {
+					internalCurrentPower: 20000.0d
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "unusualend:chorus_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "unusualend:bolok_scale_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "unusualend:enderling_scrap_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "unusualend:wandering_stew" }
+		{ item: "ae2:charger" }
+		{ item: "unusualend:purpur_tank" }
+		{ item: "unusualend:bolok_bucket" }
+		{ item: "unusualend:wandering_pearl" }
+		{ item: "unusualend:enderfirefly_bucket" }
+		{ item: "iter_rpg:caltrop" }
+		{ item: "iter_rpg:drill" }
+		{ item: "iter_rpg:the_rock" }
+		{ item: "iter_rpg:gunpowder_barrel" }
+		{
+			item: {
+				Count: 1b
+				id: "theabyss:totem_of_abyss"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "iter_rpg:stone_flail"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "iter_rpg:golden_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "iter_rpg:golden_flail"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "iter_rpg:bonb" }
+		{ item: "thermal:fluid_cell_frame" }
+		{ item: "theoneprobe:probe" }
+		{ item: "colorfulazaleas:white_azalea_sapling" }
+		{ item: "colorfulazaleas:purple_azalea_sapling" }
+		{ item: "colorfulazaleas:pink_azalea_sapling" }
+		{ item: "colorfulazaleas:blue_azalea_sapling" }
+		{ item: "colorfulazaleas:red_azalea_sapling" }
+		{ item: "colorfulazaleas:yellow_azalea_sapling" }
+		{ item: "colorfulazaleas:orange_azalea_sapling" }
+		{ item: "thermal:machine_frame" }
+		{
+			item: {
+				Count: 1b
+				id: "thermal:energy_cell"
+				tag: {
+					BlockEntityTag: {
+						Energy: 0
+						EnergyMax: 1000000
+						EnergyRecv: 1000
+						EnergySend: 1000
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "thermal:fluid_cell"
+				tag: {
+					BlockEntityTag: {
+						TankInv: [{
+							Amount: 0
+							Capacity: 32000
+							FluidName: "minecraft:empty"
+							Tank: 0b
+						}]
+					}
+				}
+			}
+		}
+		{ item: "thermal:dynamo_lapidary" }
+		{ item: "thermal:dynamo_numismatic" }
+		{ item: "thermal:dynamo_magmatic" }
+		{ item: "thermal:dynamo_compression" }
+		{ item: "thermal:dynamo_stirling" }
+		{ item: "thermal:dynamo_disenchantment" }
+		{ item: "thermal:dynamo_gourmand" }
+		{ item: "thermal:device_fisher" }
+		{ item: "thermal:carrot_block" }
+		{ item: "thermal:xp_storage_augment" }
+		{ item: "thermal:fluid_tank_augment" }
+		{ item: "thermal:machine_speed_augment" }
+		{ item: "thermal:upgrade_augment_3" }
+		{ item: "thermal:upgrade_augment_2" }
+		{ item: "thermal:upgrade_augment_1" }
+		{ item: "thermal:beetroot_block" }
+		{ item: "thermal:potato_block" }
+		{ item: "thermal:detonator" }
+		{ item: "thermal:aquachow" }
+		{ item: "thermal:deep_aquachow" }
+		{ item: "thermal:junk_net" }
+		{ item: "thermal:redprint" }
+		{ item: "thermal:lock" }
+		{
+			item: {
+				Count: 1b
+				id: "thermal:xp_crystal"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "thermal:rf_potato"
+				tag: { }
+			}
+		}
+		{ item: "thermal:satchel" }
+		{ item: "thermal:slime_grenade" }
+		{ item: "thermal:redstone_grenade" }
+		{ item: "thermal:glowstone_grenade" }
+		{ item: "thermal:ender_grenade" }
+		{ item: "thermal:earth_grenade" }
+		{ item: "thermal:lightning_grenade" }
+		{ item: "thermal:ice_grenade" }
+		{ item: "thermal:fire_grenade" }
+		{ item: "thermal:explosive_grenade" }
+		{
+			item: {
+				Count: 1b
+				id: "thermal:flux_magnet"
+				tag: { }
+			}
+		}
+		{ item: "thermal:slime_tnt" }
+		{ item: "thermal:redstone_tnt" }
+		{ item: "thermal:glowstone_tnt" }
+		{ item: "thermal:ender_tnt" }
+		{ item: "thermal:earth_tnt" }
+		{ item: "thermal:lightning_tnt" }
+		{ item: "thermal:ice_tnt" }
+		{ item: "thermal:fire_tnt" }
+		{
+			item: {
+				Count: 1b
+				id: "the_bumblezone:stingless_bee_helmet_2"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_bumblezone:bumble_bee_chestplate_1"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_bumblezone:bumble_bee_chestplate_trans_1"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_bumblezone:stinger_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "farmersrespite:blazing_chili" }
+		{ item: "the_bumblezone:honey_cocoon" }
+		{ item: "the_bumblezone:incense_candle" }
+		{ item: "ecologics:music_disc_coconut" }
+		{ item: "farmersrespite:kettle" }
+		{
+			item: {
+				Count: 1b
+				id: "slimy_stuff:slimy_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "slimy_stuff:ender_gum_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "slimy_stuff:ender_gum_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "slimy_stuff:magma_creamy_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "slimy_stuff:magma_creamy_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "slimy_stuff:slimy_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "slimy_stuff:slimy_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "spelunking_bags:music_disc_rascal" }
+		{
+			item: {
+				Count: 1b
+				id: "spelunking_bags:climbing_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spelunking_bags:sharp_netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.05f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spelunking_bags:sharp_diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spelunking_bags:sharp_iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spelunking_bags:fiery_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.05f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spelunking_bags:sword_of_the_depths"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.05f
+		}
+		{ item: "spelunking_bags:miners_tools_bag" }
+		{ item: "spelunking_bags:broken_clock", weight: 0.05f }
+		{ item: "spelunking_bags:miners_treasures_bag" }
+		{ item: "spelunking_bags:miners_brew" }
+		{ item: "spelunking_bags:strange_root" }
+		{ item: "spelunking_bags:yellow_mushroom" }
+		{ item: "spelunking_bags:ancient_berries" }
+		{ item: "spelunking_bags:ancient_seed" }
+		{ item: "spelunking_bags:glowing_spore" }
+		{ item: "spelunking_bags:miners_plants_bag" }
+		{ item: "spelunking_bags:golden_cube", weight: 0.05f }
+		{
+			item: {
+				Count: 1b
+				id: "spelunking_bags:spider_amulet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.05f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "spelunking_bags:bat_talisman"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.05f
+		}
+		{ item: "galosphere:combustion_table" }
+		{ item: "galosphere:monstrometer" }
+		{
+			item: {
+				Count: 1b
+				id: "galosphere:silver_bomb"
+				tag: { }
+			}
+		}
+		{ item: "galosphere:barometer" }
+		{ item: "galosphere:glow_flare" }
+		{ item: "galosphere:bottle_of_spectre" }
+		{ item: "galosphere:allurite_cluster" }
+		{ item: "galosphere:lumiere_cluster" }
+		{ item: "galosphere:spectre_flare" }
+		{ item: "galosphere:warped_anchor" }
+		{ item: "galosphere:chandelier" }
+		{ item: "naturalist:catfish_bucket" }
+		{ item: "naturalist:snail_bucket" }
+		{ item: "naturalist:bass_bucket" }
+		{ item: "naturalist:teddy_bear" }
+		{ item: "vc_gliders:reinforced_paper" }
+		{ item: "vc_gliders:nether_upgrade" }
+		{ item: "vc_gliders:copper_upgrade" }
+		{
+			item: {
+				Count: 1b
+				id: "vc_gliders:paraglider_netherite"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vc_gliders:paraglider_diamond"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vc_gliders:paraglider_gold"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vc_gliders:paraglider_iron"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "vc_gliders:paraglider_wood"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "vc_gliders:reinforced_paper_iron" }
+		{ item: "alexsmobs:blobfish_bucket" }
+		{ item: "alexsmobs:mimicream" }
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:moose_headgear"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:lobster_bucket" }
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:centipede_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:sopa_de_macaco" }
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:crocodile_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:banner_pattern_bear" }
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:roadrunner_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:frilled_shark_bucket" }
+		{ item: "alexsmobs:leafcutter_ant_pupa" }
+		{ item: "alexsmobs:maraca" }
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:sombrero"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:fish_oil" }
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:pocket_sand"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:stradpole_bucket" }
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:echolocator"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:cosmic_cod_bucket" }
+		{ item: "alexsmobs:comb_jelly_bucket" }
+		{ item: "alexsmobs:terrapin_bucket" }
+		{ item: "alexsmobs:mimic_octopus_bucket" }
+		{ item: "alexsmobs:potted_flutter" }
+		{ item: "alexsmobs:frilled_shark_bucket" }
+		{ item: "alexsmobs:enderiophage_rocket" }
+		{ item: "alexsmobs:falconry_hood" }
+		{ item: "alexsmobs:falconry_glove" }
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:novelty_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:mudskipper_bucket" }
+		{ item: "alexsmobs:large_catfish_bucket" }
+		{ item: "alexsmobs:medium_catfish_bucket" }
+		{ item: "alexsmobs:small_catfish_bucket" }
+		{ item: "alexsmobs:devils_hole_pupfish_bucket" }
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:squid_grapple"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:small_catfish_bucket" }
+		{ item: "alexsmobs:flying_fish_bucket" }
+		{ item: "alexsmobs:hummingbird_feeder" }
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:tendon_whip"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:ghostly_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexsmobs:music_disc_daze" }
+		{ item: "farmersdelight:hamburger" }
+		{
+			item: {
+				Count: 1b
+				id: "farmersdelight:netherite_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "farmersdelight:honey_glazed_ham_block" }
+		{ item: "farmersdelight:stuffed_pumpkin_block" }
+		{ item: "farmersdelight:roast_chicken_block" }
+		{ item: "farmersdelight:shepherds_pie_block" }
+		{ item: "farmersdelight:rice_roll_medley_block" }
+		{ item: "farmersdelight:glow_berry_custard" }
+		{ item: "farmersdelight:cabbage_crate" }
+		{ item: "farmersdelight:beetroot_crate" }
+		{ item: "farmersdelight:tomato_crate" }
+		{ item: "farmersdelight:straw_bale" }
+		{ item: "farmersdelight:rice_bag" }
+		{ item: "farmersdelight:rice_bale" }
+		{ item: "farmersdelight:onion_crate" }
+		{ item: "farmersdelight:carrot_crate" }
+		{
+			item: {
+				Count: 1b
+				id: "cnb:entity_net"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cnb:heal_spell_book_2", weight: 0.05f }
+		{ item: "cnb:heal_spell_book_1", weight: 0.05f }
+		{
+			item: {
+				Count: 1b
+				id: "cnb:cactem_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cnb:lizard_item_mushroom" }
+		{ item: "cnb:lizard_item_jungle_2" }
+		{ item: "cnb:lizard_item_jungle" }
+		{ item: "cnb:lizard_item_desert_2" }
+		{ item: "cnb:lizard_item_desert" }
+		{ item: "cnb:lizard_egg" }
+		{ item: "cnb:cindershell_bucket" }
+		{ item: "cnb:yeti_hide" }
+		{
+			item: {
+				Count: 1b
+				id: "cnb:flower_crown"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "cnb:glowing_flower_crown"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cnb:heal_spell_book_3", weight: 0.05f }
+		{ item: "crittersandcompanions:pearl_necklace_1" }
+		{ item: "crittersandcompanions:pearl" }
+		{ item: "crittersandcompanions:iron_dragonfly_armor" }
+		{ item: "crittersandcompanions:gold_dragonfly_armor" }
+		{ item: "crittersandcompanions:diamond_dragonfly_armor" }
+		{ item: "crittersandcompanions:sea_bunny_bucket" }
+		{ item: "crittersandcompanions:koi_fish_bucket" }
+		{ item: "crittersandcompanions:dumbo_octopus_bucket" }
+		{ item: "ars_nouveau:bookwyrm_charm" }
+		{ item: "ars_nouveau:whirlisprig_charm" }
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:starbuncle_charm"
+				tag: { }
+			}
+		}
+		{ item: "ars_nouveau:scryers_crystal" }
+		{ item: "ars_nouveau:scryers_oculus" }
+		{ item: "ars_nouveau:frostaya_pod" }
+		{ item: "ars_nouveau:bombegranate_pod", weight: 5.0f }
+		{ item: "ars_nouveau:bastion_pod" }
+		{ item: "ars_nouveau:mendosteen_pod" }
+		{ item: "nourished_nether:strange_elixir" }
+		{ item: "ars_nouveau:belt_of_unstable_gifts" }
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:runic_chalk"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:jar_of_light"
+				tag: { }
+			}
+		}
+		{ item: "ars_nouveau:belt_of_levitation" }
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:potion_flask"
+				tag: {
+					Damage: 8
+				}
+			}
+		}
+		{ item: "ars_nouveau:drygmy_charm" }
+		{ item: "ars_creo:starbuncle_wheel" }
+		{ item: "ars_nouveau:amethyst_golem_charm" }
+		{
+			item: {
+				Count: 1b
+				id: "nourished_nether:necronium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "aquamirae:oxygelium" }
+		{ item: "aquamirae:luminescent_bubble" }
+		{ item: "aquamirae:sea_casserole" }
+		{ item: "aquamirae:sea_stew" }
+		{ item: "aquamirae:spinefish_bucket" }
+		{ item: "aquamirae:treasure_pouch", weight: 0.05f }
+		{ item: "aquamirae:pirate_pouch" }
+		{ item: "hexfortress:blaze_key" }
+		{ item: "hexfortress:fortress_explosive_barrel" }
+		{ item: "create_confectionery:ruby_chocolate_candy_1" }
+		{ item: "create_confectionery:chocolate_candy_1" }
+		{ item: "create_confectionery:the_bright_side" }
+		{ item: "create_confectionery:chocolate_candy" }
+		{
+			item: {
+				Count: 1b
+				id: "create_confectionery:full_ruby_chocolate_bar"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "create_confectionery:full_white_chocolate_bar"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "create_confectionery:full_black_chocolate_bar"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "create_confectionery:full_chocolate_bar"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "create_confectionery:black_chocolate_candy_1" }
+		{ item: "nightlights:octopus_purple" }
+		{ item: "nightlights:octopus_pink" }
+		{ item: "nightlights:mushroom_light_gray" }
+		{ item: "nightlights:mushroom_light_blue" }
+		{ item: "nightlights:mushroom_green" }
+		{ count: 2, item: "nightlights:mushroom_gray" }
+		{ item: "nightlights:frog_brown" }
+		{ item: "nightlights:frog_blue" }
+		{ item: "nightlights:frog_black" }
+		{ item: "nightlights:octopus_red" }
+		{ item: "nightlights:fairy_lights_cyan" }
+		{ item: "nightlights:octopus_yellow" }
+		{ item: "nightlights:fairy_lights_brown" }
+		{ item: "nightlights:fairy_lights_orange" }
+		{ item: "nightlights:fairy_lights_lime" }
+		{ item: "nightlights:fairy_lights_magenta" }
+		{ item: "nightlights:fairy_lights_light_gray" }
+		{ item: "nightlights:fairy_lights_light_blue" }
+		{ item: "nightlights:frog_orange" }
+		{ item: "nightlights:frog_white" }
+		{ item: "nightlights:frog_cyan" }
+		{ item: "nightlights:octopus_gray" }
+		{ item: "nightlights:octopus_light_blue" }
+		{ item: "nightlights:frog_magenta" }
+		{ item: "rottencreatures:treasure_chest", weight: 0.05f }
+		{ item: "rottencreatures:tnt_barrel" }
+		{ item: "create:elevator_pulley" }
+		{ item: "create:steam_whistle" }
+		{ item: "create:blaze_burner" }
+		{ item: "create:nozzle" }
+		{ item: "create:schematicannon" }
+		{ item: "create:steam_engine" }
+		{ item: "create:electron_tube" }
+		{ item: "create:precision_mechanism" }
+		{ count: 2, item: "create:redstone_link" }
+		{ item: "create:sequenced_gearshift" }
+		{ item: "create:mechanical_arm", weight: 0.5f }
+		{ item: "create:rotation_speed_controller", weight: 0.5f }
+		{ item: "create:rose_quartz_block" }
+		{ item: "create:experience_block" }
+		{ item: "create:andesite_alloy_block" }
+		{ item: "create:zinc_block" }
+		{ item: "create:brass_block" }
+		{ item: "regions_unexplored:maple_sapling" }
+		{ item: "regions_unexplored:mauve_sapling" }
+		{ item: "regions_unexplored:eucalyptus_sapling" }
+		{ item: "regions_unexplored:dead_sapling" }
+		{ item: "regions_unexplored:pine_sapling" }
+		{ item: "regions_unexplored:pink_cherry_sapling" }
+		{ item: "regions_unexplored:sculkwood_sapling" }
+		{ item: "regions_unexplored:apple_oak_sapling" }
+		{ item: "regions_unexplored:cypress_sapling" }
+		{ count: 8, item: "mekanism:ultimate_universal_cable" }
+		{ item: "mekanism:dictionary" }
+		{ item: "creeperoverhaul:tiny_cactus" }
+		{ item: "createaddition:barbed_wire" }
+		{ item: "createaddition:honey_cake" }
+		{ item: "createaddition:rolling_mill" }
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:energy_tablet"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "1000000"
+						}]
+					}
+				}
+			}
+			weight: 0.05f
+		}
+		{ item: "createaddition:tesla_coil" }
+		{
+			item: {
+				Count: 1b
+				id: "mekanism:canteen"
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								Amount: 64000
+								FluidName: "mekanism:nutritional_paste"
+							}
+						}]
+					}
+				}
+			}
+			weight: 0.05f
+		}
+		{ item: "mekanism:personal_barrel", weight: 0.05f }
+		{ item: "mekanism:personal_chest", weight: 0.05f }
+		{ item: "twilightforest:charm_of_keeping_2" }
+		{ item: "twilightforest:charm_of_keeping_1" }
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:crumble_horn"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:ore_magnet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:twilight_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "twilightforest:charm_of_life_2" }
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:peacock_feather_fan"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "twilightforest:charm_of_life_1" }
+		{ item: "twilightforest:charm_of_keeping_3" }
+		{ item: "botania:teru_teru_bozu" }
+		{ item: "botania:hourglass" }
+		{ item: "botania:bellows" }
+		{ item: "botania:mana_pylon" }
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:block_and_chain"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "twilightforest:moon_dial" }
+		{ item: "botania:black_lotus" }
+		{ item: "botania:cosmetic_botanist_emblem" }
+		{ item: "botania:cosmetic_witch_pin" }
+		{ item: "botania:cosmetic_devil_tail" }
+		{
+			item: {
+				Count: 1b
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:clear"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:fire_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:regen_weak"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:haste"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:brew_flask"
+				tag: {
+					brewKey: "botania:overload"
+				}
+			}
+		}
+		{ item: "botania:thorn_chakram" }
+		{
+			item: {
+				Count: 1b
+				id: "botania:mana_gun"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:water_bowl"
+				tag: {
+					Fluid: {
+						Amount: 1000
+						FluidName: "minecraft:water"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:mana_ring"
+				tag: {
+					mana: 500000
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:mana_tablet"
+				tag: {
+					mana: 500000
+				}
+			}
+		}
+		{ item: "travelersbackpack:iron_tier_upgrade" }
+		{ item: "travelersbackpack:hose" }
+		{
+			item: {
+				Count: 1b
+				id: "travelersbackpack:wither"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "travelersbackpack:spider"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "travelersbackpack:netherite"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "travelersbackpack:bat"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "travelersbackpack:magma_cube"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "travelersbackpack:ghast"
+				tag: { }
+			}
+		}
+		{ item: "travelersbackpack:netherite_tier_upgrade" }
+		{ item: "travelersbackpack:diamond_tier_upgrade" }
+		{ item: "travelersbackpack:gold_tier_upgrade" }
+		{
+			item: {
+				Count: 1b
+				id: "hexerei:crow_flute"
+				tag: {
+					commandMode: 0b
+					commandSelected: 0
+					crowList: { }
+					dyeColor1: -1
+					dyeColor2: -1
+					helpCommandSelected: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hexerei:mushroom_witch_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "hexerei:waxing_kit" }
+		{ item: "pneumaticcraft:omnidirectional_hopper" }
+		{
+			item: {
+				Count: 1b
+				id: "pneumaticcraft:pneumatic_wrench"
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pneumaticcraft:vortex_cannon"
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hexerei:witch_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hexerei:witch_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "hexerei:witch_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "undergarden:gronglet" }
+		{
+			item: {
+				Count: 1b
+				id: "hexerei:coffer"
+				tag: { }
+			}
+		}
+		{ item: "hexerei:small_satchel" }
+		{ item: "hexerei:replacer_satchel" }
+		{ item: "hexerei:ender_satchel" }
+		{ item: "hexerei:large_satchel" }
+		{ item: "hexerei:medium_satchel" }
+		{ item: "create:powered_latch" }
+		{ item: "create:pulse_extender" }
+		{ item: "create:powered_toggle_latch" }
+		{ item: "create:blaze_cake" }
+		{ item: "create:nixie_tube" }
+		{ item: "create:display_board" }
+		{ item: "create:brass_funnel" }
+		{
+			item: {
+				Count: 1b
+				id: "the_bumblezone:honey_compass"
+				tag: { }
+			}
+		}
+		{ item: "pneumaticcraft:failed_pcb" }
+	]
+	title: "storage_crate"
+}

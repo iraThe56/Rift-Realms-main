@@ -1,0 +1,9 @@
+{
+  "is_color_randomizer_trade": true,
+  "randomizes": [
+    {
+      "id": "#kibe:sleeping_bags",
+      "required": false
+    }
+  ]
+}

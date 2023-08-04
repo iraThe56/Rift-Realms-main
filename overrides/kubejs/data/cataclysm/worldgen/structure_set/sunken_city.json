@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "cataclysm:sunken_city",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1673928450,
+    "spacing": 200,
+    "separation": 30,
+    "type": "minecraft:random_spread",
+    "spread_type": "triangular",
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:ocean_monuments"
+    }
+  }
+}

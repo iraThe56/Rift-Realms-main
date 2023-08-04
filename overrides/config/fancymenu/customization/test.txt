@@ -1,0 +1,408 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = cool_slideshow
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiwidth"} / 2) - 100","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiheight"} / 2) - 12","decimal":"false"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 2.1
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 3.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - 10 - 50","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} - 30","decimal":"true"}}
+}
+
+customization {
+  identifier = %id=376322%
+  seconds = 2.6
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 3.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiwidth"} / 2) - 100","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiheight"} / 2) + 12 + 20 + 4","decimal":"false"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 2.3
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 3.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiwidth"} / 2) - 100","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiheight"} / 2) - 12 - 20 - 4","decimal":"false"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 2.0
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 3.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604346%
+  orientation = mid-centered
+  x = -175
+  action = movebutton
+  y = 75
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiwidth"} / 2) - 100","decimal":"false"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiheight"} / 2) + 12","decimal":"false"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 2.2
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 3.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - 10 + 50","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} - 30","decimal":"true"}}
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  seconds = 2.6
+  onlyfirsttime = false
+  fadein = true
+  fadeinspeed = 3.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = top-left
+  x = 156
+  action = movebutton
+  y = 165
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=3763461%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=3763461%
+  orientation = top-left
+  x = 176
+  action = movebutton
+  y = 273
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = top-left
+  x = 0
+  action = movebutton
+  y = 0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - 10 - 75","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} - 70","decimal":"true"}}
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = bdab63f7-a98d-4827-9fa2-1ed0b9605a621687515525611
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = fd94f45d-69ab-44bd-9119-6bd2dd9752931687515525611
+  y = 234
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 283
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 4bf5d489-1d49-489d-9cd9-34fbee8e52991687515525611
+  y = 256
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 1e9c7125-3482-453c-86de-4ac0f834ce891687515525611
+  y = 186
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 670fbeed-ff3b-4681-9589-ee6a7255ab001687515525611
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 26f14265-8c9e-436f-b647-b286fa1d48e51687515525611
+  y = 0
+  height = 30
+}
+
+customization {
+  advanced_height = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} * 0.278802993 / 2","decimal":"true"}}
+  orientation = top-left
+  delayappearanceseconds = 1.0
+  advanced_posx = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiwidth"} / 2) - ({"placeholder":"elementwidth","values":{"id":"d79cfb79-812f-454d-9c0b-49a885edbec51690242048115"}} / 2)","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2","decimal":"true"}}
+  advanced_posy = 25
+  path = resources/assets/modpack/riftrealmstext.png
+  fadein = true
+  fadeinspeed = 0.4
+  x = 0
+  width = 320
+  action = addtexture
+  actionid = d79cfb79-812f-454d-9c0b-49a885edbec51690242048115
+  y = 0
+  delayappearance = true
+  delayappearanceeverytime = true
+  height = 89
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ffff00
+  shadow = true
+  delayappearanceseconds = 1.5
+  splashfilepath = version.txt
+  rotation = -20.0
+  scale = 0.85
+  refresh = false
+  advanced_posx = {"placeholder":"calc","values":{"expression":"({"placeholder":"guiwidth"} / 2) + ({"placeholder":"elementwidth","values":{"id":"d79cfb79-812f-454d-9c0b-49a885edbec51690242048115"}} / 2)","decimal":"false"}}
+  advanced_width = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 20","decimal":"true"}}
+  advanced_posy = 65
+  bouncing = true
+  fadein = true
+  vanilla-like = false
+  fadeinspeed = 0.5
+  x = 0
+  actionid = 569c5f21-4272-48df-9dcd-b5394b25147c1687575343280
+  action = addsplash
+  y = 0
+  delayappearance = true
+  delayappearanceeverytime = true
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 2.5
+  buttonaction = opencustomgui;credits%btnaction_splitter_fm%
+  label = Credits
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - ({"placeholder":"elementwidth","values":{"id":"60732739-c4e6-4e94-bc9e-55725e55feaf1690243141597"}} / 2)","decimal":"true"}}
+  advanced_width = 70
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} - 30","decimal":"true"}}
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 3.0
+  x = 0
+  width = 70
+  action = addbutton
+  actionid = 60732739-c4e6-4e94-bc9e-55725e55feaf1690243141597
+  y = 0
+  delayappearance = true
+  delayappearanceeverytime = true
+  height = 20
+}
+
+customization {
+  advanced_height = 20
+  orientation = top-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 2.7
+  buttonaction = openlink;https://legacy.curseforge.com/minecraft/modpacks/rift-realms%btnaction_splitter_fm%
+  backgroundhovered = resources/assets/modpack/curseforge.png
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - 10 - 75","decimal":"true"}}
+  advanced_width = 20
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} - 30","decimal":"true"}}
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 3.0
+  x = 0
+  width = 20
+  action = addbutton
+  actionid = 954b350f-c25a-4179-9949-2719683331221690247138754
+  y = 0
+  delayappearance = true
+  backgroundnormal = resources/assets/modpack/curseforge.png
+  delayappearanceeverytime = true
+  height = 20
+}
+
+customization {
+  advanced_height = 20
+  orientation = top-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 2.7
+  buttonaction = openlink;https://discord.gg/zjxfzNNSJQ%btnaction_splitter_fm%
+  backgroundhovered = resources/assets/modpack/discord.png
+  label = 
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - 10 + 75","decimal":"true"}}
+  advanced_width = 20
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} - 30","decimal":"true"}}
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 3.0
+  x = 0
+  width = 20
+  action = addbutton
+  actionid = c3fbb4ac-0559-46a8-915e-075446155f9f1690246949988
+  y = 0
+  delayappearance = true
+  backgroundnormal = resources/assets/modpack/discord.png
+  delayappearanceeverytime = true
+  height = 20
+}
+

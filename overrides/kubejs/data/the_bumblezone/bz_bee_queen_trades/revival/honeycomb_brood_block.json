@@ -1,0 +1,33 @@
+{
+  "wants" : [
+    {
+      "id": "the_bumblezone:empty_honeycomb_brood_block",
+      "required": true
+    },
+    {
+      "id": "buzzier_bees:bee_bottle",
+      "required": false
+    },
+    {
+      "id": "potionofbees:potion_of_bees",
+      "required": false
+    },
+    {
+      "id": "potionofbees:splash_potion_of_bees",
+      "required": false
+    },
+    {
+      "id": "potionofbees:lingering_potion_of_bees",
+      "required": false
+    }
+  ],
+  "possible_rewards": [
+    {
+      "id": "the_bumblezone:honeycomb_brood_block",
+      "count": 1,
+      "xp_reward": 0,
+      "weight": 1,
+      "required": true
+    }
+  ]
+}

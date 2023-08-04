@@ -1,0 +1,2416 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "kinetic_energy"
+	group: "698758DB76323806"
+	hide_quest_until_deps_visible: true
+	icon: "create:andesite_alloy"
+	id: "12CCACB2980746AF"
+	order_index: 0
+	quest_links: [{
+		id: "07A82B8964064807"
+		linked_quest: "4321EC9F783BD552"
+		x: 0.0d
+		y: -48.0d
+	}]
+	quests: [
+		{
+			dependencies: ["72D57F56D3B4E709"]
+			hide_text_until_complete: false
+			id: "4ED15B91FB19DCE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F59E60FD4BD08D3"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Powering Your Machines Manually"
+			tasks: [{
+				id: "30590BEFEB4D9431"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "Getting things spinning."
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72D57F56D3B4E709"]
+			description: [
+				"The Water Wheel in Create mod is an early-game rotational power source. It generates Rotational Force when water flows over it, making it a practical choice for early power generation."
+				"{@pagebreak}"
+				"The materials required to craft a Water Wheel are easily accessible early in the game. You can increase the total stress capacity by adding more wheels in sequence."
+				"{@pagebreak}"
+				"When water flows over a Water Wheel, it begins to rotate. This rotational power can be conveyed to other components from the Water Wheel's shaft. The wheel will generate Rotational Force as long as the water flows around it in mostly one direction."
+				"{@pagebreak}"
+				"The Water Wheel's appearance can be customized using any type of planks, and the items will not be consumed. Each texture is automatically generated using the planks and logs of a wood type, allowing for compatibility with other mods."
+			]
+			icon: "create:water_wheel"
+			id: "0C23C57C4FC05994"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FEF7949B5199FE4"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Lava ?"
+			tasks: [
+				{
+					id: "3EDAC7078937D4DB"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "6865AD60B3F6FAC2"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C23C57C4FC05994"]
+			description: [
+				"The Windmill is a key component in the Create mod. It's built using a Windmill Bearing and Wool/Sails/Sail Frames. Any block can be attached to the front of the Windmill Bearing, but only Wool, Sails, or Sail Frames will generate power. The shape and configuration of the wool or sail do not matter."
+				"{@pagebreak}"
+				"Super Glue or Linear or Radial Chassis are needed to connect the blocks. Sails will connect to each other and blocks that have already been attached without any extra help. To start the windmill, right-click the windmill bearing with an empty hand. To stop it or change the attached blocks, simply right-click on the block with an empty hand again."
+				"{@pagebreak}"
+				"The direction of the windmill's spin can be changed by scrolling the mouse wheel while holding a Wrench. The power produced by the windmill depends on the number of attached wool/sail blocks. For instance, a windmill with 8-15 blocks produces 512su at 1 RPM, while a windmill with 128+ blocks produces 8192su at 16 RPM."
+			]
+			icon: "create:white_sail"
+			id: "4DC67D779456C32E"
+			rewards: [
+				{
+					count: 8
+					id: "57E76C4586FF7C44"
+					item: "create:radial_chassis"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "00F0AFFDE07DB355"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "263F7B9EE98C5808"
+					table_id: 575233231190426020L
+					type: "random"
+				}
+			]
+			subtitle: "Building and Operating a Windmill"
+			tasks: [
+				{
+					id: "61B8010A530469CA"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "4EF1606B85FC383B"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "Harnessing the Wind"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["06752536B3FE50E2"]
+			id: "7B9C963DD7E663EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C49A49872B3E75E"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "The Mechanical Press is a machine used to press items into other items. It's a crucial part of the Create mod's crafting system. The press can be used to create sheets from ingots, or to press items into shapes using molds. Remember, it needs rotational power to work!"
+			tasks: [{
+				id: "6CD35F9827C0B464"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["50A5EDF9D289CB31"]
+			icon: "create:mechanical_mixer"
+			id: "17CE7F4217E0B2E1"
+			rewards: [{
+				count: 32
+				id: "367C3EC7D89879FC"
+				item: "ars_nouveau:greater_experience_gem"
+				type: "item"
+			}]
+			subtitle: "You've done this one before, but now it's fluid time."
+			tasks: [
+				{
+					id: "5E642BD68B0FD5AD"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "188E80297FF1A7CD"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "5ACCAF8863ED3E3C"
+					title: "You know what to do"
+					type: "checkmark"
+				}
+			]
+			title: "Mechanical Mixer"
+			x: -1.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["242C9D387006A216"]
+			id: "1317A4AABF4D7272"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FD4D36D9B18FE46"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7239F0D134441277"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -13.0d
+		}
+		{
+			id: "242C9D387006A216"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A45DDA9B9B84D7D"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0EDB5838E4F1DB83"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"5177B4F8D2CF8736"
+				"4ED15B91FB19DCE3"
+				"0C23C57C4FC05994"
+			]
+			dependency_requirement: "one_completed"
+			id: "06752536B3FE50E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15A9FA64F4BC337B"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Casings are used in many crafting recipes in Create, as well as for decoration and aesthetic purposes. There are four types: Andesite, Brass, Copper, and Train. Each type has its own specific uses, from basic contraptions to fluid handling and locomotive transportation. They can also be used to prevent pipes from connecting to each other and to encase mechanical belts, shafts, and cogwheels."
+			tasks: [{
+				consume_items: true
+				id: "25BBBE2EAD84AF35"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7B9C963DD7E663EF"]
+			dependency_requirement: "one_completed"
+			id: "3CE5E59BC86FD4E3"
+			rewards: [{
+				count: 4
+				id: "37C3BF23AA0B9FD4"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "192AE8A2BC7057C6"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"24EDC2E99E343BC1"
+				"6B4587B7FE7D30D3"
+			]
+			description: [
+				"The Deployer in Create mod is a unique device that simulates player actions on blocks or entities two blocks away from it. It can be given items to interact with machines or by right-clicking the items into its hand."
+				"{@pagebreak}"
+				"The Deployer can be stopped with a Redstone signal. It also features a filter on its side that can be adjusted to only use certain items. This filter is essential when using a Deployer in a contraption."
+				"{@pagebreak}"
+				"The Deployer has two inventory slots; one for the held item and one extra internal slot. Items harvested by the Deployer will be transferred to the extra slot to be removed by machines. Note that the Deployer will stall during this process."
+				"{@pagebreak}"
+				"By default, the Deployer simulates right clicks. However, it can be adjusted to left click instead by right-clicking the front with a Wrench. In left-click mode, the Deployer can use normal tools, such as pickaxes and swords, behaving as if the player was holding them."
+				"{@pagebreak}"
+				"When given a Schematic for a filter, a Deployer on a Contraption can print structures if supplied with materials. The position of the Schematic must be set beforehand, and the Deployer must be moved in range of the Schematic's position to place blocks."
+				"{@pagebreak}"
+				"The Deployer can also build components like the Cogwheel and Precision Mechanism when positioned above a Mechanical Belt or Depot. Each component built in this manner can require multiple passes and has a chance of producing random junk rather than the intended item."
+			]
+			id: "1E76847B5492B1CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "757C69BA85307F51"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Simulating player actions and efficient assembly"
+			tasks: [{
+				id: "36FBBC7915E542F0"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Mastering the Deployer"
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["74B042FDF5A54A4A"]
+			description: [
+				"Create is a Minecraft mod that allows you to make contraptions and automate processes using rotational power. It adds many mechanical components and block variants to the game. For the most part, if you can think of it, you can create it."
+				"{@pagebreak}"
+				"Andesite Alloy is a material used in the creation of Andesite Casing and simple kinetic blocks in the Create mod. It serves as an entry point to the mechanical components of Create and is an essential ingredient for crafting Shafts and both regular and large Cogwheels."
+			]
+			hide: false
+			id: "4A8346E6F23A36E4"
+			rewards: [
+				{
+					id: "0B2E8E8CAFA89A6D"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FEA92A59478AD37"
+					table_id: 575233231190426020L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			subtitle: "Quite the composite."
+			tasks: [{
+				id: "5271D8392DEC65D7"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Welcome to Create!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3CE5E59BC86FD4E3"
+				"4C5D7082278DA3FF"
+			]
+			description: [
+				"The Weighted Ejector is a unique device in the Create mod that flings items and entities to a targeted block up to 32 blocks away. To set the target, sneak and use the Ejector on a block before placing it. The target block must be in a straight line from where the Ejector is placed."
+				"{@pagebreak}"
+				"The further away the target is, the longer the Ejector will take to recharge. You can adjust the amount of items ejected in the Value Settings Screen, accessible from either the sides of the block or the top before it has been wound up. The Ejector will wait until it has the appropriate amount of items."
+				"{@pagebreak}"
+				"Items flung still have collision, but cannot be picked up or stopped by the player. If the Ejector is rotated, the displacement of the target is rotated. This tool can be used for precise item transportation or even launching players with elytra!"
+			]
+			id: "3C685D5F55584F1B"
+			rewards: [{
+				count: 5
+				id: "7C67AC5D60271699"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			subtitle: "Mastering the Weighted Ejector"
+			tasks: [{
+				id: "612A7915F4F2B6E4"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			title: "Precision Ejection"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3CE5E59BC86FD4E3"]
+			id: "3E8E3DB3013B3D47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "693A3402C13A2E07"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "A durable sheet."
+			tasks: [{
+				id: "2EB51F6EA54FAA64"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3CE5E59BC86FD4E3"]
+			id: "4C5D7082278DA3FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "436DC5299C10986A"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "A fancy sheet."
+			tasks: [{
+				id: "71D8E4BEEECD0A86"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3E8E3DB3013B3D47"]
+			hide_dependency_lines: true
+			icon: "create:rose_quartz"
+			id: "03A7D7E66F86B427"
+			rewards: [{
+				icon: "create:experience_nugget"
+				id: "39B46CAA29DE5C43"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Hold the raw rose quartz in your off hand and a piece of sandpaper in your main hand, then right-click."
+			tasks: [
+				{
+					id: "744C55947DD830AF"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					id: "520B3303CC77A580"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:sandpaper"
+						}
+					}
+					title: "Any #create:sandpaper"
+					type: "item"
+				}
+				{
+					id: "6BE42938DFD74925"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+			]
+			title: "Fancy quartz"
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"03A7D7E66F86B427"
+				"3E8E3DB3013B3D47"
+			]
+			id: "6B4587B7FE7D30D3"
+			rewards: [{
+				count: 2
+				id: "3C2535403783AC69"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			subtitle: "Teaching electrons to do hat tricks"
+			tasks: [{
+				id: "167CE0AD95A2157D"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4A8346E6F23A36E4"]
+			id: "72D57F56D3B4E709"
+			rewards: [{
+				count: 32
+				id: "3FDD58788E4CF265"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "A Shaft is a basic component in the Create mod. It's used to transmit rotational power between machines. Crafted from Andesite Alloy, it's a key part of many mechanical contraptions. Remember, rotational power is the heart of your mechanical creations!"
+			tasks: [{
+				id: "58053E6449D753EF"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C5D7082278DA3FF"]
+			id: "5EC683BB4C897880"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A9510D8B21F5962"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "The Engineer's Goggles are a handy tool for any budding mechanic. They allow you to see the stress impact of your machines and the speed of rotational elements. Crafted with two glass panes and some gold nuggets, these goggles are an essential part of your engineering toolkit."
+			tasks: [{
+				id: "79C3171EAA23E518"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["72D57F56D3B4E709"]
+			description: [
+				"The Cogwheel is a fundamental mechanical component in the Create mod, relaying rotation and interacting with other components in various ways."
+				"{@pagebreak}"
+				"There are two types of Cogwheels: the standard Cogwheel and the Large Cogwheel. The Large Cogwheel is a bigger variant that can relay rotation around corners and power Rotation Speed Controllers. Both types of Cogwheels can interlock in three main ways, depending on their placement and orientation, and they can convey rotation from one to another."
+				"{@pagebreak}"
+				"Cogwheels can also be used like Shafts, conveying rotation from the ends of their axis. They can be stopped from doing this by applying a Casing, configurable with a Wrench. Mechanical components can be connected to each end, and several Cogwheels connected end-to-end function the same as multiple shafts would."
+				"{@pagebreak}"
+				"Using pairs of Cogwheels and Large Cogwheels, rotational speed can be easily doubled or halved. This mechanic can be applied repeatedly, up to 256 RPM. A Large Cogwheel can also be connected to a Rotation Speed Controller, to adjust speed more precisely."
+				"{@pagebreak}"
+				"Certain blocks need to be powered by a Cogwheel to function. Those blocks contain a Cogwheel in their texture and can be powered by placing a Cogwheel adjacent to them or a large Cogwheel diagonally, both in the same direction as the block, like a normal Cogwheel."
+				"{@pagebreak}"
+				"Master the use of the Cogwheel, and you'll unlock a whole new level of efficiency in your Create mod setups."
+			]
+			icon: "create:cogwheel"
+			id: "5177B4F8D2CF8736"
+			rewards: [
+				{
+					count: 32
+					id: "4FDCA1D1A7662BB7"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1140B07855094BE0"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			subtitle: "The Heart of Mechanical Rotation"
+			tasks: [
+				{
+					id: "221406C24C9D19A4"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "4F0D1EFBA5B37E41"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Cogwheel Mastery"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5177B4F8D2CF8736"]
+			description: [
+				"The Gearbox is a block in the Create mod used to transfer Rotational power. It can relay rotational power in four horizontal directions. The vertical counterpart, like the normal version, can relay power in four vertical directions."
+				"{@pagebreak}"
+				"When receiving input from any input side (sides with a shaft shape), the Gearbox will output/relay rotational power in the opposite spin for all of the remaining sides. In other words, when the input is clockwise, the output on the other 3 sides will be anti-clockwise, and vice-versa."
+				"{@pagebreak}"
+				"The Gearbox is a renewable and stackable block, with a blast resistance of 6 and hardness of 1.5. It is a solid, full, and transparent block. It is not flammable and does not catch fire from lava. The Gearbox is crafted using a Cogwheel and an Andesite Casing."
+			]
+			icon: "create:gearbox"
+			id: "54137236BB4CECBF"
+			rewards: [
+				{
+					count: 8
+					id: "3F3610DEF1E1C6B5"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5D4A24D03D924204"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			subtitle: "The Art of Transferring Rotational Power"
+			tasks: [
+				{
+					id: "6B817A7F94325774"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "792BD112D0346BC1"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+				{
+					id: "5BCCC08CC41803C6"
+					item: "create:gearshift"
+					type: "item"
+				}
+			]
+			title: "Gearbox Mastery"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1317A4AABF4D7272"]
+			id: "29FE4D60E29611A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3722FC8BF4E889D8"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1898980E4D4A94F3"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "15BD5CD5B75D3985"
+					item: "create:brass_sheet"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4C5D7082278DA3FF"]
+			id: "24EDC2E99E343BC1"
+			rewards: [{
+				count: 2
+				id: "20C87D682B3F30F6"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			subtitle: "I wonder what this can do."
+			tasks: [{
+				id: "7F24A9FF55B4560B"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			title: "A Copper Hand"
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"1E76847B5492B1CA"
+				"2514BFC41ADB35EC"
+				"23286AF566104C8C"
+			]
+			icon: "kubejs:andesite_machine"
+			id: "50A5EDF9D289CB31"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00C84E1A0D859A35"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "You're going to need a lot of these in the future, so now is a good time to pause and get all your systems ready for what comes next"
+			tasks: [
+				{
+					count: 128L
+					id: "032BAA5EBBFBB3C1"
+					item: "kubejs:andesite_machine"
+					type: "item"
+				}
+				{
+					id: "58DDF49D0D034B86"
+					title: "Only check once automated."
+					type: "checkmark"
+				}
+			]
+			title: "The first frame, where it all started"
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"3E8E3DB3013B3D47"
+				"5EC683BB4C897880"
+				"3CE5E59BC86FD4E3"
+			]
+			description: [
+				"The Mechanical Drill is a versatile block in the Create mod that is used to break other blocks. It's a key component in many automated systems, providing a reliable way to mine or harvest materials."
+				"{@pagebreak}"
+				"The Mechanical Drill operates by using rotational power. When stationary, it breaks blocks in front of it based on the hardness of the block and the RPM of the drill. It also damages entities in its vicinity."
+				"{@pagebreak}"
+				"When moved by contraptions, the Mechanical Drill can break blocks and damage entities it collides with, without needing a direct supply of rotational force. The time it takes to break a block and the damage dealt to entities are both dependent on the contraption's speed."
+				"{@pagebreak}"
+				"The Mechanical Drill can be customized with any type of planks, and the items will not be consumed. Each texture is automatically generated using the planks and logs of a wood type, allowing for compatibility with other mods."
+			]
+			hide_dependency_lines: true
+			icon: "create:mechanical_drill"
+			id: "3B13DC39A8003D8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CD039289F4E397A"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "We recommend setting up automation for cobble, and it definitely doesn't hurt to make it big, as you will always need more."
+			tasks: [
+				{
+					count: 256L
+					id: "2335755A8C6EB602"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "38FD3EBDC1631DCB"
+					title: "Only check once automated"
+					type: "checkmark"
+				}
+				{
+					id: "6954C03CFEB3AA89"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+			]
+			title: "Your first Cobblestone Generator"
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3B13DC39A8003D8A"]
+			description: [
+				"The Millstone is a machine added by Create. It is used to process a variety of materials, particularly Hemp and Leather. It has the ability to process numerous items that would normally be processed in a Grindstone or similar item."
+				"{@pagebreak}"
+				"The Millstone is powered by mechanical power. While it has no output side, it can automatically output items into open air or containers on all 6 of its faces. It is a crucial component in the early-game and mid-game stages of the Create mod."
+			]
+			icon: "minecraft:gravel"
+			id: "34819E3A650274F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1081A4387433E781"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Cobble + time = gravel"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "0247AFC33F1820E4"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "1E3D0708F5B34657"
+					title: "Only check once automated"
+					type: "checkmark"
+				}
+				{
+					id: "61187AEA4C96BA56"
+					item: "create:millstone"
+					type: "item"
+				}
+			]
+			title: "Gravel Automation"
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["34819E3A650274F8"]
+			description: [
+				"The Encased Fan is a versatile mechanical component in the Create mod. It generates air streams that can be used for a variety of purposes, including moving entities, transporting items vertically, and bulk processing of items."
+				"{@pagebreak}"
+				"When powered by Rotational Force, the Encased Fan creates an air stream that extends several blocks in front of it. This air stream can push or pull entities, depending on the direction of the fan's rotation. The strength and speed of the air stream are determined by the speed of the rotational force powering the fan."
+				"{@pagebreak}"
+				"The Encased Fan can also be used for bulk item processing. When its air stream passes through certain blocks, it applies the respective processing to items in the stream. This includes Bulk Washing, Bulk Blasting, Bulk Haunting, and Bulk Smoking. Be aware, though, that different stack sizes take different amounts of time to process."
+				"{@pagebreak}"
+				"Remember, the Encased Fan can't generate power on its own. It needs to be connected to other rotational components from the back. Master the use of the Encased Fan, and you'll unlock a whole new level of efficiency in your Create mod setups."
+			]
+			icon: "minecraft:iron_nugget"
+			id: "2514BFC41ADB35EC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54A9F0CC38DF1136"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Harness the Power of Air Streams, here for washing gravel into iron "
+			tasks: [
+				{
+					count: 128L
+					id: "05FEBB39A7576679"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "6448403FC3C0AE29"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "3DC36978BBFFAE58"
+					title: "Only check once automated"
+					type: "checkmark"
+				}
+			]
+			title: " Encased Fan Mastery"
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"27A6D00F987A50B7"
+				"4262DA8D059FC64D"
+			]
+			dependency_requirement: "one_started"
+			description: ["You're going to need to get yourself some wood. We recommend getting this automated, as you'll need a lot of it. You can use gantries, bearings, or even carts - it's up to you!"]
+			icon: "create:mechanical_saw"
+			id: "1D6DA5AC8A3FFA5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DD483AB2D3C6FFB"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Log automation"
+			tasks: [
+				{
+					consume_items: true
+					count: 240L
+					id: "1E79AE0768DBDD40"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					id: "117FB52A8B6D3256"
+					title: "Only check once automated"
+					type: "checkmark"
+				}
+			]
+			title: "Log automation"
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1D6DA5AC8A3FFA5C"]
+			description: [
+				"We recommend setting up automation with mechanical mixers and saws. You'll thank yourself later. PS: You can add filters to mixers by holding the item in your hand and looking for the little white box you can click."
+				"{@pagebreak}"
+				"The Mechanical Mixer is a unique component in the Create mod that applies Mixing recipes and shapeless Crafting recipes to items in Basins. This mechanical component is powered by an internal cogwheel and requires a minimum rotational speed of 32 RPM from its power source to work."
+				"{@pagebreak}"
+				"The Mechanical Mixer needs to be placed directly above a Basin, with a 1 block gap. When a valid recipe is inserted by throwing the ingredients into the Mixer, it automatically combines the ingredients. The Mixer processes ingredients faster the more speed it is given."
+				"{@pagebreak}"
+				"The Mechanical Mixer can automate all shapeless crafting recipes and brewing recipes. It can also perform unique mixing recipes that are not possible to make anywhere else. For example, it can create Andesite Alloy, Brass Ingot, Dough, and even Mud."
+				"{@pagebreak}"
+				"The processing speed of the Mechanical Mixer is affected by RPM. The higher the RPM, the faster it processes recipes."
+			]
+			icon: "create:large_cogwheel"
+			id: "23286AF566104C8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "780B886B4A4A692A"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "PS: You may need to hand-feed the andesite for now, but later you may be able to set up an integrated system."
+			tasks: [
+				{
+					count: 32L
+					id: "2A66780F92034C2B"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "70513D33D9CA06E3"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "1020619BC08722DF"
+					title: "Only check once automated"
+					type: "checkmark"
+				}
+				{
+					id: "348E9F4F1556B53E"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "7EE6860073C9853D"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Cog Automation "
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50A5EDF9D289CB31"]
+			icon: "sliceanddice:slicer"
+			id: "332A0AA9D97964F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FED0CF009359839"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Automated chopping"
+			tasks: [
+				{
+					id: "5E1AC005A08526A8"
+					item: "sliceanddice:slicer"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "5ADB2C45BCF87A95"
+					item: "farmersdelight:minced_beef"
+					type: "item"
+				}
+			]
+			title: "The Slicer"
+			x: -1.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["50A5EDF9D289CB31"]
+			description: [
+				"The Rope Pulley is an essential component in the Create mod. It functions similarly to a Mechanical Piston, but it only extends in one direction and doesn't require Piston Extension Poles. The Rope Pulley can extend downwards up to 256 blocks (configurable) and is commonly used for excavation or simple elevators."
+				"{@pagebreak}"
+				"The rope of the pulley is climbable when disassembled. To push more blocks, you can use Block Attachment Utilities. If you place Rope Pulleys directly above the main Rope Pulley at the same level, they will synchronize with the main pulley. These synchronized Pulleys do not require Rotational Force."
+				"{@pagebreak}"
+				"You can monitor the Rope Pulley's current length with a Threshold Switch. This feature can be particularly useful in complex contraptions where precise control is necessary."
+			]
+			id: "1F1817D8E9294440"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D1179EF4280103C"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Understanding the Rope Pulley"
+			tasks: [{
+				id: "47655C34F347450D"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			title: "Rope Pulley Mastery"
+			x: 1.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["50A5EDF9D289CB31"]
+			icon: "create:millstone"
+			id: "07F6262EF32272BF"
+			rewards: [{
+				id: "38F3826418710B18"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "you've done this one before"
+			tasks: [
+				{
+					id: "3A0FEBF8A7FBF6B1"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "525BEADA116B5901"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "7B5C8953DE795AB5"
+					title: "Only check once automated"
+					type: "checkmark"
+				}
+			]
+			title: "Gravel automation"
+			x: 3.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["1D37AE2A281AA5FA"]
+			id: "6600DA45E5CCA4B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AC18B9441E7E687"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Discover an efficient method to position lava next to the catalyst. This could involve using open pipes, hose pulleys, or any other creative means of your choice."
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "54A4595DE181D3BF"
+				item: "create:veridium"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["50A5EDF9D289CB31"]
+			description: [
+				"The Arboreal Extractor, also known as a tapper, is a device in the Thermal Expansion mod that extracts fluid from an adjacent tree. It can be placed next to the bottom of a tree or a huge mushroom, and it will start extracting a fluid."
+				"{@pagebreak}"
+				"The extractor produces a certain amount of fluid every 500 ticks (25 seconds). However, the amount of time increases when other arboreal extractors are extracting from the same tree. The amount of fluid an arboreal extractor produces per cycle can be increased by placing fertilizer items in its fertilizer slot."
+				"{@pagebreak}"
+				"Items and fluids can enter and exit an arboreal extractor through its sides. Every side of an arboreal extractor may correspond to its fertilizer slot, its output tank, or both at the same time. The device can automatically transfer fluids out of any sides that directly correspond to its output tank. This is called auto-output."
+				"{@pagebreak}"
+				"The arboreal extractor can also transfer items from adjacent inventories into any sides that directly correspond to its fertilizer slot. This is called auto-input. Auto-output and auto-input occur at the same speed at which fluid is produced. Auto-output occurs after fluid is produced, and auto-input occurs right before fluid is produced."
+				"{@pagebreak}"
+				"The fluid that an arboreal extractor produces and the amount of fluid that is produced per cycle depends on the type of tree. For example, an Oak tree produces Sap at 50 mB per cycle, while a Spruce tree produces Resin at 100 mB per cycle."
+				"{@pagebreak}"
+				"The Arboreal Extractor can have a signalum security lock installed to restrict who can access it. Its configuration can be saved on a redprint to be copied to other arboreal extractors. The current mode of the extractor can be set using the Redstone Control tab in the device’s GUI."
+			]
+			icon: "thermal:device_tree_extractor"
+			id: "4FD8C61E0B048060"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C6D0D32DE6F537D"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "The power of the Arborial Extractor"
+			tasks: [
+				{
+					id: "70A026864759F563"
+					item: "thermal:device_tree_extractor"
+					type: "item"
+				}
+				{
+					id: "5ECC39CF5FEE91DF"
+					item: "minecraft:jungle_log"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "39AA8A93787D9A90"
+					item: "thermal:latex_bucket"
+					type: "item"
+				}
+			]
+			title: "Liquids from trees"
+			x: 0.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["4FD8C61E0B048060"]
+			icon: "thermal:rubber"
+			id: "2698EFB696BA798A"
+			rewards: [{
+				count: 16
+				id: "0890F16AAF02B8AC"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			subtitle: "Two very versatile materials."
+			tasks: [
+				{
+					id: "78CE3946EDF2D354"
+					item: "thermal:latex_bucket"
+					type: "item"
+				}
+				{
+					id: "13E521D07CA231F2"
+					item: "thermal:rubber"
+					type: "item"
+				}
+				{
+					id: "647B43854CC4507E"
+					title: "Only check once automated"
+					type: "checkmark"
+				}
+			]
+			title: "Rubber and latex"
+			x: 0.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["50A5EDF9D289CB31"]
+			description: [
+				""
+				"Fluid Pipes in the Create mod are essential blocks for transporting and managing fluids. They automatically connect when laid parallel to each other."
+				"{@pagebreak}"
+				"You can prevent Fluid Pipes from connecting by making them transparent with a Wrench, encasing them with Copper Casing, or adding a Wooden or Metal Bracket. Copper Casing can be placed on the corners of Fluid Pipes, locking them in place and preventing them from connecting to more adjacent pipes."
+				"{@pagebreak}"
+				"Fluid Pipes can only move one liquid at a time. If different liquids intersect, the pipe will clog. Fluid Pipes require Mechanical Pumps to move liquid. Each time a fluid network splits, the fluid transfer rate is split between outputs."
+				"{@pagebreak}"
+				"Mechanical Pumps have a maximum range of 16 blocks on either side. They will move fluid in only one direction at a time, indicated by brown arrow symbols. The flow direction can be changed by using a Wrench."
+				"{@pagebreak}"
+				"Fluid Valves can be used to close or open the flow in a pipe. They can be switched between open and closed by providing Rotational Force to the side. This is often done with a Valve Handle or Gearshift."
+				"{@pagebreak}"
+				"Smart Fluid Pipes can be used to allow only a certain liquid to pass through them. This can be set by placing a bucket or bottle of the liquid in the Filter slot on the pipe."
+				"{@pagebreak}"
+				"Fluid transfer rates are measured in milli-buckets per tick (mb/t). Mechanical pumps transfer fluid at the rate of 0.5mb/t * rpm. Thus, Mechanical Pumps at a higher rotational speed will transfer fluids faster."
+				"{@pagebreak}"
+				"Pipes can pick up or place fluid source blocks. When outputting a fluid into air, the pipe will leak, spraying the fluid out in front of it. If possible, a fluid source block will be placed in the world after the pipe outputs 1000mB of fluid."
+			]
+			icon: "create:fluid_pipe"
+			id: "35DC0886B2166072"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50629DF9C7387EC1"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "An open pipe, if placed next to a beehive, will extract the liquid honey as they fill."
+			tasks: [
+				{
+					id: "0D9E4CA6576108BB"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+				{
+					id: "1355DBE8617268CE"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "42A34DD916BAB06B"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "Honey and Pipes"
+			x: -3.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["35DC0886B2166072"]
+			icon: "create:honey_bucket"
+			id: "310EBAC65B121DD6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30A5D0B4BF35C25E"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Honey and all its forms."
+			tasks: [
+				{
+					count: 8L
+					id: "146656D4E0443119"
+					item: "create:honey_bucket"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "796F9905E79FFCC3"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0602A9DBF8D14BC1"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1BFEA7D9A3FC1825"
+					item: "minecraft:honeycomb_block"
+					type: "item"
+				}
+				{
+					id: "4AEEB83CA536AE0C"
+					title: "Only check once automated"
+					type: "checkmark"
+				}
+			]
+			title: "Honey, honey, honey!"
+			x: -3.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["310EBAC65B121DD6"]
+			id: "78AF1F5030C897D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77AD4DFE4CFFE8E3"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				count: 16L
+				id: "16B365FCEA56651F"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -21.0d
+		}
+		{
+			dependencies: [
+				"310EBAC65B121DD6"
+				"2698EFB696BA798A"
+				"399C787D8EC5DCA7"
+			]
+			icon: "kubejs:pipe_sealant_bucket"
+			id: "497EF05AE98B74A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1090EFB84A9F1AA2"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "We recommend setting up automation for Pipe Sealant, as you won't need boatloads, but it's nice to have on hand."
+			tasks: [
+				{
+					count: 2L
+					id: "61F71A949E3773E5"
+					item: "kubejs:pipe_sealant_bucket"
+					type: "item"
+				}
+				{
+					id: "2D74D6B4F42A93AE"
+					title: "Only check once automated"
+					type: "checkmark"
+				}
+			]
+			title: "The Magic Pipe Sealant"
+			x: -1.5d
+			y: -22.5d
+		}
+		{
+			dependencies: [
+				"399C787D8EC5DCA7"
+				"2698EFB696BA798A"
+			]
+			icon: "thermal:cured_rubber"
+			id: "485AFA09B001108A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "349DBC3251D71782"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "We recommend setting up automation for rubber, as you won't need a masive amount, but it's nice to have on hand."
+			tasks: [
+				{
+					count: 16L
+					id: "0DD29240616724D0"
+					item: "thermal:cured_rubber"
+					type: "item"
+				}
+				{
+					id: "06ABB266FDC40B2E"
+					title: "Only check once automated"
+					type: "checkmark"
+				}
+			]
+			title: "Cured rubber"
+			x: 0.0d
+			y: -22.5d
+		}
+		{
+			dependencies: [
+				"0A4913CD0EEDF8DC"
+				"497EF05AE98B74A9"
+				"485AFA09B001108A"
+				"126416AA50E19D23"
+				"7FA3BE709F9CDFD1"
+			]
+			id: "6D09D408B2E36760"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C23D8B4156F1254"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "You're going to need a lot of these in the future, so now is another good time to pause and get all your systems ready for what comes next"
+			tasks: [{
+				count: 128L
+				id: "621087AFBED508EE"
+				item: "kubejs:copper_machine"
+				type: "item"
+			}]
+			title: "Copper machines and the magic of fluids"
+			x: 0.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["17CE7F4217E0B2E1"]
+			description: [
+				"The Blaze Burner is a crucial heating component in the Create mod, required for specific Mixing recipes. It can also serve as a heat source for Steam Engines, Bulk Smoking, Bulk Smelting, and even as a decorative light source."
+				"{@pagebreak}"
+				"To function, a Blaze Burner must contain a Blaze. You can fill an Empty Blaze Burner by right-clicking on a Blaze while holding the Empty Blaze Burner. Alternatively, you can fill it by clicking on a Blaze Spawner, which can be done repeatedly without destroying the spawner."
+				"{@pagebreak}"
+				"Blaze Burners are used for Heating and Super-Heating Basins when doing Mixing recipes. They are particularly required to make Brass. They can also be used as a heat source for boilers used to power Steam Engines. When a heat-able block is placed above a fueled Blaze Burner, the Burner will appear to channel heat into the block."
+				"{@pagebreak}"
+				"Right-clicking a Blaze Burner with any item that can be used as Furnace fuel will temporarily put it in a Heated state. Right-clicking a Blaze Burner with a Blaze Cake will temporarily put it in a Super-Heated state. A Deployer or Mechanical Arm can be used to automatically fuel it, given any burnable item as an input."
+				"{@pagebreak}"
+				"The Blaze inside changes its size and texture depending on the amount of fuel provided, following the phases: Smouldering, Heated/Kindled, and Super-Heated/Seething."
+				"{@pagebreak}"
+				"Blaze Burners can also be given a set of Engineer's Goggles for decoration. Empty Blaze Burners can be lit on fire with a Flint and Steel as a decorative block. While lit, they can be given Soul Sand or Soul Soil to turn the fire into Soul Fire."
+			]
+			icon: "create:blaze_burner"
+			id: "399C787D8EC5DCA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FE3A20252B7A566"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "The power of the Blaze Burner"
+			tasks: [
+				{
+					id: "2BA786B562DCFB90"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "7BF55B646CA7E7CB"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Heating time"
+			x: -1.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["6600DA45E5CCA4B8"]
+			icon: "create:copper_sheet"
+			id: "0A4913CD0EEDF8DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26233A98F0B41371"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Mill the veridium into crushed copper, smelt the crushed copper into ingots, and then smash it into plates"
+			tasks: [
+				{
+					id: "3C646A7214CE765F"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "713EF33AD2CBEA2D"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+				{
+					id: "07E6D7164BB74FBA"
+					title: "Only check once automated"
+					type: "checkmark"
+				}
+			]
+			title: "Crush, melt, smash"
+			x: 1.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["07F6262EF32272BF"]
+			icon: "minecraft:glass"
+			id: "126416AA50E19D23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48151C682218673A"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Grind the gravel into sand and smelt the sand into glass"
+			tasks: [
+				{
+					count: 32L
+					id: "54E5C99F02ABEDFA"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "7397CF91627EF4A5"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "78A7D9FCA68C98DB"
+					title: "Only check once automated"
+					type: "checkmark"
+				}
+			]
+			title: "Grind, then smelt"
+			x: 3.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["399C787D8EC5DCA7"]
+			hide_dependency_lines: true
+			id: "7FA3BE709F9CDFD1"
+			subtitle: "The base of it all"
+			tasks: [{
+				id: "08D88BA602966A5B"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -22.5d
+		}
+		{
+			dependencies: ["6D09D408B2E36760"]
+			description: [
+				"The Spout is a versatile block in the Create mod, designed for filling liquid containers or crafting with liquids. It can hold up to 1 bucket of any liquid, which can be supplied via Fluid Pipes. The Spout then dispenses the fluid onto items that pass underneath it, either on a Conveyor Belt or Depot."
+				"{@pagebreak}"
+				"The Spout takes 1 second to process an item, regardless of the amount of fluid used. However, a delay may occur between fills due to the time it takes for the Spout to refill. The Spout also has eight unique crafting recipes, allowing you to create items like Grass Blocks, Blaze Cakes, and Honeyed Apples by combining specific items with the appropriate amount of fluid."
+				"{@pagebreak}"
+				"The Spout can also interact with mods like Tinker's Construct, filling Casting Tables and Casting Basins. However, it will only fill a table if the amount of fluid is greater than 1000mb. The Spout is a powerful tool for precise fluid crafting and filling."
+			]
+			id: "72DD0E75044A87F3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F0769267D3E4090"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Understanding the Spout"
+			tasks: [{
+				id: "08FE0D3963FCAA79"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "Fluid Crafting with Precision"
+			x: -1.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["6D09D408B2E36760"]
+			id: "487DA36FE1DFCD71"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71D3A59A5F34DD3F"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "17FC56862FF65990"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["6D09D408B2E36760"]
+			id: "725AE07D8F58F79F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52306D8F8DCB28A8"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6F370CF01E94E793"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["4E0E0C5E080CE8E9"]
+			description: [
+				"The Hose Pulley is a unique block in the Create mod that allows you to drain bodies of liquids. It requires Rotational Force to function and can extend its hose indefinitely with enough power. A Fluid Pump is necessary for the hose to drain liquids."
+				"{@pagebreak}"
+				"The Hose Pulley drains a body of liquid down to the level of the hose. If a liquid source is at least 10,000 blocks away (looking at you lava lakes in the nether), the Hose Pulley considers it to be infinite, drawing the liquid from it without actually draining the source."
+				"{@pagebreak}"
+				"The crafting recipe for the Hose Pulley includes Copper Casing, a Dried Kelp Block, and a Copper Sheet. The Hose Pulley has a Kinetic Stress impact of 4x SU, so plan your mechanical setup accordingly."
+			]
+			icon: "create:hose_pulley"
+			id: "1D37AE2A281AA5FA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B1089C9B32C5B70"
+					table_id: 575233231190426020L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "65C867EC23E69254"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Getting lava from the Nether"
+			tasks: [
+				{
+					id: "40F7E036594659F9"
+					item: "create:hose_pulley"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "32E2A1808FBBD979"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["6D09D408B2E36760"]
+			id: "318C58BCAE048E1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "531D52813295CA0F"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6B095F913A9B1496"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["6D09D408B2E36760"]
+			id: "2C2F421ACC693D76"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BDB38A930339824"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43993313FFE915AD"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -26.5d
+		}
+		{
+			dependencies: ["518F95D9B30CF9B2"]
+			id: "3CDC379B2B65EAB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DF5570FB3623121"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "7C49A3E287BB3DD0"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "3975D7B41202CBB2"
+					item: "create:brass_sheet"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["3CDC379B2B65EAB9"]
+			id: "7D3A3D137D6DEAFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D7F64326CBEE23B"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6947C6E8E9FEA1A1"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -32.5d
+		}
+		{
+			dependencies: [
+				"1F374FD1B6C18777"
+				"225E2E96F31FE0D0"
+				"7B21B1664450518F"
+				"0CC2906EA4E3F322"
+				"7D3A3D137D6DEAFB"
+			]
+			id: "02B2A15F20677DD8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AD64C5496AB8444"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "758459BFDCDE1282"
+				item: "kubejs:brass_machine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -36.5d
+		}
+		{
+			dependencies: [
+				"3CDC379B2B65EAB9"
+				"6135FD212EC8D367"
+			]
+			id: "0CC2906EA4E3F322"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41CE195A75BC0E56"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01A31931E0D53D07"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -32.5d
+		}
+		{
+			dependencies: [
+				"3CDC379B2B65EAB9"
+				"651E6FCADDBA8951"
+			]
+			id: "225E2E96F31FE0D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56606C0B8259D408"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2421ACA323D19A72"
+				item: "createaddition:gold_spool"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["3CDC379B2B65EAB9"]
+			id: "7B21B1664450518F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "691A7E2F79A6C476"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "591C710AF153BE17"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -32.5d
+		}
+		{
+			dependencies: ["3CDC379B2B65EAB9"]
+			id: "1F374FD1B6C18777"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "159342427057D672"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B5FE6DED593101A"
+				item: "thermal:iron_gear"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -32.5d
+		}
+		{
+			dependencies: ["6D09D408B2E36760"]
+			id: "518F95D9B30CF9B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6258AF3C25411285"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "690B473FF74D049B"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["518F95D9B30CF9B2"]
+			hide_dependency_lines: true
+			id: "655731E9CD665C97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74F07B949F5B4E1F"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54A54325FAA956D8"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -31.0d
+		}
+		{
+			dependencies: ["518F95D9B30CF9B2"]
+			hide_dependency_lines: true
+			id: "18B306D12E845B60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A97F4B0B31FC3E1"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "051DF3140042DF74"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -29.5d
+		}
+		{
+			dependencies: ["518F95D9B30CF9B2"]
+			hide_dependency_lines: true
+			id: "5F7FF53C771A0E1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F7582E4DB13184E"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24E69F22F8ED09EA"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -28.0d
+		}
+		{
+			dependencies: [
+				"5F7FF53C771A0E1D"
+				"18B306D12E845B60"
+				"655731E9CD665C97"
+			]
+			id: "25E283AA4727B69E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D7ED748463CD340"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "065DC0FCCB2BB593"
+				item: "create:blaze_cake_base"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -29.5d
+		}
+		{
+			dependencies: [
+				"25E283AA4727B69E"
+				"6DD39ADBCB798CCE"
+			]
+			id: "70C75D874AB1754B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04353BAAB6393FFB"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2F5D490BFDEE5F75"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -29.5d
+		}
+		{
+			dependencies: ["70C75D874AB1754B"]
+			id: "6135FD212EC8D367"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44A5AEEA60B88618"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A13F320F7BCEA9B"
+				item: "thermal:redstone_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["68D227650F9C32E9"]
+			id: "651E6FCADDBA8951"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FA998AF8890C6D9"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6FE83D5ECB9A972D"
+					item: "minecraft:red_sand"
+					type: "item"
+				}
+				{
+					id: "62676D7F3BEC8B03"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -29.5d
+		}
+		{
+			dependencies: [
+				"38870696BEFA5F68"
+				"24B30D9D821B92E9"
+				"628ED7FF435B9524"
+			]
+			id: "68D227650F9C32E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31CCCDA065EC6EBB"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E39895858DEC0E4"
+				item: "minecraft:terracotta"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["3CDC379B2B65EAB9"]
+			hide_dependency_lines: true
+			id: "38870696BEFA5F68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74FF9F74834E2651"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "23F1C78BA8E45DD9"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "3F54D894C2405EBC"
+					item: "minecraft:clay"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -28.0d
+		}
+		{
+			dependencies: ["3CDC379B2B65EAB9"]
+			hide_dependency_lines: true
+			id: "24B30D9D821B92E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E093B60546B5F7D"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "047F616CF71DBAC7"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "791DB62E02F5055F"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -29.5d
+		}
+		{
+			dependencies: ["3CDC379B2B65EAB9"]
+			hide_dependency_lines: true
+			id: "628ED7FF435B9524"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "336DF355CA365FB3"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "554766E12469CF68"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -28.5d
+		}
+		{
+			dependencies: ["72DD0E75044A87F3"]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			id: "6DD39ADBCB798CCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "202CE5E13CC93FF3"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "00D0024C38458170"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["02B2A15F20677DD8"]
+			id: "7ECF0EA12E7F9BF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D79FC26F37D590E"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B7F17DDE388C460"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -39.0d
+		}
+		{
+			dependencies: ["02B2A15F20677DD8"]
+			id: "01A2A03581B193F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "656CC8E1FEB0EC7C"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "087F823DED5236A1"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -36.5d
+		}
+		{
+			dependencies: ["02B2A15F20677DD8"]
+			id: "39CCBE3CBB63B17E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64B6AD23A610D31D"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "012570CA42E39F6B"
+				item: "create:display_link"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["02B2A15F20677DD8"]
+			id: "7733D39E8DDC2253"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CA5D55DAD56F722"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1BCBDC22A72C662C"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -39.0d
+		}
+		{
+			dependencies: ["02B2A15F20677DD8"]
+			id: "760BC03D7464B568"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A5E566DDD845CCE"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3A39F1E4F69F79F1"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -36.5d
+		}
+		{
+			dependencies: ["02B2A15F20677DD8"]
+			id: "313B4A1249D0295C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AC42555D14CBADB"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5B25B08C110396E1"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["02B2A15F20677DD8"]
+			id: "67BC246A01CF7B72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A4D748E3C8AD6CE"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BD330C31EAE0F9F"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -39.5d
+		}
+		{
+			dependencies: [
+				"7733D39E8DDC2253"
+				"7ECF0EA12E7F9BF2"
+				"67BC246A01CF7B72"
+			]
+			id: "4B13CF6BE5F238E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "274F8FE996D504D1"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "315E6087463E300F"
+					item: "kubejs:qc_blend"
+					type: "item"
+				}
+				{
+					id: "7C876363E3C1D574"
+					item: "mekanism:dust_quartz"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -41.0d
+		}
+		{
+			dependencies: ["4B13CF6BE5F238E1"]
+			id: "637C343B5260C84A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78091067B4973C31"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "32ABE1ACA955A5E4"
+					item: "kubejs:unpolished_silicon"
+					type: "item"
+				}
+				{
+					id: "39B1197A544090B8"
+					item: "ae2:silicon"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -42.0d
+		}
+		{
+			dependencies: ["637C343B5260C84A"]
+			id: "7A3A6CC2A568EC99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03BFAFCD87164665"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3401E87EB15A37D4"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -43.5d
+		}
+		{
+			dependencies: ["7A3A6CC2A568EC99"]
+			id: "421F82E05F6D1F1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AEA15376E52DA23"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "550531912A016436"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -45.5d
+		}
+		{
+			dependencies: ["7A3A6CC2A568EC99"]
+			id: "695BA0CD5ACC3C01"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CE2EBFD64FC62A2"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52E601728B019CED"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -45.5d
+		}
+		{
+			dependencies: [
+				"421F82E05F6D1F1B"
+				"695BA0CD5ACC3C01"
+			]
+			id: "1B477BD2A21882DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79742CE04F180FD6"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0D74C898C5A2AE0D"
+					item: "createaddition:copper_spool"
+					type: "item"
+				}
+				{
+					id: "1F700966C33C4A0B"
+					item: "createaddition:connector"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -46.0d
+		}
+		{
+			dependencies: ["7A3A6CC2A568EC99"]
+			id: "45ABC246DFEC65F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "794E0A3992708CD7"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7CDA3D7446A5433A"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -45.0d
+		}
+		{
+			dependencies: ["72D57F56D3B4E709"]
+			description: [
+				"The Mechanical Belt is a crucial component in the Create mod. It conveys rotation and moves items and entities over a distance."
+				"{@pagebreak}"
+				"To place a Mechanical Belt, you need at least two Shafts. Right-click on the first shaft and then the second with the belt in hand. The belt can span horizontally, vertically, or diagonally, up to twenty blocks long, as long as there are no obstructions. Both shafts must face the same direction."
+				"{@pagebreak}"
+				"The Mechanical Belt can transport items from one location to another. Items can be thrown onto the belt, or machines like Funnels, Chutes, or Mechanical Arms can place items onto or remove items from the belt. The belt can also transport entities and the player. However, items cannot be moved by vertical belts."
+				"{@pagebreak}"
+				"When rotational force is connected to any shaft of a belt, the belt conveys identical force to every other shaft it is connected to. This makes the Mechanical Belt a powerful tool for distributing rotational power across your setup. Master the use of the Mechanical Belt, and you'll unlock a whole new level of efficiency in your Create mod setups."
+			]
+			icon: "create:belt_connector"
+			id: "039BF9EEB8C3D61D"
+			rewards: [{
+				count: 16
+				id: "7AC42BBA3924250B"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			subtitle: "Conveying Rotation and Moving Items"
+			tasks: [
+				{
+					id: "7784E803A23348D2"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					id: "565C90B272234372"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			title: "Mechanical Belt Mastery"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72D57F56D3B4E709"]
+			icon: "botania:cosmetic_googly_eyes"
+			id: "3FDD7A3BB60B0510"
+			rewards: [{
+				count: 32
+				id: "55A845F614008EC7"
+				item: "ars_nouveau:experience_gem"
+				type: "item"
+			}]
+			subtitle: "Many of the complex items in this mod have something called pondering. This is a system by which you can learn the ins and outs of a machine without needing to place a single one. Try holding \"W\" on the Wheel."
+			tasks: [
+				{
+					id: "0A662577543DEAAF"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "3592E9B1189D54C3"
+					title: "Only check once you are familiar with pondering."
+					type: "checkmark"
+				}
+			]
+			title: "Pondering"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D09D408B2E36760"]
+			id: "27B6A7933FD24142"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69E47354236D9124"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69916D75E9959DDD"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -26.5d
+		}
+		{
+			dependencies: ["4262DA8D059FC64D"]
+			description: [
+				"The Cart Assembler in Create mod is a unique device that allows you to build mobile contraptions. It assembles blocks into a moving structure, which can then be disassembled back into individual blocks."
+				"{@pagebreak}"
+				"The Cart Assembler can be used to create a variety of contraptions, including minecarts with chests, minecarts with hoppers, and even minecarts with TNT. The possibilities are endless!"
+				"{@pagebreak}"
+				"To use the Cart Assembler, you need to place it next to a rail. Then, place the blocks you want to assemble on top of the Cart Assembler. Once you have your blocks in place, simply give the Cart Assembler a redstone signal, and it will assemble the blocks into a cart."
+				"{@pagebreak}"
+				"The Cart Assembler can also be used to disassemble carts. To do this, you need to send the cart back into the Cart Assembler. Once the cart is inside, give the Cart Assembler another redstone signal, and it will disassemble the cart back into individual blocks."
+				"{@pagebreak}"
+				"The Cart Assembler is a versatile tool that can be used in a variety of ways. Whether you're building a mobile storage system or a moving TNT cannon, the Cart Assembler has you covered."
+			]
+			id: "27A6D00F987A50B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "776C7D6C45B132E6"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: " Building Mobile Contraptions"
+			tasks: [{
+				id: "1CA952A336BC495A"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			title: "Mastering the Cart Assembler"
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50A5EDF9D289CB31"]
+			id: "4E0E0C5E080CE8E9"
+			subtitle: "The Copper Catalyst. Find a molten geyser or geode and activate it by placing a piece of TNT in the center."
+			tasks: [{
+				icon: "molten_vents:molten_veridium"
+				id: "2CD2411BC36B679F"
+				observe_type: 0
+				timer: 0L
+				to_observe: "molten_vents:molten_veridium"
+				type: "observation"
+			}]
+			title: "The copper catalyst "
+			x: 1.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["3E8E3DB3013B3D47"]
+			description: [
+				"The Mechanical Saw in Create mod is a versatile tool powered by rotational force. When placed sideways, it automatically chops down wood blocks in front of it. It can even take down an entire tree or giant mushroom by destroying just the bottom-most block."
+				"{@pagebreak}"
+				"The Mechanical Saw is also capable of dealing with 2x2 trees, provided the last block (horizontally) is mined using the saw. Any blocks tagged as TREE_ATTACHMENTS on the tree will also be broken."
+				"{@pagebreak}"
+				"When placed facing upward, the Mechanical Saw applies sawing or stonecutting recipes. If a recipe has multiple outputs, an output will be randomly selected unless a filter is applied to the Filter slot located next to the saw blade."
+				"{@pagebreak}"
+				"The Mechanical Saw can also be automatically powered when on a Create Contraption. It will damage entities and break blocks at a speed depending on the contraption's speed."
+				"{@pagebreak}"
+				"Note that any Stonecutter recipe can be applied using a Filter with the Mechanical Saw, otherwise a random recipe will be selected."
+			]
+			hide_dependency_lines: true
+			id: "4262DA8D059FC64D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B4C1DCA2BE5AEF8"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Automated Wood Processing and Stone Cutting"
+			tasks: [{
+				id: "253D32E0A9B1C5D0"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: " Mastering the Mechanical Saw"
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["50A5EDF9D289CB31"]
+			description: [
+				"The Mechanical Harvester is a component in the Create mod that is used on contraptions to automate the process of harvesting crops."
+				"{@pagebreak}"
+				"When the Mechanical Harvester moves forward, it harvests all mature crops it comes into contact with. The harvested items are then either deposited into an inventory on the contraption or, if no inventories are available, dropped onto the ground. After harvesting, the plants are reset to their initial growth state."
+				"{@pagebreak}"
+				"Unlike most components, the Mechanical Harvester cannot be powered while stationary. This is because for the Harvester to work, it must be within the same block as the mature crop to harvest, which could not happen with a stationary component."
+				"{@pagebreak}"
+				"The Mechanical Harvester is a versatile tool for large to small scale crop automation. It can be moved with Mechanical Pistons, Bearings, or other controllers."
+			]
+			icon: "create:mechanical_harvester"
+			id: "6924DF285D6DEC52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "181F2C05C034EA2D"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Mechanical Harvester: Your Automated Crop Collector"
+			tasks: [
+				{
+					id: "4A1D9142FBA5F91C"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "59594040D70951EA"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:crops"
+						}
+					}
+					title: "Any #forge:crops"
+					type: "item"
+				}
+			]
+			title: "Harvesting Made Easy "
+			x: -2.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["50A5EDF9D289CB31"]
+			description: [
+				"The Andesite Funnel is a block in the Create mod that is used to extract or insert materials into inventories. It is similar in nature to the Brass Funnel, but it is made from Andesite Alloy and Dried Kelp."
+				"{@pagebreak}"
+				"While held, funnels prevent the player from accessing inventories, instead placing them. Sneak right-clicking with a Funnel places it in input mode. Using a Wrench on the funnel switches it between input and output mode. Redstone can be applied to stop the funnel from inputting or outputting. Right-clicking a funnel on a Mechanical Belt causes it to extend one block forward."
+				"{@pagebreak}"
+				"The Andesite Funnel is an essential tool for managing inventories in automated systems. It can be used in conjunction with other machines to create efficient and complex contraptions."
+			]
+			id: "2E37C4C80ED5EE23"
+			rewards: [{
+				count: 8
+				id: "4FE8D33535DA415D"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			subtitle: "The Andesite Funnel"
+			tasks: [{
+				count: 4L
+				id: "4CABFBB413C781F7"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			title: "The Essential Item Transporter"
+			x: 2.0d
+			y: -15.5d
+		}
+	]
+	title: "Stage 1: Create"
+}

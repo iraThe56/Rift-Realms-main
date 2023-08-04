@@ -1,0 +1,68 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimensions"
+	group: ""
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "0512F2776D580CC8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7FB46CA0102F7712"]
+			description: [
+				""
+				"As you explore, more entries will become available, so be sure to check back often."
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "43DA4F9913006AFA"
+			invisible: true
+			subtitle: "What lies beyond our world?"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "54076E3A4B5691BA"
+				type: "dimension"
+			}]
+			title: "Putting the realms in Rift Realms."
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43DA4F9913006AFA"]
+			icon: "minecraft:netherrack"
+			id: "35941DE8DC8D7462"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5C91D45DC19EDD7C"
+				type: "dimension"
+			}]
+			title: "The Nether"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["43DA4F9913006AFA"]
+			icon: "minecraft:bee_nest"
+			id: "1CCFDB76E265A31A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67B71959EC052618"
+				table_id: 575233231190426020L
+				type: "loot"
+			}]
+			subtitle: "Either by enderpearling or pushing yourself with a piston. Make your way to the Bumble Zone."
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: "the_bumblezone:filled_porous_honeycomb_block"
+				id: "3DE445EF4BE4B42B"
+				title: "Enter the land of the bees"
+				type: "dimension"
+			}]
+			title: "Enter the land of the bees"
+			x: -2.5d
+			y: 0.0d
+		}
+	]
+	title: "Dimensions"
+}

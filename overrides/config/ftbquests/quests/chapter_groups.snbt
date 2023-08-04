@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "538B76C83C2DCCF4", title: "The Dawn of Magic" }
+		{ id: "698758DB76323806", title: "The Age of Kinetics" }
+		{ id: "1FC19440E44DF5FF", title: "Assorted" }
+	]
+}

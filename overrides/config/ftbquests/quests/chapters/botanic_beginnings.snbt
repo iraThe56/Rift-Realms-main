@@ -1,0 +1,1032 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "botanic_beginnings"
+	group: "538B76C83C2DCCF4"
+	hide_quest_until_deps_visible: true
+	icon: "botania:manasteel_ingot"
+	id: "7EBD5683F4D2F03E"
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [
+		{
+			id: "26CE6CF3C3B2B71B"
+			linked_quest: "4D63818F6FAF665D"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "6B0E88C9834FB837"
+			linked_quest: "5618A35C5B6260D6"
+			x: 0.0d
+			y: -19.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["74B042FDF5A54A4A"]
+			hide: true
+			id: "340D3641BD8DBEC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CAA969FD14B187A"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Where's a flower when you need one? (Under heavy development, so be warned)."
+			tasks: [{
+				consume_items: false
+				id: "6345DBABEAEC6015"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Any #botania:mystical_flowers"
+				type: "item"
+			}]
+			title: "Welcome to Botania!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["340D3641BD8DBEC0"]
+			description: [
+				"Mystical Petals are a set of 16 components added by Botania. They are integral to crafting in many Botania recipes."
+				"{@pagebreak}"
+				"You can obtain these petals by performing shapeless crafting on their corresponding colored Mystical Flowers. Each color produces a unique Mystical Petal, expanding the variety of items you can craft."
+			]
+			id: "5219AB389D1B908F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7BCA651B107591F0"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Essential Components in Botania"
+			tasks: [{
+				id: "4B2AA98F1FFC21AC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:petals"
+					}
+				}
+				title: "Any #botania:petals"
+				type: "item"
+			}]
+			title: "Mystical Petals"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5219AB389D1B908F"]
+			description: [
+				"The Petal Apothecary is a block added by Botania. It is used to create various flowers and other botanical items. To use it, you fill it with water, then throw in the necessary ingredients for the desired item. Finally, you throw in a seed to complete the process."
+				"{@pagebreak}"
+				"The Apothecary can be filled with a water bucket, or by right-clicking it with a water source block in the world. It can also be refilled automatically by placing a water source block directly beneath it"
+			]
+			id: "33CF1092F40EAB8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C3B6615E9B1C59D"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0664BC53112A3B9E"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6824D7EEF5AFA7DB"
+				"4D63818F6FAF665D"
+			]
+			description: ["The Mana Spreader is a crucial device in Botania. It's designed to collect Mana from nearby generating flowers or Mana Pools and direct it towards Mana-consuming items or blocks. To operate it, simply right-click on the Spreader with a Wand of the Forest. Remember, the direction the Spreader faces is important for efficient Mana transfer."]
+			id: "5A20ADD318A18C12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67D3F3DFC28FE451"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Harness the Power of Mana"
+			tasks: [{
+				id: "09A180D996D6DB48"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["33CF1092F40EAB8E"]
+			description: [
+				"The Pure Daisy, a fundamental flower in Botania, is primarily used for converting Wood and Stone into Livingwood and Livingrock, respectively. It can also convert other materials like Netherrack into Cobblestone, Blaze Mesh into Obsidian, Soul Sand into Sand, Ice into Packed Ice, and Water into Snow."
+				"{@pagebreak}"
+				"To function, the Daisy must be placed on Grass or Dirt, surrounded by either tree Logs, Stone, or a combination of the two. Any Wood blocks will work. These processes each take 60 seconds. The Pure Daisy does not consume Mana."
+				"{@pagebreak}"
+				"The Pure Daisy is not only the most basic but also the most important flower a botanist can have. This flower purifies any adjacent Wood and Stone blocks into their purified counterparts, Livingwood and Livingrock, which can be used for crafting."
+			]
+			id: "26A1B5CB9F3FF0C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62D8D756F7D17097"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Transforming Basic Materials into Living Entities"
+			tasks: [{
+				id: "5CAFD468F3D1EC21"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4C3B54131382D55C"
+				"26A1B5CB9F3FF0C5"
+				"5A20ADD318A18C12"
+				"2D5465E8DCB36439"
+			]
+			description: [
+				""
+				"The Mana Pool, a key block in Botania, serves as the main storage for Mana, holding up to 1,000,000 units. It powers other Mana-dependent Botania blocks like functional flowers."
+				"{@pagebreak}"
+				"Mana can be transferred into the pool using a Mana Spreader, and nearby Mana Spreaders will draw Mana from it. You can view the pool's Mana level by right-clicking it with a Wand of the Forest."
+				"{@pagebreak}"
+				"The Mana Pool also transforms resources. By tossing an item like an Iron Ingot into the pool, it becomes a Manasteel Ingot. Note that this transformation doesn't work with a Diluted Mana Pool."
+			]
+			id: "7FCB1E717BB21C19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E790AE22FF9C06C"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6E5152177351FE45"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["340D3641BD8DBEC0"]
+			id: "5463DAAD4AEE54DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B103252423484A0"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C102D6B06D1AF6A"
+				item: "botania:fertilizer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FCB1E717BB21C19"]
+			id: "1E86D402A5F9AF87"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "075B8EC796727258"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "73C11B689F78ED6F"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7FCB1E717BB21C19"]
+			id: "193D68E8DC704002"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FE6163BE7A2B9CA"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5EA5054622A12974"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7FCB1E717BB21C19"]
+			id: "72103F9D8920DA41"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63678CF8543B7A7B"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1E457F628AA2A64D"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7FCB1E717BB21C19"]
+			id: "1DD5CFE724C61942"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2756BD6304FEDC93"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "202B8AC096DC26A7"
+				item: "botania:mana_string"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["26A1B5CB9F3FF0C5"]
+			id: "4C3B54131382D55C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D0F44377079E4C5"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "284E2C42C50715D8"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["26A1B5CB9F3FF0C5"]
+			id: "6824D7EEF5AFA7DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D853A016DC1AE09"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BA1574A69D5CC33"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7FCB1E717BB21C19"]
+			id: "043BAD6AF04E869F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C8112FCBEB1EB13"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "491732BC9548EC90"
+				item: "botania:mana_powder"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1DD5CFE724C61942"]
+			id: "28474A766262498F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "778BDCAD39A90B77"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6285F399AEEFB3FC"
+				item: "botania:manaweave_cloth"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["28474A766262498F"]
+			description: [
+				"The Manaweave Armor is a set of armor added by Botania. It is made from Manaweave Cloth, which is made by infusing a piece of String with Mana in a Mana Pool. The set includes:"
+				"{@pagebreak}"
+				"Manaweave Cowl: This helmet can use Mana from a Mana Tablet or any other Mana providing item in the player's inventory to prevent item damage or repair itself, using 70 Mana per point of durability."
+				"{@pagebreak}"
+				"Manaweave Robe Top: This chestplate can use Mana from a Mana Tablet or any other Mana providing item in the player's inventory to prevent item damage or repair itself, using 70 Mana per point of durability."
+				"{@pagebreak}"
+				"Manaweave Robe Bottom: These leggings can use Mana from a Mana Tablet or any other Mana providing item in the player's inventory to prevent item damage or repair itself, using 70 Mana per point of durability."
+				"{@pagebreak}"
+				"Manaweave Boots: These boots can use Mana from a Mana Tablet or any other Mana providing item in the player's inventory to prevent item damage or repair itself, using 70 Mana per point of durability."
+				"{@pagebreak}"
+				"Both the Manaweave and Manasteel armor sets provide the Mana Affinity set bonus, decreasing the Mana cost on all Mana-using tools and rods by 10% when the player is wearing a complete set. Phantom Ink can be applied to any piece of these armor sets in the crafting grid to turn it invisible."
+			]
+			id: "5CBFCBBF7045756C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A6171E34F7F761F"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Manaweave Armor"
+			tasks: [
+				{
+					id: "531DE2697ADCC858"
+					item: {
+						Count: 1b
+						id: "botania:manaweave_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "095A1396B3B18D12"
+					item: {
+						Count: 1b
+						id: "botania:manaweave_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D438DE3BCBFF43D"
+					item: {
+						Count: 1b
+						id: "botania:manaweave_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7357594D11837E9B"
+					item: {
+						Count: 1b
+						id: "botania:manaweave_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Manaweave Set"
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1E86D402A5F9AF87"]
+			description: [
+				"The Manasteel Armor is a set of armor added by Botania. It is made from Manasteel Ingots, which are made by throwing an Iron Ingot into a Mana Pool. The set includes:"
+				"{@pagebreak}"
+				"Manasteel Helmet: This helmet can use Mana from a Mana Tablet or any other Mana providing item in the player's inventory to prevent item damage or repair itself, using 70 Mana per point of durability."
+				"{@pagebreak}"
+				"Manasteel Chestplate: This chestplate can use Mana from a Mana Tablet or any other Mana providing item in the player's inventory to prevent item damage or repair itself, using 70 Mana per point of durability."
+				"{@pagebreak}"
+				"Manasteel Leggings: These leggings can use Mana from a Mana Tablet or any other Mana providing item in the player's inventory to prevent item damage or repair itself, using 70 Mana per point of durability."
+				"{@pagebreak}"
+				"Manasteel Boots: These boots can use Mana from a Mana Tablet or any other Mana providing item in the player's inventory to prevent item damage or repair itself, using 70 Mana per point of durability."
+				"{@pagebreak}"
+				"Both the Manaweave and Manasteel armor sets provide the Mana Affinity set bonus, decreasing the Mana cost on all Mana-using tools and rods by 10% when the player is wearing a complete set. Phantom Ink can be applied to any piece of these armor sets in the crafting grid to turn it invisible."
+			]
+			id: "6DF773B07E327DB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EA8B39BE1208C71"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Manasteel Armor"
+			tasks: [
+				{
+					id: "4F3E745E48890F98"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EB21B7BDA1749D9"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65C49C26D8AAEDD5"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05397E78E60676DD"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Manasteel Set"
+			x: -3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["38C5E14A271C8F6C"]
+			id: "5F03712A09039C39"
+			tasks: [{
+				id: "422819396BAAAFCB"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["38C5E14A271C8F6C"]
+			id: "0F89A6C617E41345"
+			tasks: [{
+				id: "3A81B70593B686E4"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["38C5E14A271C8F6C"]
+			id: "34C9CF9AAC467604"
+			tasks: [{
+				id: "760094D4FFB1BF24"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["38C5E14A271C8F6C"]
+			id: "49A76323E5819FD4"
+			tasks: [{
+				id: "1A7182AA693EFD91"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["38C5E14A271C8F6C"]
+			id: "66C98F43B4BDBFF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1964B06BE63E272A"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1BD9D238FF4FDA6C"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["043BAD6AF04E869F"]
+			hide_dependency_lines: false
+			id: "38C5E14A271C8F6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0289D7A3D0215067"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "349665D1F4F3E711"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["6DF773B07E327DB2"]
+			id: "19FBA1498ACB85C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F97BCF3F26A9BBB"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "72A82240272A7592"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1975B457097E3B98"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_pick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69DE93314C4AC7ED"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B44A4FDE9F19999"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2598911F367332C8"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Manasteel Tools"
+			x: -3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["72103F9D8920DA41"]
+			description: ["The Mana Pylon is a block added by Botania. It is used to build the Mana Enchanter and the Natura and Gaia Pylons. If used in place of a Bookshelf near an Enchanting Table, it will boost the enchanting level by 16. This makes it a valuable asset for any player looking to enhance their enchanting capabilities."]
+			id: "3A111B45BC43B79C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1290E1F1CE73CD7D"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Enhancing Your Enchanting Table"
+			tasks: [{
+				id: "75AF8C5537C43476"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			title: "Mana Pylon - The Enchanting Booster"
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["193D68E8DC704002"]
+			description: [
+				"The Alchemy Catalyst is an upgrade for the Mana Pool in Botania. It expands the pool's functionality, allowing it to perform transmutations upon items thrown into it."
+				"{@pagebreak}"
+				"To install the catalyst, place it directly below a Mana Pool. The catalyst itself doesn't consume Mana, but the transmutations performed by the Mana Pool do."
+			]
+			id: "36D02B193B27C464"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D4C29369ED88F4D"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Upgrade for the Mana Pool"
+			tasks: [{
+				id: "54471D50F444E7D7"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			id: "2AA5B37A355F04B3"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F46B192666A95EE"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51E80FE198D3B006"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.5d
+		}
+		{
+			id: "13F0BA4911E83021"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B83A45A5D2F8DA4"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "20E1559BCD726EAD"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -11.5d
+		}
+		{
+			id: "7927B8C03EC83096"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CE7A3B9D93D5090"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C1EF347083AA5EA"
+				item: "botania:conjuration_catalyst"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -11.5d
+		}
+		{
+			id: "5DBBC7E4EFE18C1C"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21494F01F793D363"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "494C77BE209EC356"
+				item: "kubejs:manipulation_catalyst"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"0F89A6C617E41345"
+				"5F03712A09039C39"
+			]
+			hide_dependency_lines: true
+			id: "2BE627D0268D4DD5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "342A5E2659A40A67"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "779DCC1FB547AB98"
+				item: "botania:rune_spring"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"49A76323E5819FD4"
+				"34C9CF9AAC467604"
+			]
+			hide_dependency_lines: true
+			id: "38FE034E898D0FCA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1275ADD72FB06210"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38CBF33D52FD99AD"
+				item: "botania:rune_summer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"0F89A6C617E41345"
+				"49A76323E5819FD4"
+			]
+			hide_dependency_lines: true
+			id: "033DA2F02827E24F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "602A1A490E881CD8"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A18774472275541"
+				item: "botania:rune_autumn"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"5F03712A09039C39"
+				"34C9CF9AAC467604"
+			]
+			hide_dependency_lines: true
+			id: "5943EC841571C29A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F0D9CDDFA6FF5EC"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74A1025E22B4C884"
+				item: "botania:rune_winter"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["38FE034E898D0FCA"]
+			id: "3ECB798AD51A3C8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C72EF19E1BB96E8"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "668DC273A88CF3B4"
+				item: "botania:rune_lust"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["38FE034E898D0FCA"]
+			id: "63C4E5AD286B9FA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CF7EFB7462AFB87"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D94E435A69D2405"
+				item: "botania:rune_gluttony"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["38FE034E898D0FCA"]
+			id: "67F33511CACC51B3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "263BF65F4F2EEB7C"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1AF7DD0E56B6FCEB"
+				item: "botania:rune_greed"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["38FE034E898D0FCA"]
+			id: "5379C05443F670FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FD32387797DFB4D"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "30C49E4416C2867F"
+				item: "botania:rune_sloth"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["38FE034E898D0FCA"]
+			id: "2ABAE575024A8C57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AC53AAD1AA54711"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1CC07225E3E95071"
+				item: "botania:rune_wrath"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["38FE034E898D0FCA"]
+			id: "0238FBC2C6036202"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72974D7354419BBE"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "17DF0D8C6411E40A"
+				item: "botania:rune_envy"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["38FE034E898D0FCA"]
+			id: "0B2B0226E3532F55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E6E178332400755"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43F69AC2316338CD"
+				item: "botania:rune_pride"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"66C98F43B4BDBFF4"
+				"34C9CF9AAC467604"
+				"5F03712A09039C39"
+				"0F89A6C617E41345"
+				"49A76323E5819FD4"
+			]
+			id: "79B5BEC1A0C3626B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BB075D29651F92F"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "097E53E442B73888"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["33CF1092F40EAB8E"]
+			id: "439171E64D5CC5CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E9266F279A0308A"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "378DD1F68E08B60B"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26A1B5CB9F3FF0C5"]
+			id: "1187AEEA92CF9012"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4703CBDBAFE56109"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69B82C573D8C96E9"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["26A1B5CB9F3FF0C5"]
+			description: ["The Wand of the Forest is a multi-purpose tool for any botanist. It allows you to rotate Mana Spreaders, view their burst paths, check the Mana stored in a Mana Pool, and bind generating or functional flora to nearby Mana Pools or Spreaders. It's also used to activate or check the progress of a Botanical Brewery or Runic Altar. The Wand's mode can be toggled between Function Mode and Bind Mode by shift right-clicking."]
+			id: "2D5465E8DCB36439"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16A312A46CA4E128"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "The Botanist's Best Friend"
+			tasks: [{
+				id: "2F7C739BA49FD7F1"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Wand of the Forest"
+			x: 1.5d
+			y: -7.0d
+		}
+	]
+	title: "Botanic Beginnings"
+}

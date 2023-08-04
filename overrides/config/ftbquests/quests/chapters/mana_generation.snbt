@@ -1,0 +1,244 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mana_generation"
+	group: "538B76C83C2DCCF4"
+	icon: "botania:endoflame"
+	id: "7356FFFCE6BF381D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["33CF1092F40EAB8E"]
+			description: [
+				"The Endoflame is a generating flower that serves as a basic means of producing Mana. It consumes any fuel dropped within a 7x7x7 area around it, producing 3 Mana every 2 ticks for half of the fuel's burn time. "
+				"{@pagebreak}"
+				"For instance, Charcoal, which burns for 800 ticks (40 seconds), will produce 1200 Mana. The Endoflame can store 300 Mana internally and can be bound to a Mana Spreader within 6 blocks to transfer its Mana."
+			]
+			icon: "botania:endoflame"
+			id: "4D63818F6FAF665D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BF42E9891AF066D"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Fuel Your Mana Production"
+			tasks: [
+				{
+					id: "222E39C179C30109"
+					item: "botania:endoflame"
+					type: "item"
+				}
+				{
+					id: "0183574AED5269B4"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			title: "Embrace the Endoflame"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E261C77DD7FD4DE"]
+			icon: "botania:kekimurus"
+			id: "3A8E1B365AA60299"
+			tasks: [{
+				id: "61EBA4662A683419"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["30A37EE1B56A8D86"]
+			icon: "botania:munchdew"
+			id: "7E261C77DD7FD4DE"
+			tasks: [{
+				id: "53F1EDFB9701C34B"
+				item: "botania:munchdew"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4D63818F6FAF665D"]
+			icon: "botania:thermalily"
+			id: "21B5F16E02C5B537"
+			tasks: [
+				{
+					id: "33277B4DCB29175C"
+					item: "botania:thermalily"
+					type: "item"
+				}
+				{
+					amount: 1000L
+					fluid: "minecraft:lava"
+					id: "711825A547D1F445"
+					type: "fluid"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D63818F6FAF665D"]
+			icon: "botania:hydroangeas"
+			id: "6C4D8AD325372C0D"
+			tasks: [
+				{
+					id: "79D263500EF73BD1"
+					item: "botania:hydroangeas"
+					type: "item"
+				}
+				{
+					amount: 1000L
+					fluid: "minecraft:water"
+					id: "7F7B8CEE2B67D0D5"
+					type: "fluid"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21B5F16E02C5B537"]
+			icon: "botania:gourmaryllis"
+			id: "61F0B441A8486CC2"
+			tasks: [
+				{
+					id: "35AD2A6BA588EC9C"
+					item: "botania:gourmaryllis"
+					type: "item"
+				}
+				{
+					id: "15B92030F1E1F7CC"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:nutrients/carbs"
+						}
+					}
+					title: "Any food item"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A8E1B365AA60299"]
+			icon: "botania:entropinnyum"
+			id: "52A706068330BDDA"
+			tasks: [{
+				id: "5C68B47F5C9F837B"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["61F0B441A8486CC2"]
+			description: [
+				"{image:minecraft:textures/entity_icon/slime/slime.png width:100 height:100 align:1}"
+				"Generates mana from naturally spawned slimes"
+			]
+			icon: "botania:narslimmus"
+			id: "4C36592153D231D2"
+			tasks: [{
+				id: "349803FCE29A7399"
+				item: "botania:narslimmus"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["52A706068330BDDA"]
+			icon: "botania:shulk_me_not"
+			id: "16171EC8123D10E7"
+			tasks: [{
+				id: "3B61B159AA31F510"
+				item: "botania:shulk_me_not"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4C36592153D231D2"]
+			icon: "botania:spectrolus"
+			id: "1C5318F65BE46AA7"
+			tasks: [
+				{
+					id: "557D5E921FEB9349"
+					item: "botania:spectrolus"
+					type: "item"
+				}
+				{
+					id: "7858413BDF465789"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:wool"
+						}
+					}
+					title: "Any colored wool"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6C4D8AD325372C0D"]
+			icon: "botania:rosa_arcana"
+			id: "30A37EE1B56A8D86"
+			tasks: [{
+				id: "36A03BFD7DCEB9B6"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C5318F65BE46AA7"]
+			icon: "botania:rafflowsia"
+			id: "29E1F33BD35F920C"
+			tasks: [{
+				id: "7C693371C6CB734D"
+				item: "botania:rafflowsia"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["29E1F33BD35F920C"]
+			icon: "botania:dandelifeon"
+			id: "7C01BACF5D38DCD5"
+			tasks: [
+				{
+					id: "477C23890EFCFA1B"
+					item: "botania:dandelifeon"
+					type: "item"
+				}
+				{
+					id: "1B95E5F6F0A9B19B"
+					item: "botania:cell_block"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.0d
+		}
+	]
+	title: "Mana Generation"
+}

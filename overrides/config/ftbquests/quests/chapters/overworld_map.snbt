@@ -1,0 +1,379 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld_map"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "supplementaries:globe_sepia"
+	id: "15C9EB11DC06B3E9"
+	order_index: 0
+	quest_links: [
+		{
+			id: "54441A7472AB2689"
+			linked_quest: "340D3641BD8DBEC0"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			id: "749315E271494441"
+			linked_quest: "4A8346E6F23A36E4"
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "4511032315E588F8"
+			linked_quest: "43DA4F9913006AFA"
+			title: "Putting the realms in Rift Realms."
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "74EDBB4A25BDE8F2"
+			linked_quest: "3492D1F41F3D554E"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "598508B3D85C0866"
+			linked_quest: "07F4B38E5B28E75A"
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	quests: [
+		{
+			description: [
+				"The goal of Rift Realms was to create a modpack that balanced the high-level quality of small-scale mods with the never-ending options of large modpacks. Like all things, it is a compromise, but I think you'll quite like what we have in store for you."
+				"{@pagebreak}"
+				"But that's enough introduction for now, let's dive in! This modpack is designed to be self-contained, enabling you to learn all you need via the quest book or supplied guides when necessary."
+			]
+			icon: "kubejs:ars_portal_icon"
+			id: "3C7C4D63DC0DBDFF"
+			rewards: [
+				{
+					count: 2
+					id: "592BB892D0093D83"
+					item: "minecraft:bundle"
+					type: "item"
+				}
+				{
+					id: "645D76A6093C85F9"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25F1CEC0FC72BE23"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "658D4091997A08F5"
+					item: "buzzier_bees:honey_bread"
+					type: "item"
+				}
+			]
+			subtitle: "Welcome to Rift Realms! Let's get you started on your journey."
+			tasks: [{
+				id: "4318265F4F524CEC"
+				title: "Welcome to Rift Realms!"
+				type: "checkmark"
+			}]
+			title: "Welcome to Rift Realms!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "775E0BF915682497"
+			invisible: true
+			tasks: [{
+				icon: "minecolonies:blockhuttownhall"
+				id: "35CE7C5137C59192"
+				observe_type: 0
+				timer: 0L
+				title: "Locate an Abandoned Town Hall in a Minecolony"
+				to_observe: "minecolonies:blockhuttownhall"
+				type: "observation"
+			}]
+			title: "Minecolonies"
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C7C4D63DC0DBDFF"]
+			description: [
+				"This modpack is expansive, offering a variety of blocks, mobs, and items. If you're new to modded Minecraft, your best tool is JEI (Just Enough Items)."
+				"{@pagebreak}"
+				"When you open your inventory, JEI displays a list of items on the right. You can click on any item to view its recipe."
+				"You can search for specific items or mods by using the search function and prefixing with \"@\" for mod names."
+				""
+				"JEI allows you to bookmark items with \"a\", see an item's uses with \"u\", and view an item's recipe with \"r\"."
+			]
+			icon: "botania:cosmetic_googly_eyes"
+			id: "68B0762B505663A8"
+			rewards: [{
+				id: "106C2FE8BFDCABE0"
+				item: "botania:cosmetic_googly_eyes"
+				type: "item"
+			}]
+			subtitle: "How you will know what is what."
+			tasks: [{
+				id: "79526A1B75169BBE"
+				title: "Use Just Enough Items (JEI)."
+				type: "checkmark"
+			}]
+			title: "Your best friend, Just Enough Items (JEI)."
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C7C4D63DC0DBDFF"]
+			description: [
+				"Welcome, adventurer! You've just stepped into a world teeming with new creatures, thanks to Alex's Mobs. This mod introduces a plethora of unique, beautifully designed mobs that bring a whole new level of excitement to your Minecraft experience."
+				"{@pagebreak}"
+				"From the peaceful Gazelle to the terrifying Bone Serpent, each creature has its own behaviors, habitats, and drops. Are you ready to explore the wild and meet these new inhabitants?"
+				"{@pagebreak}"
+				"Remember, each creature has its own unique characteristics and behaviors. Some may be friendly, while others may pose a threat. Be prepared, and happy exploring!"
+			]
+			icon: {
+				Count: 1b
+				id: "twilightforest:moonworm_queen"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5517C19163401CD8"
+			rewards: [{
+				id: "2242AC1456028AC7"
+				item: "alexsmobs:animal_dictionary"
+				type: "item"
+			}]
+			subtitle: "Diverse Creatures, Unseen Adventure"
+			tasks: [{
+				id: "36D9871B6786BBF8"
+				title: "Encounter the animals of the wild."
+				type: "checkmark"
+			}]
+			title: "Alex's Mobs"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FB46CA0102F7712"]
+			description: [
+				"Progression is crucial in this modpack, divided into two main categories: technology and magic. Magic taps into the power of living entities like animals and plants, while technology harnesses the energy of inanimate objects like rocks, minerals, and gems. "
+				"{@pagebreak}"
+				"These paths are designed to intertwine, making your journey smoother if you explore both. However, they can also be pursued independently. It's your task to identify the connections and bridge the gaps to unlock their true power."
+			]
+			icon: "minecraft:furnace"
+			id: "74B042FDF5A54A4A"
+			subtitle: "The core of the pack."
+			tasks: [{
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+				icon: "minecraft:iron_ingot"
+				id: "7D86A274E1CCEF1F"
+				type: "advancement"
+			}]
+			title: "Progression."
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			id: "61B083E85CB5904F"
+			invisible: true
+			tasks: [{
+				id: "32E09346C0B1733F"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			id: "5AD9793D0BE23E27"
+			invisible: true
+			tasks: [{
+				id: "51D306BFB3B7F43C"
+				item: "riftrealmscore:true_archwood"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["61B083E85CB5904F"]
+			id: "58D9280CF823AB11"
+			tasks: [{
+				id: "6699FB986A299443"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5AD9793D0BE23E27"]
+			id: "3BE4AD3B5BF2004A"
+			tasks: [{
+				id: "1F362678C7172802"
+				item: "kubejs:terra_heart"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3C7C4D63DC0DBDFF"]
+			description: [
+				""
+				"This modpack was built on an ethos of seven key rules. If you are interested in the rules that will guide your experience, please feel free to take a look."
+				"{@pagebreak}"
+				"1 Game Stages and Goals: The game ought to be divided into expansive, impactful stages, each harboring vast opportunities for horizontal progression towards an end goal for the chapter. The attainment of this goal should necessitate a degree of automation - a triumph not easily within reach but rendered more attainable through consistent horizontal advancement. "
+				"{@pagebreak}"
+				"2 No Repetition, New Approach for Each Stage: Each chapter should hold significance, unlocking access to a novel dimension or technology type, and should nullify the need for repetitious tasks. Each stage ought to introduce a unique approach to problem-solving."
+				"{@pagebreak}"
+				"3 Significance of Automation: Automation should remain a pertinent element throughout the game, devoid of the threat of redundancy through the introduction of superior technologies. Players should feel confident about automation without the looming fear of it being replaced by a simpler, superior solution."
+				"{@pagebreak}"
+				"4 V-Shaped Progression (Technology \\& Magic): The trajectory of technological progression in this modpack should resemble a V-shape, bisected into two distinct pathways - technology and magic. These paths should maintain their autonomy, each adhering to a linear structure, yet provide opportunities for branching and interaction, thereby amalgamating elements of technology with magic."
+				"{@pagebreak}"
+				"5 Dual Axes for Progression (Technological \\& Player): The game should foster progression along two axes - technology and player. Technological progression propels the player up the tiers, while player progression rewards the player with enticing trinkets, weapons, armor, and enchantments."
+				"{@pagebreak}"
+				"6 Balance in Player Progression: The balance is key in player progression; the more powerful an item, the farther it should diverge from the core automation path of the V. The player should not gain very powerful toys merely through automation and linear progression. "
+				"{@pagebreak}"
+				"7 Scaling \\& Stratification in Progression: There should be a noticeable scaling and stratification in player progression, where new dimensions introduce threats of higher levels, and loot organization presents intriguing decisions about what to keep and what to leave behind, especially regarding weapons and curios. The thrill and reward of player progression should always be potent and enjoyable, yet balanced and thoughtful."
+			]
+			id: "7FB46CA0102F7712"
+			rewards: [{
+				count: 32
+				id: "23F58A42189EC167"
+				item: "ars_nouveau:greater_experience_gem"
+				type: "item"
+			}]
+			subtitle: "What should I expect?"
+			tasks: [{
+				id: "01EB80DA523A8786"
+				title: "Get it ?"
+				type: "checkmark"
+			}]
+			title: "The modpack experience"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "26B0B9754F5617C5"
+			invisible: true
+			tasks: [{
+				id: "206C9EC1B5DFA9B9"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "3748E0558CB97A70"
+			invisible: true
+			tasks: [{
+				id: "0DECC528BCA80A72"
+				item: "nightlights:octopus_pink"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FB46CA0102F7712"]
+			icon: "ars_nouveau:starbuncle_shades"
+			id: "3B4BB91CEEDC0587"
+			subtitle: "Comming Soon !!!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "cnb:cinder_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2E71F29B9722DB21"
+				title: "Spoliers"
+				type: "custom"
+			}]
+			title: "Player Progression "
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3C7C4D63DC0DBDFF"]
+			description: ["You've landed in a world teeming with over 200 structures and dungeons, spread across more than 100 diverse biomes. Each area is ripe for exploration and discovery. Do you have what it takes to uncover them all?"]
+			icon: "supplementaries:globe"
+			id: "7BC221A49C1814AD"
+			rewards: [{
+				id: "5A09CD52EE7B6DC5"
+				item: "minecraft:map"
+				type: "item"
+			}]
+			subtitle: "One of many."
+			tasks: [{
+				id: "502CEAF3D45A6675"
+				title: "Begin"
+				type: "checkmark"
+			}]
+			title: "The world"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "63DF2E67B6E15B38"
+			invisible: true
+			subtitle: "What pretty trees."
+			tasks: [{
+				id: "143761AFF6560461"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			title: "Biomes of the world"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7BC221A49C1814AD"]
+			description: [
+				""
+				"As you explore, more entries will become available, so be sure to check back often."
+			]
+			hide_dependent_lines: true
+			icon: "twilightforest:lich_tower_miniature_structure"
+			id: "41A56ED3D7D49E9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BC2D73707269A46"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Castles and dungeons, oh my!"
+			tasks: [{
+				id: "0EA1B9604B25DC7D"
+				type: "checkmark"
+			}]
+			title: "Structures of the world"
+			x: -2.5d
+			y: 4.5d
+		}
+	]
+	title: "Overworld Map"
+}

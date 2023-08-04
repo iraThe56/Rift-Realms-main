@@ -1,0 +1,9 @@
+{
+  "is_color_randomizer_trade": true,
+  "randomizes": [
+    {
+      "id": "#ae2:covered_cable",
+      "required": false
+    }
+  ]
+}

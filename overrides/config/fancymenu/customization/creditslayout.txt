@@ -1,0 +1,541 @@
+type = menu
+
+customization-meta {
+  identifier = credits
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 + 30","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 2 - 50","decimal":"true"}}
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 7fe039bd-0925-4390-9e81-b05491e656321690242918621
+  playername = ItsMeCryptic
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/4d894aca492080a4ac3a2d69641e4facb72b54769a53438f970de2216a4dbbe4
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - 30","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 2 - 50","decimal":"true"}}
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 04496cec-8a02-499b-a11d-7a93f23e378f1690242923958
+  playername = Ira_The_56
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/98a28373434aeed8d6e3dcc0630e801464ee3194c0a4715a782ed16944187861
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  slim = false
+  auto_skin = false
+  scale = 30
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 ","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 2 + 50","decimal":"true"}}
+  showname = true
+  follow_mouse = true
+  capeurl = http://textures.minecraft.net/texture/2340c0e03dd24a11b15a8b33c2a7e9e32abb2051b2481d0ba7defd635ca7a933
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = c8700434-7be4-4567-bb34-f518f7b731a61690242928933
+  playername = ItsMeCryptic
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/4d894aca492080a4ac3a2d69641e4facb72b54769a53438f970de2216a4dbbe4
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Modpack%n%Owner
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 - 30 -21","decimal":"true"}}
+  text_border = 0
+  case_mode = normal
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 2 - 90","decimal":"true"}}
+  source_mode = direct
+  line_spacing = 1
+  x = 0
+  width = 60
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 5ccb522c-f409-4a33-b5ed-80a72da0d46d1690243617193
+  y = 0
+  alignment = centered
+  base_color = #CADD41
+  height = 23
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Lead Pack%n%Developer
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2 + 30 -21","decimal":"true"}}
+  text_border = 0
+  case_mode = normal
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 2 - 90","decimal":"true"}}
+  source_mode = direct
+  line_spacing = 1
+  x = 0
+  width = 60
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0c7f4358-c4c4-4a76-870f-af89410c08341690244356312
+  y = 0
+  alignment = centered
+  base_color = #CADD41
+  height = 23
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = 30
+  advanced_posy = 50
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 94c1c579-52ed-42fe-8874-e0b26f96a4ec1690244585004
+  playername = Squishy_Leaf
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/705b09ad0f74120fb71dd946318ad062967e29c2b000793728164fd3e7b688c1
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = 90
+  advanced_posy = 50
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = c9690d75-743c-4288-bafc-59f7f66f4e321690244689428
+  playername = Tammuuuuuu
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/659ad32e1a25ca87cf3573e9d7afc5b43b525504d2a77990e1809644d5106c3f
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Beta%n%Testers
+  advanced_posx = 68
+  text_border = 0
+  case_mode = normal
+  advanced_posy = 10
+  source_mode = direct
+  line_spacing = 1
+  x = 0
+  width = 60
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = acdefe84-fa00-49c0-a42e-4344648a838a1690244777978
+  y = 0
+  alignment = centered
+  base_color = #D58181
+  height = 23
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = 30
+  advanced_posy = 120
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 48a25e54-0a88-4661-8df9-47664ab0f56f1690245013614
+  playername = b3rd
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/9d2e8530ce1ab84db64b9156335ee648c949af4e2fbabfdea973c27f83f0a5c1
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = 30
+  advanced_posy = 190
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = d4271535-2675-4c32-b390-c6857978afa41690245069012
+  playername = BoofyTheAlmighty
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/4516a4788303355fcfefe5eb00ae0057aedd27cdfb5504310e3305e59303dbbb
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = 90
+  advanced_posy = 260
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 3e1c14c0-eb5e-4cbe-a723-c74906ce1cec1690245081481
+  playername = Gryphonclaw
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/74f50d32eb7f2551bf00230a25ec9512f994f937e8c64b441cdc8869f46f25a8
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = 90
+  advanced_posy = 120
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 942932e0-e1fc-42df-a35b-cfda0ac69bdc1690245095428
+  playername = VoodooTortoise
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/f71cf123a6aa0e0262608f3f9f86c546e818060061434f5bb41cbaf5a5b42d31
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = 90
+  advanced_posy = 190
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 59f7a819-de29-41d1-9624-0731a16df86d1690245334919
+  playername = Sniiipe
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/ca7826694020a57ca80e1992a004a458ff5b8474a6139cc46d5519f98552aa1b
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = 30
+  advanced_posy = 260
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = dccd4c65-3ea3-4688-b4bf-e850b76059ba1690245345394
+  playername = TofuPlays
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/a2760b27b5477c15423f7f89299805da12acc940ab55129ac0172f88ca60dddb
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = 150
+  advanced_posy = 50
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 58e48355-886f-4d81-a36a-656954b690bf1690245483232
+  playername = I_Eat_Fort_Zuh
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/b313b3a105c496a006189359d3226848b037a319ff93543268db57757c77315c
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = 150
+  advanced_posy = 120
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 9efb2689-0d37-4c80-9202-870f05988bf01690245526882
+  playername = bennyboop32
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/bd62753f4eea56ca466102905169686d94f186c5def30825c07524dd449712c4
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = 150
+  advanced_posy = 190
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 3ffa98fd-c3dc-4a91-84a3-fe57474c03331690245535206
+  playername = emzy11111
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/195368b4d8610fa2367cf3390ff57871dd4231411bd58b95b78989ec0ce04c45
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  slim = false
+  auto_skin = true
+  scale = 30
+  advanced_posx = 150
+  advanced_posy = 260
+  showname = true
+  follow_mouse = true
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 1275537a-1521-4d3a-b84d-d82e1ad438e21690245544028
+  playername = SleepyBanana_
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = top-left
+  copy_client_player = false
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/d60aca3a7dadfdc045865c8e66e1844aef7408b65ee33fd6f96062a237cfb017
+  crouching = false
+  x = 0
+  width = 18
+  parrot_left_shoulder = false
+  y = 0
+  parrot = false
+}
+
+customization {
+  advanced_height = 15
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = YOU
+  advanced_posx = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiwidth"} / 2","decimal":"true"}}
+  text_border = 0
+  case_mode = normal
+  advanced_width = 20
+  advanced_posy = {"placeholder":"calc","values":{"expression":"{"placeholder":"guiheight"} / 2 + 20","decimal":"true"}}
+  source_mode = direct
+  line_spacing = 1
+  x = 0
+  width = 20
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 745e1042-197b-42eb-bd7b-364f0c87ceb41690245709488
+  y = 0
+  alignment = centered
+  base_color = #D58181
+  height = 15
+}
+

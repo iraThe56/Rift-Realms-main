@@ -1,0 +1,9 @@
+{
+  "is_color_randomizer_trade": true,
+  "randomizes": [
+    {
+      "id": "#the_bumblezone:bee_queen_randomize_trades/concrete_powder_trades",
+      "required": true
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "wants" : [
+    {
+      "id": "minecraft:sweet_berries",
+      "required": true
+    },
+    {
+      "id": "minecraft:glow_berries",
+      "required": true
+    },
+    {
+      "id": "windswept:holly_berries",
+      "required": false
+    },
+    {
+      "id": "windswept:wild_berries",
+      "required": false
+    },
+    {
+      "id": "fruittrees:cherry",
+      "required": false
+    },
+    {
+      "id": "naturalized:cloudberry",
+      "required": false
+    },
+    {
+      "id": "promenade:blueberries",
+      "required": false
+    },
+    {
+      "id": "forbidden_arcanus:cherry_peach",
+      "required": false
+    },
+    {
+      "id": "blue_skies:cherry",
+      "required": false
+    },
+    {
+      "id": "blue_skies:brewberry",
+      "required": false
+    },
+    {
+      "id": "blue_skies:pink_brewberry",
+      "required": false
+    },
+    {
+      "id": "blue_skies:black_brewberry",
+      "required": false
+    },
+    {
+      "id": "undergarden:blisterberry",
+      "required": false
+    },
+    {
+      "id": "ars_nouveau:source_berry",
+      "required": false
+    },
+    {
+      "id": "ferdinandsflowers:cranberry",
+      "required": false
+    },
+    {
+      "id": "oaks_nature:blue_berry",
+      "required": false
+    },
+    {
+      "id": "twilight_forest:torchberries",
+      "required": false
+    },
+    {
+      "id": "byg:blueberries",
+      "required": false
+    },
+    {
+      "id": "nature_expansion:sloeberries",
+      "required": false
+    },
+    {
+      "id": "bewitchment:witchberry",
+      "required": false
+    },
+    {
+      "id": "paradise_lost:blue_berry",
+      "required": false
+    },
+    {
+      "id": "paradise_lost:blackcurrant",
+      "required": false
+    },
+    {
+      "id": "archon:mana_berries",
+      "required": false
+    },
+    {
+      "id": "vinery:cherry",
+      "required": false
+    },
+    {
+      "id": "croptopia:blackberry",
+      "required": false
+    },
+    {
+      "id": "croptopia:blueberry",
+      "required": false
+    },
+    {
+      "id": "croptopia:cranberry",
+      "required": false
+    },
+    {
+      "id": "croptopia:elderberry",
+      "required": false
+    },
+    {
+      "id": "croptopia:raspberry",
+      "required": false
+    },
+    {
+      "id": "croptopia:strawberry",
+      "required": false
+    },
+    {
+      "id": "croptopia:cherry",
+      "required": false
+    },
+    {
+      "id": "rootsclassic:elderberry",
+      "required": false
+    },
+    {
+      "id": "caupona:wolfberries",
+      "required": false
+    },
+    {
+      "id": "delightful:salmonberries",
+      "required": false
+    },
+    {
+      "id": "wildberries:blueberries",
+      "required": false
+    },
+    {
+      "id": "wildberries:raspberry",
+      "required": false
+    },
+    {
+      "id": "wildberries:blackberry",
+      "required": false
+    },
+    {
+      "id": "wildberries:cranberries",
+      "required": false
+    },
+    {
+      "id": "moreberries:blue_berries",
+      "required": false
+    },
+    {
+      "id": "moreberries:yellow_berries",
+      "required": false
+    },
+    {
+      "id": "moreberries:orange_berries",
+      "required": false
+    },
+    {
+      "id": "moreberries:purple_berries",
+      "required": false
+    },
+    {
+      "id": "moreberries:green_berries",
+      "required": false
+    },
+    {
+      "id": "moreberries:black_berries",
+      "required": false
+    },
+    {
+      "id": "meadow:bag_of_juniper",
+      "required": false
+    },
+    {
+      "id": "environmental:cherries",
+      "required": false
+    },
+    {
+      "id": "upgrade_aquatic:mulberry",
+      "required": false
+    },
+    {
+      "id": "neapolitan:strawberries",
+      "required": false
+    },
+    {
+      "id": "neapolitan:white_strawberries",
+      "required": false
+    },
+    {
+      "id": "autumnity:foul_berries",
+      "required": false
+    },
+    {
+      "id": "minestuck:strawberry",
+      "required": false
+    },
+    {
+      "id": "minestuck:strawberry_chunk",
+      "required": false
+    },
+    {
+      "id": "ecotones:blueberries",
+      "required": false
+    }
+  ],
+  "possible_rewards": [
+    {
+      "id": "minecraft:melon_slice",
+      "count": 2,
+      "xp_reward": 1,
+      "weight": 10,
+      "required": true
+    },
+    {
+      "id": "minecraft:cookie",
+      "count": 3,
+      "xp_reward": 1,
+      "weight": 5,
+      "required": true
+    },
+    {
+      "id": "minecraft:apple",
+      "count": 2,
+      "xp_reward": 1,
+      "weight": 3,
+      "required": true
+    },
+    {
+      "id": "minecraft:pumpkin_pie",
+      "count": 1,
+      "xp_reward": 1,
+      "weight": 1,
+      "required": true
+    },
+    {
+      "id": "minecraft:rabbit_stew",
+      "count": 1,
+      "xp_reward": 1,
+      "weight": 1,
+      "required": true
+    }
+  ]
+}

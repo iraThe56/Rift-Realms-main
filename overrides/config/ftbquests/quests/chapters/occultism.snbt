@@ -1,0 +1,710 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "pentagon"
+	filename: "occultism"
+	group: "538B76C83C2DCCF4"
+	icon: "occultism:ritual_dummy/custom_ritual"
+	id: "4BC52A31B26C4B9D"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["38125C5CC6390E7F"]
+			icon: "occultism:spirit_fire"
+			id: "4ABC24AC8FBEDCE9"
+			subtitle: "Throwing offerings into the spirit fire will return gifts."
+			tasks: [
+				{
+					id: "3AE62C442536912C"
+					item: "occultism:datura"
+					type: "item"
+				}
+				{
+					id: "3D2C79858F889D95"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: "occultism:spirit_fire"
+					id: "70AC8272A7B20A8F"
+					observe_type: 0
+					timer: 0L
+					to_observe: "ocultism:spirit_fire"
+					type: "observation"
+				}
+			]
+			title: "Spirit Fire"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "6CE92BC80D16ADE8"
+			tasks: [{
+				icon: "minecraft:sculk_catalyst"
+				id: "1F77158700257900"
+				structure: "#minecraft:ancient_city"
+				type: "structure"
+			}]
+			title: "Locate the city lost to time."
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6CE92BC80D16ADE8"]
+			id: "340C98E2629D34B4"
+			tasks: [
+				{
+					id: "44DA43BD1E618953"
+					item: "quark:ancient_sapling"
+					type: "item"
+				}
+				{
+					id: "4D3EBE61B49A5A16"
+					item: "quark:ancient_fruit"
+					type: "item"
+				}
+			]
+			title: "Find the tree that has not seen light in a thousand years."
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "060B3566C399DA79"
+			tasks: [
+				{
+					id: "5E84CBFB22BE78DC"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "65ADA8E10D69CFBD"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "6CEDE2C943118364"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "4A54C5DE09DEBF91"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "62984ADDDDA2B00D"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "6933C7B21EA9083C"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					id: "31D269DD11B84EDD"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "01A8EB0726046012"
+			tasks: [{
+				id: "292141AE3EE9808B"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "056487D98F8AF60F"
+			tasks: [{
+				id: "1C7C2B76E310B38A"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "413CD13BDEB5A58A"
+			tasks: [{
+				id: "077A830147316FB2"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["060B3566C399DA79"]
+			id: "654B7763E32F3829"
+			tasks: [{
+				icon: "kubejs:arcane_powder"
+				id: "4757995E0BF0EBA0"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["060B3566C399DA79"]
+			id: "4F5E074DB6E95C72"
+			tasks: [{
+				id: "2E4918561FEC3BCA"
+				item: "kubejs:air_essence_bucket"
+				type: "item"
+			}]
+			title: "Ether"
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "16ACB322544094E1"
+			tasks: [{
+				id: "156D61F7A5B1CAF2"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "29D0497D396992C2"
+			tasks: [{
+				id: "3674AF355103DA98"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["340C98E2629D34B4"]
+			id: "6B8D7A707F8562F6"
+			tasks: [
+				{
+					id: "2758C08D1E9F7041"
+					item: "botania:dreamwood_twig"
+					type: "item"
+				}
+				{
+					id: "655FD35C6255F806"
+					item: "kubejs:arcane_powder"
+					type: "item"
+				}
+				{
+					id: "18B367E562B01B16"
+					item: "hexerei:mindful_trance_blend"
+					type: "item"
+				}
+			]
+			title: "Imbue it with dreams, trances, and otherworldly magic."
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B8D7A707F8562F6"]
+			id: "38125C5CC6390E7F"
+			size: 1.5d
+			tasks: [{
+				icon: "occultism:datura"
+				id: "56206907E5C40DB0"
+				title: "Eat the demon's dream."
+				type: "custom"
+			}]
+			title: "Now dream the demon's dream."
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4ABC24AC8FBEDCE9"]
+			id: "3CFD0BF7D4F81F68"
+			tasks: [
+				{
+					id: "78D294C1F98CEA47"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+				{
+					id: "14E579AC1EFD8887"
+					item: "occultism:burnt_otherstone"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4ABC24AC8FBEDCE9"]
+			id: "0BBA10BE1BCCD897"
+			tasks: [{
+				id: "176F330A181B08BF"
+				item: "occultism:spirit_attuned_gem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4ABC24AC8FBEDCE9"]
+			id: "314B1AE9AFE144A3"
+			tasks: [{
+				id: "3FBB32A2E5EB1ED8"
+				item: "occultism:purified_ink"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0BBA10BE1BCCD897"]
+			id: "23E753B9E17C5119"
+			subtitle: "Right-clicking certain blocks, such as Andersite, Wood and Netherac, will lead you to their occult counterparts."
+			tasks: [{
+				id: "4644BE6B72072A94"
+				item: {
+					Count: 1b
+					id: "occultism:divination_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23E753B9E17C5119"]
+			id: "14C92C609B98F8C0"
+			size: 1.5d
+			subtitle: "Find a grove hidden in a world beyond our own and dance the demon's dream to gather occult materials."
+			tasks: [{
+				id: "5161ED37A285C503"
+				item: {
+					Count: 1b
+					id: "occultism:otherworld_sapling_natural"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Hidden grove"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["14C92C609B98F8C0"]
+			id: "69C4DD3D30B41960"
+			subtitle: "Throw other wood into the fire to gain its ashes."
+			tasks: [
+				{
+					id: "0CB44203256CE4A0"
+					item: "occultism:otherworld_log"
+					type: "item"
+				}
+				{
+					id: "465DD1522ABCF64F"
+					item: "occultism:otherworld_ashes"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"3CFD0BF7D4F81F68"
+				"69C4DD3D30B41960"
+			]
+			id: "6E61E27A45866157"
+			subtitle: "Purify the chalk in otherworldly fire."
+			tasks: [
+				{
+					id: "0AAC989AA31D052D"
+					item: "occultism:chalk_white_impure"
+					type: "item"
+				}
+				{
+					id: "3518E0F20F5F34E2"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_white"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["314B1AE9AFE144A3"]
+			id: "08F50CBA7BDC01AE"
+			tasks: [
+				{
+					id: "559A75DC9E2CFE97"
+					item: "occultism:book_of_binding_foliot"
+					type: "item"
+				}
+				{
+					id: "0C0A4963B0194AFE"
+					item: {
+						Count: 1b
+						id: "occultism:book_of_binding_bound_foliot"
+						tag: {
+							spiritName: "Brynclokyn"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4ABC24AC8FBEDCE9"]
+			id: "4D017A301A441BD5"
+			tasks: [
+				{
+					id: "7EF67A1B00F70B25"
+					item: "occultism:tallow"
+					type: "item"
+				}
+				{
+					id: "5732D23A0617959B"
+					item: "hexerei:tallow_bottle"
+					type: "item"
+				}
+				{
+					id: "45BF243C707D3346"
+					item: "hexerei:animal_fat"
+					type: "item"
+				}
+				{
+					id: "2CA4BE2F8677CD5F"
+					item: "delightful:animal_fat"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["33C33EE7B577096F"]
+			id: "47EF1E2BA1C18E77"
+			tasks: [{
+				id: "48F17D53F5756A4A"
+				item: "hexerei:candle"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["47EF1E2BA1C18E77"]
+			id: "6528E06B9A442D66"
+			tasks: [{
+				id: "23A93736888B5A88"
+				item: "occultism:candle_white"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4D017A301A441BD5"]
+			id: "33C33EE7B577096F"
+			tasks: [{
+				id: "0F7CE0FD6DCA13CC"
+				item: "hexerei:candle_dipper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3CFD0BF7D4F81F68"]
+			id: "37AE89FDD4EEF532"
+			tasks: [
+				{
+					id: "31ECF1A974B2172D"
+					item: "occultism:sacrificial_bowl"
+					type: "item"
+				}
+				{
+					id: "743852EA268986E8"
+					item: "occultism:golden_sacrificial_bowl"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"6528E06B9A442D66"
+				"6E61E27A45866157"
+				"08F50CBA7BDC01AE"
+				"37AE89FDD4EEF532"
+			]
+			id: "2D035F98F6F6C176"
+			tasks: [
+				{
+					id: "0327A65778E6EC78"
+					item: "occultism:ritual_dummy/summon_foliot_crusher"
+					type: "item"
+				}
+				{
+					id: "3625A4FDAF4A9B7B"
+					item: "thermal:gold_dust"
+					type: "item"
+				}
+			]
+			title: "Aviar's Circle"
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["47EF1E2BA1C18E77"]
+			id: "36251BA1AE222829"
+			tasks: [{
+				id: "6BD8E98ACFF901C8"
+				item: {
+					Count: 1b
+					id: "hexerei:candle"
+					tag: {
+						effect: "minecraft:speed"
+						effectParticle: {
+							particle0: "minecraft:effect"
+							particle1: "minecraft:smoke"
+							particle2: "minecraft:poof"
+							particle3: "hexerei:broom_particle_4"
+						}
+						glow: {
+							layer: "hexerei:textures/block/potion_layer.png"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2D035F98F6F6C176"]
+			id: "06A48DA310477C51"
+			tasks: [
+				{
+					id: "6C09E38DED1CC15B"
+					item: "occultism:chalk_gold_impure"
+					type: "item"
+				}
+				{
+					id: "235EA6C510AFE42D"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_gold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Golden Chalk"
+			x: -2.5d
+			y: -16.0d
+		}
+		{
+			id: "5BB14006FD2683F2"
+			tasks: [{
+				id: "2917F7AB40A20C23"
+				item: "occultism:storage_controller"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -22.0d
+		}
+		{
+			id: "0673FEE7DF107CCA"
+			tasks: [{
+				id: "682D3382685BD740"
+				item: {
+					Count: 1b
+					id: "occultism:satchel"
+					tag: {
+						spiritName: "Drakrinnkyn"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["06A48DA310477C51"]
+			id: "4BFB2F13FCB4AEAA"
+			tasks: [{
+				id: "2BFCFC6963A63F1C"
+				item: "minecraft:skeleton_skull"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2B75843396F4C8E5"]
+			id: "1B65E7F79758B6AD"
+			tasks: [{
+				id: "5EB06E300AE2E4CA"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -25.5d
+		}
+		{
+			dependencies: ["2D035F98F6F6C176"]
+			id: "615E86B9AA31491C"
+			tasks: [
+				{
+					id: "6868C6A4FA81FE8C"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+				{
+					id: "3A98ED03CD71145A"
+					item: "occultism:crushed_end_stone"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			id: "3EDB60FBB774129B"
+			tasks: [{
+				count: 128L
+				id: "1E2D76FEA7A3CAF8"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["615E86B9AA31491C"]
+			id: "1A25E10ACAB0B2F9"
+			tasks: [
+				{
+					id: "388218DF9FD7EBB1"
+					item: "occultism:chalk_purple_impure"
+					type: "item"
+				}
+				{
+					id: "047F577D03DE65DF"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_purple"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -18.0d
+		}
+		{
+			id: "70820C28274F24DB"
+			tasks: [
+				{
+					id: "287922196981473B"
+					item: "occultism:chalk_red_impure"
+					type: "item"
+				}
+				{
+					id: "6E8DB0136A43FCCF"
+					item: {
+						Count: 1b
+						id: "occultism:chalk_red"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -29.5d
+		}
+		{
+			dependencies: ["2D035F98F6F6C176"]
+			id: "534D2FB86C48E8A3"
+			tasks: [{
+				id: "3B7B29AF61E6485C"
+				item: "occultism:brush"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"4BFB2F13FCB4AEAA"
+				"1A25E10ACAB0B2F9"
+			]
+			id: "2B75843396F4C8E5"
+			tasks: [{
+				id: "45714204B61BFFB3"
+				item: "occultism:ritual_dummy/summon_wild_hunt"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["1B65E7F79758B6AD"]
+			id: "004EA6EFAFBE7D7A"
+			tasks: [
+				{
+					id: "6AD210C7E82D90E5"
+					item: "occultism:afrit_essence"
+					type: "item"
+				}
+				{
+					id: "428C46EE687E319E"
+					item: "occultism:ritual_dummy/summon_wild_afrit"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -27.5d
+		}
+		{
+			id: "40E74B62A23DCD64"
+			tasks: [{
+				id: "77CD9FD5EDEC7C0A"
+				item: "occultism:ritual_dummy/summon_foliot_cleaner"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -13.0d
+		}
+	]
+	title: "Primordial Occultism"
+}

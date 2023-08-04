@@ -1,0 +1,20 @@
+[
+    {
+        "canspawnhere": true,
+        "mincount": {
+            "amount": 25,
+            "hostile": false,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "canspawnhere": false,
+        "result": "deny"
+    },
+{
+  "hostile": true,
+  "random": 0.33,
+  "result": "deny"
+}
+]

@@ -1,0 +1,9 @@
+{
+  "is_color_randomizer_trade": true,
+  "randomizes": [
+    {
+      "id": "#botanypots:hopper_botany_pots",
+      "required": false
+    }
+  ]
+}

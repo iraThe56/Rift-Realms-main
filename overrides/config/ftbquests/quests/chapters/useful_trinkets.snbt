@@ -1,0 +1,322 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_trinkets"
+	group: ""
+	hide_quest_until_deps_visible: true
+	id: "6BD1000179BCBD7F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3C7C4D63DC0DBDFF"]
+			description: [
+				"As you explore, more entries will become available, so be sure to check back often."
+				"{@pagebreak}"
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "thermal:rf_potato"
+				tag: { }
+			}
+			id: "07F4B38E5B28E75A"
+			rewards: [
+				{
+					count: 2
+					id: "25915D0CD8ED98AC"
+					item: {
+						Count: 1b
+						id: "hexerei:dried_sage_bundle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "295CF6581DC1CFD8"
+					item: "hexerei:sage_burning_plate"
+					type: "item"
+				}
+				{
+					id: "0156D19C8714BE15"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Here are some things you may find useful, fun, or cool."
+			tasks: [{
+				id: "2D43A49DEC3AEC40"
+				title: "Welcome to a world of trinkets and tools."
+				type: "checkmark"
+			}]
+			title: "Tools and trinkets"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07F4B38E5B28E75A"]
+			description: [
+				"Welcome to the world of Construction Wands! This mod is a game-changer for builders, allowing you to place multiple blocks at once, extending your build in the direction you're facing. With up to 1024 blocks placement capacity, it's like having a magic wand that makes your construction dreams come true."
+				"{@pagebreak}"
+				"The mod offers wands of different tiers - Stone, Iron, Diamond, and the ultimate Infinity Wand. Each tier increases the durability, maximum blocks placement, and upgradeability. The higher the tier, the more powerful and long-lasting the wand."
+				"{@pagebreak}"
+				"But that's not all! You can upgrade your wand with additional cores, enabling you to place a block behind the block you're facing, conjure blocks in mid-air, or destroy lots of blocks very quickly. The possibilities are endless!"
+			]
+			id: "43A2F1981E66BFD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1693C5AB01597F22"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "Unleash the power of Construction Wands"
+			tasks: [
+				{
+					id: "1DD986A58D87CD3E"
+					item: {
+						Count: 1b
+						id: "constructionwand:stone_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "432D3D705AF5552D"
+					item: {
+						Count: 1b
+						id: "constructionwand:iron_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DFF3AACA4E59810"
+					item: {
+						Count: 1b
+						id: "constructionwand:diamond_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F944FE03BF5C070"
+					item: {
+						Count: 1b
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mastering the Magic of Construction"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07F4B38E5B28E75A"]
+			id: "6B2A67DE4A684DB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0046443D1B90A2F3"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "45D420ECEE5530CA"
+				item: {
+					Count: 1b
+					id: "slimy_stuff:slimy_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"242C9D387006A216"
+				"497EF05AE98B74A9"
+				"225E2E96F31FE0D0"
+				"07F4B38E5B28E75A"
+				"7A3A6CC2A568EC99"
+				"0C23C57C4FC05994"
+				"310EBAC65B121DD6"
+				"126416AA50E19D23"
+				"628ED7FF435B9524"
+				"332A0AA9D97964F5"
+				"72DD0E75044A87F3"
+				"2698EFB696BA798A"
+				"7733D39E8DDC2253"
+				"318C58BCAE048E1D"
+				"2C2F421ACC693D76"
+				"6600DA45E5CCA4B8"
+				"760BC03D7464B568"
+				"72D57F56D3B4E709"
+				"35DC0886B2166072"
+				"651E6FCADDBA8951"
+				"3E8E3DB3013B3D47"
+				"34819E3A650274F8"
+				"23286AF566104C8C"
+				"5F7FF53C771A0E1D"
+				"07F6262EF32272BF"
+				"655731E9CD665C97"
+				"1F374FD1B6C18777"
+				"02B2A15F20677DD8"
+				"1E76847B5492B1CA"
+				"1B477BD2A21882DA"
+				"695BA0CD5ACC3C01"
+				"6B4587B7FE7D30D3"
+				"06752536B3FE50E2"
+				"27A6D00F987A50B7"
+				"67BC246A01CF7B72"
+				"4B13CF6BE5F238E1"
+				"0CC2906EA4E3F322"
+				"637C343B5260C84A"
+				"3C685D5F55584F1B"
+				"5EC683BB4C897880"
+				"5177B4F8D2CF8736"
+				"1317A4AABF4D7272"
+				"6D09D408B2E36760"
+				"399C787D8EC5DCA7"
+				"38870696BEFA5F68"
+				"18B306D12E845B60"
+				"421F82E05F6D1F1B"
+				"17CE7F4217E0B2E1"
+				"7B21B1664450518F"
+				"3CDC379B2B65EAB9"
+				"7FA3BE709F9CDFD1"
+				"3B13DC39A8003D8A"
+				"1D6DA5AC8A3FFA5C"
+				"4FD8C61E0B048060"
+				"313B4A1249D0295C"
+				"7B9C963DD7E663EF"
+				"29FE4D60E29611A1"
+				"1F1817D8E9294440"
+				"039BF9EEB8C3D61D"
+				"4C5D7082278DA3FF"
+				"0A4913CD0EEDF8DC"
+				"27B6A7933FD24142"
+				"4ED15B91FB19DCE3"
+				"70C75D874AB1754B"
+				"4A8346E6F23A36E4"
+				"6135FD212EC8D367"
+				"487DA36FE1DFCD71"
+				"7D3A3D137D6DEAFB"
+				"6DD39ADBCB798CCE"
+				"68D227650F9C32E9"
+				"4DC67D779456C32E"
+				"01A2A03581B193F2"
+				"54137236BB4CECBF"
+				"4321EC9F783BD552"
+				"485AFA09B001108A"
+				"24B30D9D821B92E9"
+				"03A7D7E66F86B427"
+				"725AE07D8F58F79F"
+				"7ECF0EA12E7F9BF2"
+				"50A5EDF9D289CB31"
+				"78AF1F5030C897D1"
+				"2514BFC41ADB35EC"
+				"518F95D9B30CF9B2"
+				"39CCBE3CBB63B17E"
+				"24EDC2E99E343BC1"
+				"25E283AA4727B69E"
+				"45ABC246DFEC65F0"
+				"3CE5E59BC86FD4E3"
+				"1D37AE2A281AA5FA"
+				"3FDD7A3BB60B0510"
+			]
+			id: "05D4B9BB013B58DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DA998F3AECCF2A8"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5ACEB7804C0BABD6"
+				item: {
+					Count: 1b
+					id: "hexerei:willow_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["07F4B38E5B28E75A"]
+			description: [
+				"The Crafting Blueprint is a unique block in the Create mod that functions similarly to a Painting. It is used to save crafting recipes and automate crafting processes. The Crafting Blueprint can be placed like a Painting and can cover up to a 3x3 area."
+				"{@pagebreak}"
+				"You can right-click a slot to open the interface and use items to save a crafting recipe. Filters can also be applied to accommodate multiple potential crafting recipes. Outside the interface, right-click the saved recipe to use available materials to craft the item. Shift right-click to craft up to a stack of the item. Left-click to delete a crafting recipe. A secondary display slot is available for each slot."
+				"{@pagebreak}"
+				"The Crafting Blueprint is a handy tool for automating and simplifying your crafting processes. It can be used in conjunction with other machines to create efficient and complex contraptions."
+			]
+			id: "188F7211CCC09D2B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "633061D7ECFF471F"
+				table_id: 575233231190426020L
+				type: "random"
+			}]
+			subtitle: "The Crafting Blueprint"
+			tasks: [{
+				count: 16L
+				id: "0F9FCAE411A1D8DE"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			title: "Crafting Made Simple and Efficient"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07F4B38E5B28E75A"]
+			id: "71D2B6D0745F645F"
+			tasks: [
+				{
+					id: "23500CBAC99391BF"
+					item: {
+						Count: 1b
+						id: "hexerei:dried_sage_bundle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "549368E4CE86F503"
+					item: "hexerei:sage_burning_plate"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Useful trinkets"
+}

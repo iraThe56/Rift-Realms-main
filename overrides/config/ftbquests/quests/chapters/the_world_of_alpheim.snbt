@@ -1,0 +1,45 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_world_of_alpheim"
+	group: "538B76C83C2DCCF4"
+	id: "4945BD32346E5705"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "60B1553B39BB7F11"
+			tasks: [{
+				id: "2F4055090191CC16"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "1DB6B9B495F36387"
+			tasks: [{
+				id: "07DDAF7FAD9CDF96"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["no not to time, lost to their world"]
+			id: "251D51CB6CD5B32C"
+			subtitle: "a tree lost to time"
+			tasks: [{
+				id: "2441BCCA9C3E59BC"
+				item: "minecraft:polished_granite"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+	]
+	title: "The World of Alfheim"
+}

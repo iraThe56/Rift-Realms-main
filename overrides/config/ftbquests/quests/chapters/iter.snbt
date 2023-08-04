@@ -1,0 +1,43 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iter"
+	group: "1FC19440E44DF5FF"
+	id: "3C1785193E5CE655"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1F13C5BC94ACE125"
+			tasks: [{
+				id: "43B9D2F4704C0A01"
+				item: "iter_rpg:ametrine_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4BEC04738BCA668F"
+			tasks: [{
+				id: "20345EE6FE23DB14"
+				item: "iter_rpg:gobsteel_scrap"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "18FF54B5F92C1D22"
+			tasks: [{
+				id: "2B27A7281C06BA4E"
+				item: "iter_rpg:voidquartz_shard"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
+	title: "Iter"
+}

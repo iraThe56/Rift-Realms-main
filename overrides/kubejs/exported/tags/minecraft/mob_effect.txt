@@ -1,0 +1,4 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 12, 2023, 4:11:57 PM
+
+#neapolitan:unaffected_by_vanilla_scent
+- supplementaries:overencumbered? (from supplementaries-1.19.2-2.3.10.jar)
