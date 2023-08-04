@@ -112,5 +112,22 @@ ServerEvents.recipes(event => {
             B: 'createaddition:spool',  //arg 3: the mapping object
         }
     )
+        event.shaped(
+        Item.of('thermal:machine_bottler', 1), // arg 1: output
+        [
+            'ACA',
+            'EBE', // arg 2: the shape (array of strings)
+            'ADA'
+        ],
+        {
+            A: 'thermal:tin_ingot',
+            B: 'thermal:iron_gear',
+            C: 'create:spout',
+            D: 'thermal:redstone_servo',
+            E: 'createaddition:capacitor',
+            //arg 3: the mapping object
+        }
+    )
+    event.remove({ output: 'thermal:machine_bottler' });
 
 })

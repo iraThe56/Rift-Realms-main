@@ -1,8 +1,9 @@
 ServerEvents.recipes(event => {
 
-    event.recipes.createMixing('3x thermal:rubber', [Fluid.of('thermal:latex', 1000)])
-    event.recipes.createMixing('thermal:cured_rubber', [Fluid.of('minecraft:water', 200), 'thermal:rubber']).heated()
-    event.recipes.createMixing([Fluid.of('kubejs:pipe_sealant', 300)], [Fluid.of('create:honey', 100), Fluid.of('thermal:latex', 200)]).heated().id('rift_realms:pipe_sealant')
+    event.recipes.createMixing('3x thermal:rubber', [Fluid.of('minecraft:water', 200), Fluid.of('thermal:latex', 1000)])
+    event.recipes.createMixing('thermal:cured_rubber', [Fluid.of('minecraft:water', 1000), 'thermal:rubber']).heated()
+    event.remove({ output: 'thermal:rubber' });
+    event.recipes.createMixing([Fluid.of('kubejs:pipe_sealant', 500)], [Fluid.of('create:honey', 100), Fluid.of('thermal:latex', 200)]).heated().id('rift_realms:pipe_sealant')
     event.recipes.createFilling('create:rose_quartz', [Fluid.of('thermal:redstone', 400), '#forge:gems/quartz']).id('rift_realms:rose_quartz_destabilized')
     /*event.shapeless('create:rose_quartz', ['3x biomesoplenty:rose_quartz_shard']).id('rift_realms:rose_quartz_shard_to_rose_quartz')
     event.recipes.createCrushing(['3x biomesoplenty:rose_quartz_shard', Item.of('biomesoplenty:rose_quartz_shard').withChance(0.5)], 'biomesoplenty:rose_quartz_block')
@@ -121,6 +122,7 @@ ServerEvents.recipes(event => {
     brass('create:redstone_link', 'minecraft:ender_pearl', 4)
     brass('create:mechanical_crafter', 'minecraft:crafting_table', 6)
     brass('create:rotation_speed_controller', 'create:electron_tube', 1)
+    brass('create:sequenced_gearshift', 'thermal:iron_gear', 1)
 
 
     event.shaped(

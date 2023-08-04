@@ -42,6 +42,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'heb:doritetobirch' });
     event.remove({ output: 'ars_nouveau:stable_warp_scroll' });
     event.remove({ output: 'supplementaries:cog_block' });
+    event.remove({ output: 'ars_nouveau:thread_undying' });
+    event.remove({ output: 'ars_nouveau:ritual_flight' });
+    event.remove({ output: 'ars_nouveau:ritual_containment' });
+    event.remove({ output: 'ars_nouveau:mob_jar' });
     event.shaped(
         Item.of('supplementaries:cog_block', 8), // arg 1: output
         [

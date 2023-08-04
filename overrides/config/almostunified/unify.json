@@ -6,7 +6,11 @@
     "create",
     "thermal",
     "immersiveengineering",
-    "mekanism"
+    "mekanism",
+    "createaddition",
+    "createdeco",
+    "farmersdelight",
+    "naturalist",
   ],
   "stoneStrata": [
     "stone",
@@ -28,19 +32,21 @@
     "forge:rods/{material}",
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
-    "forge:storage_blocks/raw_{material}"
+    "forge:storage_blocks/raw_{material}",
+    "forge:cooked_{material}"
   ],
   "materials": [
     "aeternium",
-    "sawdust",
     "aluminum",
     "amber",
     "apatite",
     "bitumen",
+    "brass",
     "bronze",
     "charcoal",
     "chrome",
     "cinnabar",
+    "coal",
     "coal_coke",
     "cobalt",
     "constantan",
@@ -76,20 +82,19 @@
     "tin",
     "tungsten",
     "uranium",
-    "zinc"
+    "zinc",
+    "wood",
+    "eggs"
   ],
   "priorityOverrides": {},
-  "tagOwnerships": {
-    "forge:ingots/bronze": [
-      "forge:ingots/brass"
-    ],
-    "bronze": [
-      "brass"
-    ],
-   "mekanism:sawdust": [
-        "forge:sawdust"
-    ]
-  },
+"tagOwnerships": {
+  "forge:coals": [
+    "forge:gems/coal"
+  ],
+ 'forge:plates/zinc': [
+    'createdeco:zinc_sheet'
+  ]
+},
   "ignoredTags": [],
   "ignoredItems": [],
   "ignoredRecipeTypes": [

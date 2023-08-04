@@ -25,7 +25,7 @@
 	yellow_mushroom = true
 	strange_root = true
 	#---
-	broken_clock = true
+	broken_clock = false
 	bat_talisman = true
 	spider_amulet = true
 	golden_cube = false
