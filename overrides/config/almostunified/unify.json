@@ -8,9 +8,8 @@
     "immersiveengineering",
     "mekanism",
     "createaddition",
-    "createdeco",
-    "farmersdelight",
-    "naturalist",
+    "createdeco"
+
   ],
   "stoneStrata": [
     "stone",
@@ -87,14 +86,11 @@
     "eggs"
   ],
   "priorityOverrides": {},
-"tagOwnerships": {
-  "forge:coals": [
-    "forge:gems/coal"
-  ],
- 'forge:plates/zinc': [
-    'createdeco:zinc_sheet'
-  ]
-},
+  "tagOwnerships": {
+    "forge:coals": [
+      "forge:gems/coal"
+    ]
+  },
   "ignoredTags": [],
   "ignoredItems": [],
   "ignoredRecipeTypes": [
