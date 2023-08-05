@@ -26,7 +26,7 @@
 	archwoodForest = 0
 	#How many inventories can lectern support per bookwyrm
 	#Range: > 1
-	bookwyrmLimit = 8
+	bookwyrmLimit = 12
 
 [drygmy_production]
 	#How much source drygmys consume per generation
