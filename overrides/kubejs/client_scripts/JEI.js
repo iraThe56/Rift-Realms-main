@@ -10,6 +10,10 @@ JEIEvents.hideItems(e => {
     e.hide('kubejs:incomplete_andesite_machine');
     e.hide('kubejs:incomplete_copper_machine');
     e.hide('kubejs:incomplete_brass_machine');
-
-
+    e.hide('ars_nouveau:stable_warp_scroll');
+    e.hide('ars_nouveau:ritual_flight');
 });
+
+JEIEvents.information(event => {
+    event.addItem('kubejs:jelly_sedative', "A potent hypnotic, use at your own risk")
+})
